@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en-US" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Migrate to Hugo from Jekyll &middot; 某些人</title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://jkd-lee.github.io/favicon.ico" />
+    <link rel="canonical" href="https://jkd-lee.github.io/post/migrate-to-hugo-from-jekyll/" />
+
+     <meta name="description" content="Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content u" /> 
+
+    <meta name="generator" content="Hugo 0.55.4" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="https://jkd-lee.github.io/built/screen.css" /> 
+    <link rel="stylesheet" type="text/css" href="https://jkd-lee.github.io/css/casper-two.css" /> 
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" />
+    
+
+     
+
+</head>
+
+
+<body class="post-template">
+  <div class="site-wrapper"> 
+
+<header class="site-header outer">
+  <div class="inner">
+    <nav class="site-nav">
+      <div class="site-nav-left">
+        <a class="site-nav-logo" href="#"><img src="https://jkd-lee.github.io/hugo-logo.png" alt="be water,my friends" /></a>
+
+        <ul class="nav" role="menu">
+        
+        
+        
+            <li class="" role="menuitem">
+              <a href="https://jkd-lee.github.io/">主页</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="https://jkd-lee.github.io/tags/golang/">标签</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="https://jkd-lee.github.io/categories/">分类</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="https://mijisou.com/">搜索</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="https://jkd-lee.github.io/about/">关于</a>
+            </li>
+        
+      </ul></div>
+
+      <div class="site-nav-right">
+        <div class="social-links">
+
+                    <a class="social-link" href="http://mxr-lee.cf/" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><path d="M630.9 894.961c0-46.597 0.149-90.443-0.041-134.29-0.162-35.606-7.646-43.29-42.633-43.443-52.03-0.215-104.062-0.19-156.094-0.01-35.663 0.124-42.44 6.45-43.013 43.019-0.687 43.789-0.162 87.603-0.162 133.39-9.843 1.135-16.73 2.588-23.628 2.617-47.155 0.2-94.315 0.587-141.466-0.033-55.958-0.734-69.172-14.725-68.78-69.553 0.353-49.563-0.424-99.144 0.934-148.678 0.276-9.87 5.453-22.236 12.612-28.895 94.034-87.442 188.678-174.225 283.504-260.814 37.826-34.539 82.47-34.947 120.354-0.053 95.054 87.542 189.57 175.67 283.67 264.233 6.62 6.23 11.229 17.874 11.42 27.112 1.073 52.012 0.892 104.063 0.377 156.084-0.342 34.414-17.31 57.45-49.134 58.643-61.53 2.303-123.203 0.671-187.92 0.671zM500.95 123.74c46.342-0.095 70.48 15.282 92.157 36.273 83.52 80.868 167.19 161.594 250.758 242.415 38.574 37.309 77.053 74.715 115.548 112.109 4.08 3.965 8.128 7.994 11.894 12.259 21.424 24.266 24.303 50.306 7.936 70.696-17.261 21.493-51.852 26.522-77.6 10.734-6.844-4.204-13.022-9.695-18.894-15.243-95.13-89.925-190.255-179.86-285.19-269.994-70.279-66.722-97.191-67.265-168.187-1.307-94.705 87.992-188.653 176.797-284.098 263.971-13.467 12.298-32.747 20.753-50.74 24.93-23.623 5.481-43.128-6.521-54.13-28.29-11.053-21.863-6.658-42.979 8.928-61.168 8.942-10.444 19.486-19.547 29.571-28.977 117.01-109.39 234.19-218.586 350.998-328.193 24.501-22.989 51.192-39.91 71.05-40.215z"/></svg></a>
+
+
+                    <a class="social-link" href="https://mxr-Lee.github.io/" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><path d="M388.352 830.016a198.4 198.4 0 0 1-39.936 86.656h449.536a124.16 124.16 0 0 0 87.04-36.736l1.536-1.28c12.992-13.76 23.232-30.4 28.992-48.64H388.352zM346.688 555.52c-23.808-85.184 22.912-190.016 87.04-246.016a22.912 22.912 0 0 1 31.616 2.176c3.776 4.48 5.568 9.984 5.312 15.296v12.16c9.024-15.04 19.328-28.288 31.488-40.448 36.096-36.672 85.76-62.08 132.48-66.752a21.44 21.44 0 0 1 24.256 20.032 19.008 19.008 0 0 1-4.736 15.872 450.752 450.752 0 0 0-18.496 25.344 398.72 398.72 0 0 1 106.88-34.816V108.16h-640v684.672c0 31.616 12.416 60.864 32.512 82.88 45.376 50.112 105.536 49.6 150.656-0.512a122.88 122.88 0 0 0 31.936-81.6v-0.768c0-20.608 16.896-37.248 36.992-37.248h387.968V532.288c-39.552 31.104-88.64 49.088-172.032 25.088 6.976 5.824 16.256 12.672 28.352 20.352a22.144 22.144 0 0 1 7.424 30.656 24.704 24.704 0 0 1-14.208 9.984c-62.4 16.128-163.648 12.608-218.56-28.224-10.048 8.192-25.344 25.6-31.68 56.512-5.76 28.224-49.344 17.152-43.584-9.728a145.408 145.408 0 0 1 48.384-81.408z m470.272-301.696c75.008 6.4 139.968 45.696 148.864 133.632a22.528 22.528 0 0 1-20.032 24.192h-2.112c-58.56 0-96 22.976-126.656 50.432v293.504h141.44c20.608 0 37.248 16.64 37.248 37.248 0 53.504-21.376 101.888-56.192 137.472l-1.792 2.368a196.608 196.608 0 0 1-139.648 57.728H212.032c-48.512 0-100.288-29.504-131.968-64.64a197.504 197.504 0 0 1-51.712-132.992V70.976c0-20.544 16.384-37.504 36.928-37.504h714.496c20.608 0 37.184 16.96 37.184 37.504v182.848zM389.376 542.336c19.52 38.016 106.944 39.872 143.296 39.04-14.976-16.576-21.888-31.36-24.576-43.2-3.584-17.216 0.832-51.2 30.144-39.168 126.72 52.032 171.008 7.168 219.072-41.152 39.552-39.808 81.088-81.792 159.424-89.472-38.016-130.112-268.416-56.448-323.072 11.392a21.504 21.504 0 0 1-24.32 8.96 22.08 22.08 0 0 1-16-27.2s9.664-30.656 30.592-68.352a206.72 206.72 0 0 0-50.176 36.736c-26.112 26.368-43.84 60.416-43.584 94.72v-0.256a21.888 21.888 0 0 1-15.296 21.376 22.08 22.08 0 0 1-28.032-14.016c-5.76-17.152-12.608-34.048-16.896-51.712-31.104 44.352-55.552 107.712-40.576 162.304z"/></svg></a>
+                    
+        </div>  
+            
+      </div>
+
+    </nav>  
+
+  </div>
+</header>
+
+<main id="site-main" class="site-main outer" role="main">
+  <div class="inner">
+    
+      <article class="post-full post"> 
+    <header class="post-full-header">
+        <section class="post-full-meta">
+            <time class="post-full-meta-date" datetime="2014-03-10">10 March 2014</time>
+        </section>
+        <h1 class="post-full-title">Migrate to Hugo from Jekyll</h1>
+    </header>
+    
+    <figure class="post-full-image" style="background-image: url(https://jkd-lee.github.io/img/team.jpg)">
+    </figure>
+
+    <section class="post-full-content">
+        <div class="kg-card-markdown">
+        
+
+<h2 id="move-static-content-to-static">Move static content to <code>static</code></h2>
+
+<p>Jekyll has a rule that any directory not starting with <code>_</code> will be copied as-is to the <code>_site</code> output. Hugo keeps all static content under <code>static</code>. You should therefore move it all there.
+With Jekyll, something that looked like</p>
+
+<pre><code>▾ &lt;root&gt;/
+    ▾ images/
+        logo.png
+</code></pre>
+
+<p>should become</p>
+
+<pre><code>▾ &lt;root&gt;/
+    ▾ static/
+        ▾ images/
+            logo.png
+</code></pre>
+
+<p>Additionally, you&rsquo;ll want any files that should reside at the root (such as <code>CNAME</code>) to be moved to <code>static</code>.</p>
+
+<h2 id="create-your-hugo-configuration-file">Create your Hugo configuration file</h2>
+
+<p>Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the <a href="https://jkd-lee.github.io/overview/configuration/">Hugo configuration documentation</a> for details.</p>
+
+<h2 id="set-your-configuration-publish-folder-to-site">Set your configuration publish folder to <code>_site</code></h2>
+
+<p>The default is for Jekyll to publish to <code>_site</code> and for Hugo to publish to <code>public</code>. If, like me, you have <a href="http://blog.blindgaenger.net/generate_github_pages_in_a_submodule.html"><code>_site</code> mapped to a git submodule on the <code>gh-pages</code> branch</a>, you&rsquo;ll want to do one of two alternatives:</p>
+
+<ol>
+<li><p>Change your submodule to point to map <code>gh-pages</code> to public instead of <code>_site</code> (recommended).</p>
+
+<pre><code>git submodule deinit _site
+git rm _site
+git submodule add -b gh-pages git@github.com:your-username/your-repo.git public
+</code></pre></li>
+
+<li><p>Or, change the Hugo configuration to use <code>_site</code> instead of <code>public</code>.</p>
+
+<pre><code>{
+    ..
+    &quot;publishdir&quot;: &quot;_site&quot;,
+    ..
+}
+</code></pre></li>
+</ol>
+
+<h2 id="convert-jekyll-templates-to-hugo-templates">Convert Jekyll templates to Hugo templates</h2>
+
+<p>That&rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to <a href="http://jekyllrb.com/docs/templates/">Jekyll&rsquo;s template documentation</a> if you need to refresh your memory on how you built your blog and <a href="https://jkd-lee.github.io/layout/templates/">Hugo&rsquo;s template</a> to learn Hugo&rsquo;s way.</p>
+
+<p>As a single reference data point, converting my templates for <a href="http://heyitsalex.net/">heyitsalex.net</a> took me no more than a few hours.</p>
+
+<h2 id="convert-jekyll-plugins-to-hugo-shortcodes">Convert Jekyll plugins to Hugo shortcodes</h2>
+
+<p>Jekyll has <a href="http://jekyllrb.com/docs/plugins/">plugins</a>; Hugo has <a href="https://jkd-lee.github.io/doc/shortcodes/">shortcodes</a>. It&rsquo;s fairly trivial to do a port.</p>
+
+<h3 id="implementation">Implementation</h3>
+
+<p>As an example, I was using a custom <a href="https://github.com/alexandre-normand/alexandre-normand/blob/74bb12036a71334fdb7dba84e073382fc06908ec/_plugins/image_tag.rb"><code>image_tag</code></a> plugin to generate figures with caption when running Jekyll. As I read about shortcodes, I found Hugo had a nice built-in shortcode that does exactly the same thing.</p>
+
+<p>Jekyll&rsquo;s plugin:</p>
+
+<pre><code>module Jekyll
+  class ImageTag &lt; Liquid::Tag
+    @url = nil
+    @caption = nil
+    @class = nil
+    @link = nil
+    // Patterns
+    IMAGE_URL_WITH_CLASS_AND_CAPTION =
+    IMAGE_URL_WITH_CLASS_AND_CAPTION_AND_LINK = /(\w+)(\s+)((https?:\/\/|\/)(\S+))(\s+)&quot;(.*?)&quot;(\s+)-&gt;((https?:\/\/|\/)(\S+))(\s*)/i
+    IMAGE_URL_WITH_CAPTION = /((https?:\/\/|\/)(\S+))(\s+)&quot;(.*?)&quot;/i
+    IMAGE_URL_WITH_CLASS = /(\w+)(\s+)((https?:\/\/|\/)(\S+))/i
+    IMAGE_URL = /((https?:\/\/|\/)(\S+))/i
+    def initialize(tag_name, markup, tokens)
+      super
+      if markup =~ IMAGE_URL_WITH_CLASS_AND_CAPTION_AND_LINK
+        @class   = $1
+        @url     = $3
+        @caption = $7
+        @link = $9
+      elsif markup =~ IMAGE_URL_WITH_CLASS_AND_CAPTION
+        @class   = $1
+        @url     = $3
+        @caption = $7
+      elsif markup =~ IMAGE_URL_WITH_CAPTION
+        @url     = $1
+        @caption = $5
+      elsif markup =~ IMAGE_URL_WITH_CLASS
+        @class = $1
+        @url   = $3
+      elsif markup =~ IMAGE_URL
+        @url = $1
+      end
+    end
+    def render(context)
+      if @class
+        source = &quot;&lt;figure class='#{@class}'&gt;&quot;
+      else
+        source = &quot;&lt;figure&gt;&quot;
+      end
+      if @link
+        source += &quot;&lt;a href=\&quot;#{@link}\&quot;&gt;&quot;
+      end
+      source += &quot;&lt;img src=\&quot;#{@url}\&quot;&gt;&quot;
+      if @link
+        source += &quot;&lt;/a&gt;&quot;
+      end
+      source += &quot;&lt;figcaption&gt;#{@caption}&lt;/figcaption&gt;&quot; if @caption
+      source += &quot;&lt;/figure&gt;&quot;
+      source
+    end
+  end
+end
+Liquid::Template.register_tag('image', Jekyll::ImageTag)
+</code></pre>
+
+<p>is written as this Hugo shortcode:</p>
+
+<pre><code>&lt;!-- image --&gt;
+&lt;figure {{ with .Get &quot;class&quot; }}class=&quot;{{.}}&quot;{{ end }}&gt;
+    {{ with .Get &quot;link&quot;}}&lt;a href=&quot;{{.}}&quot;&gt;{{ end }}
+        &lt;img src=&quot;{{ .Get &quot;src&quot; }}&quot; {{ if or (.Get &quot;alt&quot;) (.Get &quot;caption&quot;) }}alt=&quot;{{ with .Get &quot;alt&quot;}}{{.}}{{else}}{{ .Get &quot;caption&quot; }}{{ end }}&quot;{{ end }} /&gt;
+    {{ if .Get &quot;link&quot;}}&lt;/a&gt;{{ end }}
+    {{ if or (or (.Get &quot;title&quot;) (.Get &quot;caption&quot;)) (.Get &quot;attr&quot;)}}
+    &lt;figcaption&gt;{{ if isset .Params &quot;title&quot; }}
+        {{ .Get &quot;title&quot; }}{{ end }}
+        {{ if or (.Get &quot;caption&quot;) (.Get &quot;attr&quot;)}}&lt;p&gt;
+        {{ .Get &quot;caption&quot; }}
+        {{ with .Get &quot;attrlink&quot;}}&lt;a href=&quot;{{.}}&quot;&gt; {{ end }}
+            {{ .Get &quot;attr&quot; }}
+        {{ if .Get &quot;attrlink&quot;}}&lt;/a&gt; {{ end }}
+        &lt;/p&gt; {{ end }}
+    &lt;/figcaption&gt;
+    {{ end }}
+&lt;/figure&gt;
+&lt;!-- image --&gt;
+</code></pre>
+
+<h3 id="usage">Usage</h3>
+
+<p>I simply changed:</p>
+
+<pre><code>{% image full http://farm5.staticflickr.com/4136/4829260124_57712e570a_o_d.jpg &quot;One of my favorite touristy-type photos. I secretly waited for the good light while we were &quot;having fun&quot; and took this. Only regret: a stupid pole in the top-left corner of the frame I had to clumsily get rid of at post-processing.&quot; -&gt;http://www.flickr.com/photos/alexnormand/4829260124/in/set-72157624547713078/ %}
+</code></pre>
+
+<p>to this (this example uses a slightly extended version named <code>fig</code>, different than the built-in <code>figure</code>):</p>
+
+<pre><code>{{% fig class=&quot;full&quot; src=&quot;http://farm5.staticflickr.com/4136/4829260124_57712e570a_o_d.jpg&quot; title=&quot;One of my favorite touristy-type photos. I secretly waited for the good light while we were having fun and took this. Only regret: a stupid pole in the top-left corner of the frame I had to clumsily get rid of at post-processing.&quot; link=&quot;http://www.flickr.com/photos/alexnormand/4829260124/in/set-72157624547713078/&quot; %}}
+</code></pre>
+
+<p>As a bonus, the shortcode named parameters are, arguably, more readable.</p>
+
+<h2 id="finishing-touches">Finishing touches</h2>
+
+<h3 id="fix-content">Fix content</h3>
+
+<p>Depending on the amount of customization that was done with each post with Jekyll, this step will require more or less effort. There are no hard and fast rules here except that <code>hugo server --watch</code> is your friend. Test your changes and fix errors as needed.</p>
+
+<h3 id="clean-up">Clean up</h3>
+
+<p>You&rsquo;ll want to remove the Jekyll configuration at this point. If you have anything else that isn&rsquo;t used, delete it.</p>
+
+<h2 id="a-practical-example-in-a-diff">A practical example in a diff</h2>
+
+<p><a href="http://heyitsalex.net/">Hey, it&rsquo;s Alex</a> was migrated in less than a <em>father-with-kids day</em> from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this <a href="https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610">diff</a>.</p>
+    
+        </div>
+    </section>
+
+    <footer class="post-full-footer">
+      <section class="author-card">
+        <img class="author-profile-image" src="https://jkd-lee.github.io/img/AuthorAvatar.png" alt="Author" />
+        <section class="author-card-content">
+            <h4 class="author-card-name"><a href="https://jkd-lee.github.io/">MXR</a></h4>
+                <p>某些人</p>
+        </section>
+      </section>
+    </footer>
+</article>
+    
+    
+    
+
+  </div>
+</main>
+
+
+<aside class="read-next outer">
+  <div class="inner">
+    <div class="read-next-feed">      
+      
+<article class="read-next-card" 
+            style="background-image: url(https://jkd-lee.github.io/img/blog-cover.jpg);" >
+    <header class="read-next-card-header">
+        <small class="read-next-card-header-sitetitle">&mdash; be water,my friends &mdash;</small>
+        
+    </header>
+    <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+    </div>
+
+    <div class="read-next-card-content">
+      
+        <ul>
+          <li><a href="https://jkd-lee.github.io/post/creating-a-new-theme/">Creating a New Theme</a></li>            
+        
+                      
+        
+          <li><a href="https://jkd-lee.github.io/post/hugo-template-primer/">(Hu)go Template Primer</a></li>            
+        
+          <li><a href="https://jkd-lee.github.io/post/getting-started-with-hugo/">Getting Started with Hugo</a></li>            
+        
+          <li><a href="https://jkd-lee.github.io/post/wonderful/">Wonderful</a></li>            
+        </ul>
+    </div>
+    <footer class="read-next-card-footer">
+      
+    </footer>
+</article>
+
+
+      
+      <article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="https://jkd-lee.github.io/post/hugo-template-primer/">
+      <div class="post-card-image" style="background-image: url(https://jkd-lee.github.io/img/writing.jpg)"></div>
+    </a>
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="https://jkd-lee.github.io/post/hugo-template-primer/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #go 
+              #golang 
+              #templates 
+              #themes 
+              #development  </span>
+              
+              <h2 class="post-card-title">(Hu)go Template Primer</h2>
+          </header>
+          <section class="post-card-excerpt">
+               
+                <p>This is a description. Hugo uses the <strong>excellent</strong> go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic.</p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="https://jkd-lee.github.io/img/AuthorAvatar.png" alt="Author" />
+          <span class="post-card-author"><a href="https://jkd-lee.github.io/">MXR</a></span>
+      </footer>
+    </div>
+</article>
+      
+      
+      <article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="https://jkd-lee.github.io/post/colenak/">
+      <div class="post-card-image" style="background-image: url(https://jkd-lee.github.io/defimg/2.jpg)"></div>
+    </a>    
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="https://jkd-lee.github.io/post/colenak/">
+          <header class="post-card-header">
+              
+              <h2 class="post-card-title">Colenak</h2>
+          </header>
+          <section class="post-card-excerpt">
+              
+                <p>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
+We&rsquo;ll start with creating a new site with a very basic template. ...  </p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="https://jkd-lee.github.io/img/AuthorAvatar.png" alt="Author" />
+          <span class="post-card-author"><a href="https://jkd-lee.github.io/">Michael Henderson</a></span>
+      </footer>
+    </div>
+</article>
+      
+    </div>
+  </div>
+</aside>
+
+<div class="floating-header">
+  <div class="floating-header-logo">
+    <a href="https://jkd-lee.github.io/">
+      <img src="https://jkd-lee.github.io/hugo-logo.png" alt="某些人" />
+      <span>某些人</span>
+    </a>
+  </div>
+  <span class="floating-header-divider">&mdash;</span>
+  <div class="floating-header-title">Migrate to Hugo from Jekyll</div>
+   <div class="floating-header-share">
+  </div>
+
+  <progress class="progress" value="0">
+    <div class="progress-container">
+      <span class="progress-bar"></span>
+    </div>
+  </progress>
+</div>
+
+
+
+<footer class="site-footer outer">
+  <div class="site-footer-content inner">
+    <section class="copyright" style="line-height: 1.3em;">
+      <a href="https://jkd-lee.github.io/">MXR</a> © 2019 <br>
+      <span>
+    </section>
+    <nav class="site-footer-nav">
+        <a href="https://jkd-lee.github.io/">Latest Posts</a>
+   
+        <a href="https://github.com/mxr-Lee" target="_blank" rel="noopener">Github</a>
+
+    </nav>  
+  </div>
+</footer>
+
+</div>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://jkd-lee.github.io/js/jquery.fitvids.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+    <script>
+
+
+
+
+
+$(document).ready(function () {
+    
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+</body></html>
