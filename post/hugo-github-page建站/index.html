@@ -4,15 +4,15 @@
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <title>Migrate to Hugo from Jekyll &middot; 某些人</title>
+    <title>Hugo&#43;github Page建站 &middot; 某些人</title>
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="shortcut icon" href="http://mxr-lee.top/favicon.ico" />
-    <link rel="canonical" href="http://mxr-lee.top/post/migrate-to-hugo-from-jekyll/" />
+    <link rel="canonical" href="http://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/" />
 
-     <meta name="description" content="Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output." /> 
+     <meta name="description" content="&lt;h2 id=&#34;center-hugo-github零成本打造个人网站-center&#34;&gt;&lt;center&gt;Hugo&#43;Github零成本打造个人网站&lt;/center&gt;&lt;/h2&gt;" /> 
 
     <meta name="generator" content="Hugo 0.55.4" />
 
@@ -85,185 +85,103 @@
       <article class="post-full post"> 
     <header class="post-full-header">
         <section class="post-full-meta">
-            <time class="post-full-meta-date" datetime="2014-03-10">10 March 2014</time>
+            <time class="post-full-meta-date" datetime="2019-04-27">27 April 2019</time>
         </section>
-        <h1 class="post-full-title">Migrate to Hugo from Jekyll</h1>
+        <h1 class="post-full-title">Hugo&#43;github Page建站</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(http://mxr-lee.top/img/team.jpg)">
+    <figure class="post-full-image" style="background-image: url(http://mxr-lee.top/defimg/4.png)">
     </figure>
 
     <section class="post-full-content">
         <div class="kg-card-markdown">
-        
+        <h2 id="center-hugo-github零成本打造个人网站-center"><center>Hugo+Github零成本打造个人网站</center></h2>
 
-<h2 id="move-static-content-to-static">Move static content to <code>static</code></h2>
+<h2 id="工具">工具</h2>
 
-<p>Jekyll has a rule that any directory not starting with <code>_</code> will be copied as-is to the <code>_site</code> output. Hugo keeps all static content under <code>static</code>. You should therefore move it all there.
-With Jekyll, something that looked like</p>
+<h3 id="1-hugo-theme">1.Hugo+theme</h3>
 
-<pre><code>▾ &lt;root&gt;/
-    ▾ images/
-        logo.png
+<p>Hugo主程序可在<a href="https://github.com/gohugoio/hugo/releases">hugo</a>的releases上找到[hugo_0.55.4_Windows-64bit.zip]，其中0.55.4为版本号，会随更新改变，每次下载最新版即可。Hugo有300+的<a href="https://themes.gohugo.io/">Theme</a>，本站用的是eueung改自<a href="https://demo.ghost.io/">Ghost</a>的<a href="https://eueung.github.io/hugo-casper-two/">casper two</a>主题，经本人做了二次修改</p>
+
+<h3 id="2-github账号-desktop-github">2.Github账号+desktop Github</h3>
+
+<p>Github账号请前往<a href="https://github.com/">官网</a>自行注册，用<a href="https://desktop.github.com/">Desktop Github</a>的原因是网页Github不能上传文件夹，而git对小白来说，比较复杂</p>
+
+<h3 id="3-可有可无的域名-便于访问">3.可有可无的域名(便于访问)</h3>
+
+<p>之前有免费顶级域名注册网站<a href="https://www.freenom.com/zh/index.html?lang=zh">Freenom</a>，后来不知为何就不能用了，添加购物车一直返回订单，国内域名商像<a href="https://cn.aliyun.com/">阿里云</a>，<a href="http://www.xinnet.com/">新网</a>等，新兴的域名也很便宜，如果不想花这冤枉钱，Github赠送的免费域名.github.io已经够用了</p>
+
+<h2 id="开始">开始</h2>
+
+<h3 id="1-github建立仓库">1.github建立仓库</h3>
+
+<p>先在网页登录github，右上角位置，点击加号，新建一个repository[new repository]</p>
+
+<p><img src="https://i.loli.net/2019/04/29/5cc6b7fdb8ea1.png" alt="5cc6b7fdb8ea1" /></p>
+
+<p>在[repository name]里，添加和[Owner]一样的(用户名.github.io),点击Create repository创建仓库</p>
+
+<p><img src="https://i.loli.net/2019/04/29/5cc6b93a97342.png" alt="5cc6b93a97342" /></p>
+
+<h3 id="2-hugo安装配置运行">2.hugo安装配置运行</h3>
+
+<p>1.将下载好的hugo压缩包解压出来，改名为hugo.exe,添加环境变量</p>
+
+<p>[如何添加环境变量]()</p>
+
+<p>2.创建一个 文件夹，</p>
+
+<p>Win+R调出运行框，输入cmd，打开命令提示符，用命令进入你刚才创建的文件夹，执行以下命令</p>
+
+<pre><code>X:     #X替换为先进入你创建目录的盘符，
+cd X:\xx\xxx\      #进入创建的根目录，X:\xx\xxx\为你创建文件夹的路径
+hugo new site blog      #新建一个站点，blog可替换为你想要的名字
 </code></pre>
 
-<p>should become</p>
+<p>现在你的目录会出现几个文件夹</p>
 
-<pre><code>▾ &lt;root&gt;/
-    ▾ static/
-        ▾ images/
-            logo.png
+<p><img src="https://i.loli.net/2019/04/29/5cc6cf352c7cf.png" alt="5cc6cf352c7cf" /></p>
+
+<p>3.添加一个主题，把从Hugo theme下载的主题，解压到themes文件夹里，复制主题文件夹里的exampleSite文件夹里文件，到创建的根目录，替换覆盖</p>
+
+<p>4.执行以下命令</p>
+
+<pre><code>hugo new posts/my-first-post.md        #创建一篇文章，my-first-post可替换为任意名
+hugo server       #开启hugo服务
+hugo        #生成public文件夹
 </code></pre>
 
-<p>Additionally, you&rsquo;ll want any files that should reside at the root (such as <code>CNAME</code>) to be moved to <code>static</code>.</p>
+<p>5.在浏览器输入$localhost:1313$，即可预览访问你创建的站点，此时你的文章页面应该为空，你需要在markdown编辑器里，进一步编辑你的文章，保存才能生效</p>
 
-<h2 id="create-your-hugo-configuration-file">Create your Hugo configuration file</h2>
+<h3 id="3-github部署">3.github部署</h3>
 
-<p>Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the <a href="http://mxr-lee.top/overview/configuration/">Hugo configuration documentation</a> for details.</p>
+<p>打开desktop github，创建文件夹登录后，将上一步hugo生成的public里的文件粘贴到github创建的目录里</p>
 
-<h2 id="set-your-configuration-publish-folder-to-site">Set your configuration publish folder to <code>_site</code></h2>
+<p><img src="https://i.loli.net/2019/04/29/5cc6d29d7c1b5.png" alt="5cc6d29d7c1b5" /></p>
 
-<p>The default is for Jekyll to publish to <code>_site</code> and for Hugo to publish to <code>public</code>. If, like me, you have <a href="http://blog.blindgaenger.net/generate_github_pages_in_a_submodule.html"><code>_site</code> mapped to a git submodule on the <code>gh-pages</code> branch</a>, you&rsquo;ll want to do one of two alternatives:</p>
+<p>在Desktop github左侧changes里会添加进改变，在summary(requited)框里填写改变的描述，点击commit to master，所以改变上传完成后，点击上面中间的pull origin完成推送， 几分钟后，访问你的 用户名.github.io,即可</p>
 
-<ol>
-<li><p>Change your submodule to point to map <code>gh-pages</code> to public instead of <code>_site</code> (recommended).</p>
+<h3 id="4-域名解析">4.域名解析</h3>
 
-<pre><code>git submodule deinit _site
-git rm _site
-git submodule add -b gh-pages git@github.com:your-username/your-repo.git public
-</code></pre></li>
+<p>以阿里云为例</p>
 
-<li><p>Or, change the Hugo configuration to use <code>_site</code> instead of <code>public</code>.</p>
+<p>在控制台的域名里，找到自己购买的域名，在操作-解析里，添加记录</p>
 
-<pre><code>{
-    ..
-    &quot;publishdir&quot;: &quot;_site&quot;,
-    ..
-}
-</code></pre></li>
-</ol>
+<p><img src="https://i.loli.net/2019/04/29/5cc6dcc59f973.png" alt="5cc6dcc59f973" /></p>
 
-<h2 id="convert-jekyll-templates-to-hugo-templates">Convert Jekyll templates to Hugo templates</h2>
+<p>记录类型为CNAME，主机记录里选@和www，记录值为你的用户名.github.io,一共需要添加两个记录</p>
 
-<p>That&rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to <a href="http://jekyllrb.com/docs/templates/">Jekyll&rsquo;s template documentation</a> if you need to refresh your memory on how you built your blog and <a href="http://mxr-lee.top/layout/templates/">Hugo&rsquo;s template</a> to learn Hugo&rsquo;s way.</p>
+<p>回到github网页，在右上角头像your repository里，找到你的用户名.github.io</p>
 
-<p>As a single reference data point, converting my templates for <a href="http://heyitsalex.net/">heyitsalex.net</a> took me no more than a few hours.</p>
+<p>在setting设置里</p>
 
-<h2 id="convert-jekyll-plugins-to-hugo-shortcodes">Convert Jekyll plugins to Hugo shortcodes</h2>
+<p><img src="https://i.loli.net/2019/04/29/5cc6df69d37eb.png" alt="5cc6df69d37eb" /></p>
 
-<p>Jekyll has <a href="http://jekyllrb.com/docs/plugins/">plugins</a>; Hugo has <a href="http://mxr-lee.top/doc/shortcodes/">shortcodes</a>. It&rsquo;s fairly trivial to do a port.</p>
+<p>下滑到Github pages，在custom domain里，填写自己的域名，保存</p>
 
-<h3 id="implementation">Implementation</h3>
+<p><img src="https://i.loli.net/2019/04/29/5cc6df8fcec75.png" alt="5cc6df8fcec75" /></p>
 
-<p>As an example, I was using a custom <a href="https://github.com/alexandre-normand/alexandre-normand/blob/74bb12036a71334fdb7dba84e073382fc06908ec/_plugins/image_tag.rb"><code>image_tag</code></a> plugin to generate figures with caption when running Jekyll. As I read about shortcodes, I found Hugo had a nice built-in shortcode that does exactly the same thing.</p>
-
-<p>Jekyll&rsquo;s plugin:</p>
-
-<pre><code>module Jekyll
-  class ImageTag &lt; Liquid::Tag
-    @url = nil
-    @caption = nil
-    @class = nil
-    @link = nil
-    // Patterns
-    IMAGE_URL_WITH_CLASS_AND_CAPTION =
-    IMAGE_URL_WITH_CLASS_AND_CAPTION_AND_LINK = /(\w+)(\s+)((https?:\/\/|\/)(\S+))(\s+)&quot;(.*?)&quot;(\s+)-&gt;((https?:\/\/|\/)(\S+))(\s*)/i
-    IMAGE_URL_WITH_CAPTION = /((https?:\/\/|\/)(\S+))(\s+)&quot;(.*?)&quot;/i
-    IMAGE_URL_WITH_CLASS = /(\w+)(\s+)((https?:\/\/|\/)(\S+))/i
-    IMAGE_URL = /((https?:\/\/|\/)(\S+))/i
-    def initialize(tag_name, markup, tokens)
-      super
-      if markup =~ IMAGE_URL_WITH_CLASS_AND_CAPTION_AND_LINK
-        @class   = $1
-        @url     = $3
-        @caption = $7
-        @link = $9
-      elsif markup =~ IMAGE_URL_WITH_CLASS_AND_CAPTION
-        @class   = $1
-        @url     = $3
-        @caption = $7
-      elsif markup =~ IMAGE_URL_WITH_CAPTION
-        @url     = $1
-        @caption = $5
-      elsif markup =~ IMAGE_URL_WITH_CLASS
-        @class = $1
-        @url   = $3
-      elsif markup =~ IMAGE_URL
-        @url = $1
-      end
-    end
-    def render(context)
-      if @class
-        source = &quot;&lt;figure class='#{@class}'&gt;&quot;
-      else
-        source = &quot;&lt;figure&gt;&quot;
-      end
-      if @link
-        source += &quot;&lt;a href=\&quot;#{@link}\&quot;&gt;&quot;
-      end
-      source += &quot;&lt;img src=\&quot;#{@url}\&quot;&gt;&quot;
-      if @link
-        source += &quot;&lt;/a&gt;&quot;
-      end
-      source += &quot;&lt;figcaption&gt;#{@caption}&lt;/figcaption&gt;&quot; if @caption
-      source += &quot;&lt;/figure&gt;&quot;
-      source
-    end
-  end
-end
-Liquid::Template.register_tag('image', Jekyll::ImageTag)
-</code></pre>
-
-<p>is written as this Hugo shortcode:</p>
-
-<pre><code>&lt;!-- image --&gt;
-&lt;figure {{ with .Get &quot;class&quot; }}class=&quot;{{.}}&quot;{{ end }}&gt;
-    {{ with .Get &quot;link&quot;}}&lt;a href=&quot;{{.}}&quot;&gt;{{ end }}
-        &lt;img src=&quot;{{ .Get &quot;src&quot; }}&quot; {{ if or (.Get &quot;alt&quot;) (.Get &quot;caption&quot;) }}alt=&quot;{{ with .Get &quot;alt&quot;}}{{.}}{{else}}{{ .Get &quot;caption&quot; }}{{ end }}&quot;{{ end }} /&gt;
-    {{ if .Get &quot;link&quot;}}&lt;/a&gt;{{ end }}
-    {{ if or (or (.Get &quot;title&quot;) (.Get &quot;caption&quot;)) (.Get &quot;attr&quot;)}}
-    &lt;figcaption&gt;{{ if isset .Params &quot;title&quot; }}
-        {{ .Get &quot;title&quot; }}{{ end }}
-        {{ if or (.Get &quot;caption&quot;) (.Get &quot;attr&quot;)}}&lt;p&gt;
-        {{ .Get &quot;caption&quot; }}
-        {{ with .Get &quot;attrlink&quot;}}&lt;a href=&quot;{{.}}&quot;&gt; {{ end }}
-            {{ .Get &quot;attr&quot; }}
-        {{ if .Get &quot;attrlink&quot;}}&lt;/a&gt; {{ end }}
-        &lt;/p&gt; {{ end }}
-    &lt;/figcaption&gt;
-    {{ end }}
-&lt;/figure&gt;
-&lt;!-- image --&gt;
-</code></pre>
-
-<h3 id="usage">Usage</h3>
-
-<p>I simply changed:</p>
-
-<pre><code>{% image full http://farm5.staticflickr.com/4136/4829260124_57712e570a_o_d.jpg &quot;One of my favorite touristy-type photos. I secretly waited for the good light while we were &quot;having fun&quot; and took this. Only regret: a stupid pole in the top-left corner of the frame I had to clumsily get rid of at post-processing.&quot; -&gt;http://www.flickr.com/photos/alexnormand/4829260124/in/set-72157624547713078/ %}
-</code></pre>
-
-<p>to this (this example uses a slightly extended version named <code>fig</code>, different than the built-in <code>figure</code>):</p>
-
-<pre><code>{{% fig class=&quot;full&quot; src=&quot;http://farm5.staticflickr.com/4136/4829260124_57712e570a_o_d.jpg&quot; title=&quot;One of my favorite touristy-type photos. I secretly waited for the good light while we were having fun and took this. Only regret: a stupid pole in the top-left corner of the frame I had to clumsily get rid of at post-processing.&quot; link=&quot;http://www.flickr.com/photos/alexnormand/4829260124/in/set-72157624547713078/&quot; %}}
-</code></pre>
-
-<p>As a bonus, the shortcode named parameters are, arguably, more readable.</p>
-
-<h2 id="finishing-touches">Finishing touches</h2>
-
-<h3 id="fix-content">Fix content</h3>
-
-<p>Depending on the amount of customization that was done with each post with Jekyll, this step will require more or less effort. There are no hard and fast rules here except that <code>hugo server --watch</code> is your friend. Test your changes and fix errors as needed.</p>
-
-<h3 id="clean-up">Clean up</h3>
-
-<p>You&rsquo;ll want to remove the Jekyll configuration at this point. If you have anything else that isn&rsquo;t used, delete it.</p>
-
-<h2 id="a-practical-example-in-a-diff">A practical example in a diff</h2>
-
-<p><a href="http://heyitsalex.net/">Hey, it&rsquo;s Alex</a> was migrated in less than a <em>father-with-kids day</em> from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this <a href="https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610">diff</a>.</p>
-    
+<p>几分钟，访问自己域名即可</p>    
         </div>
     </section>
 
@@ -301,13 +219,11 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
     <div class="read-next-card-content">
       
         <ul>
-                      
+          <li><a href="http://mxr-lee.top/post/getting-started-with-hugo/">Getting Started with Hugo</a></li>            
+        
+          <li><a href="http://mxr-lee.top/post/migrate-to-hugo-from-jekyll/">Migrate to Hugo from Jekyll</a></li>            
         
           <li><a href="http://mxr-lee.top/post/colenak/">Colenak</a></li>            
-        
-          <li><a href="http://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/">Hugo&#43;github Page建站</a></li>            
-        
-          <li><a href="http://mxr-lee.top/post/creating-a-new-theme/">Creating a New Theme</a></li>            
         
           <li><a href="http://mxr-lee.top/post/%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/">添加环境变量</a></li>            
         </ul>
@@ -321,26 +237,21 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
       
       <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="http://mxr-lee.top/post/hugo-template-primer/">
-      <div class="post-card-image" style="background-image: url(http://mxr-lee.top/img/writing.jpg)"></div>
-    </a>
+    <a class="post-card-image-link" href="http://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/">
+      <div class="post-card-image" style="background-image: url(http://mxr-lee.top/defimg/6.jpg)"></div>
+    </a>    
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="http://mxr-lee.top/post/hugo-template-primer/">
+      <a class="post-card-content-link" href="http://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/">
           <header class="post-card-header">
-              <span class="post-card-tags">
-              #go 
-              #golang 
-              #templates 
-              #themes 
-              #development  </span>
               
-              <h2 class="post-card-title">(Hu)go Template Primer</h2>
+              <h2 class="post-card-title">Hugo&#43;github Page建站</h2>
           </header>
           <section class="post-card-excerpt">
-               
-                <p>This is a description. Hugo uses the <strong>excellent</strong> go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic.</p>
+              
+                <p>用最简单的方法建立自己的网站
+ ...  </p>
               
           </section>
       </a>
@@ -355,16 +266,16 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
       
       <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="http://mxr-lee.top/post/colenak/">
-      <div class="post-card-image" style="background-image: url(http://mxr-lee.top/defimg/4.jpg)"></div>
-    </a>    
+    <a class="post-card-image-link" href="http://mxr-lee.top/post/creating-a-new-theme/">
+      <div class="post-card-image" style="background-image: url(http://mxr-lee.top/img/8.jpg)"></div>
+    </a>
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="http://mxr-lee.top/post/colenak/">
+      <a class="post-card-content-link" href="http://mxr-lee.top/post/creating-a-new-theme/">
           <header class="post-card-header">
               
-              <h2 class="post-card-title">Colenak</h2>
+              <h2 class="post-card-title">Creating a New Theme</h2>
           </header>
           <section class="post-card-excerpt">
               
@@ -374,7 +285,7 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
       </a>
 
       <footer class="post-card-meta">
-          <img class="author-profile-image" src="http://mxr-lee.top/img/AuthorAvatar.png" alt="Author" />
+          <img class="author-profile-image" src="http://mxr-lee.top/hugo-logo.png" alt="Author" />
           <span class="post-card-author"><a href="http://mxr-lee.top/">Michael Henderson</a></span>
       </footer>
     </div>
@@ -391,7 +302,7 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
     </a>
   </div>
   <span class="floating-header-divider">&mdash;</span>
-  <div class="floating-header-title">Migrate to Hugo from Jekyll</div>
+  <div class="floating-header-title">Hugo&#43;github Page建站</div>
    <div class="floating-header-share">
   </div>
 
