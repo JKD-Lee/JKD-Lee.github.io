@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>某些人</title>
-    <link>http://mxr-lee.top/</link>
+    <link>https://mxr-lee.top/</link>
     <description>Recent content on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 29 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://mxr-lee.top/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mxr-lee.top/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>添加环境变量</title>
-      <link>http://mxr-lee.top/post/%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</link>
+      <link>https://mxr-lee.top/post/%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</link>
       <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://mxr-lee.top/post/%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</guid>
+      <guid>https://mxr-lee.top/post/%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</guid>
       <description>&lt;h2 id=&#34;center-在win10系统下-如何简单快速添加环境变量-center&#34;&gt;&lt;center&gt;在Win10系统下，如何简单快速添加环境变量&lt;/center&gt;&lt;/h2&gt;</description>
     </item>
     
     <item>
       <title>Hugo&#43;github Page建站</title>
-      <link>http://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/</link>
+      <link>https://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/</link>
       <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/</guid>
+      <guid>https://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/</guid>
       <description>&lt;p&gt;&lt;center&gt;用最简单的方法建立自己的网站&lt;/center&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hugo&#43;github Page建站</title>
-      <link>http://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/</link>
+      <link>https://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/</link>
       <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/</guid>
+      <guid>https://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/</guid>
       <description>&lt;h2 id=&#34;center-hugo-github零成本打造个人网站-center&#34;&gt;&lt;center&gt;Hugo+Github零成本打造个人网站&lt;/center&gt;&lt;/h2&gt;</description>
     </item>
     
     <item>
       <title>Creating a New Theme</title>
-      <link>http://mxr-lee.top/post/creating-a-new-theme/</link>
+      <link>https://mxr-lee.top/post/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://mxr-lee.top/post/creating-a-new-theme/</guid>
+      <guid>https://mxr-lee.top/post/creating-a-new-theme/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo.</description>
     </item>
     
     <item>
       <title>关于</title>
-      <link>http://mxr-lee.top/about/</link>
+      <link>https://mxr-lee.top/about/</link>
       <pubDate>Tue, 14 Apr 2015 22:17:00 +0000</pubDate>
       
-      <guid>http://mxr-lee.top/about/</guid>
+      <guid>https://mxr-lee.top/about/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>http://mxr-lee.top/post/getting-started-with-hugo/</link>
+      <link>https://mxr-lee.top/post/getting-started-with-hugo/</link>
       <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://mxr-lee.top/post/getting-started-with-hugo/</guid>
+      <guid>https://mxr-lee.top/post/getting-started-with-hugo/</guid>
       <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.</description>
     </item>
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>http://mxr-lee.top/post/hugo-template-primer/</link>
+      <link>https://mxr-lee.top/post/hugo-template-primer/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://mxr-lee.top/post/hugo-template-primer/</guid>
+      <guid>https://mxr-lee.top/post/hugo-template-primer/</guid>
       <description>Hugo uses the excellent go html/template library for its template engine.</description>
     </item>
     
     <item>
       <title>Migrate to Hugo from Jekyll</title>
-      <link>http://mxr-lee.top/post/migrate-to-hugo-from-jekyll/</link>
+      <link>https://mxr-lee.top/post/migrate-to-hugo-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://mxr-lee.top/post/migrate-to-hugo-from-jekyll/</guid>
+      <guid>https://mxr-lee.top/post/migrate-to-hugo-from-jekyll/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output.</description>
     </item>
     
     <item>
       <title>Colenak</title>
-      <link>http://mxr-lee.top/post/colenak/</link>
+      <link>https://mxr-lee.top/post/colenak/</link>
       <pubDate>Sat, 28 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://mxr-lee.top/post/colenak/</guid>
+      <guid>https://mxr-lee.top/post/colenak/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo.</description>
     </item>
     
