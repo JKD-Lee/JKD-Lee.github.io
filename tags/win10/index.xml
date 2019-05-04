@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Win10 on 某些人</title>
+    <link>https://mxr-lee.top/tags/win10/</link>
+    <description>Recent content in Win10 on 某些人</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 04 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mxr-lee.top/tags/win10/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WIN10XPE</title>
+      <link>https://mxr-lee.top/post/win10xpe/</link>
+      <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/win10xpe/</guid>
+      <description>&lt;h2 id=&#34;center-win10xpe快速构建自己的pe-center&#34;&gt;&lt;center&gt;WIN10XPE快速构建自己的PE&lt;/center&gt;&lt;/h2&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

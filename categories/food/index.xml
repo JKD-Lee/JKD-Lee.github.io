@@ -6,10 +6,28 @@
     <description>Recent content in food on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 28 Sep 2013 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/categories/food/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>添加环境变量</title>
+      <link>https://mxr-lee.top/post/%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</link>
+      <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</guid>
+      <description>&lt;h2 id=&#34;center-在win10系统下-如何简单快速添加环境变量-center&#34;&gt;&lt;center&gt;在Win10系统下，如何简单快速添加环境变量&lt;/center&gt;&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugo&#43;github Page建站</title>
+      <link>https://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/</guid>
+      <description>&lt;h2 id=&#34;center-hugo-github零成本打造个人网站-center&#34;&gt;&lt;center&gt;Hugo+Github零成本打造个人网站&lt;/center&gt;&lt;/h2&gt;</description>
+    </item>
     
     <item>
       <title>Colenak</title>
