@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>clean on 某些人</title>
+    <link>https://mxr-lee.top/tags/clean/</link>
+    <description>Recent content in clean on 某些人</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 06 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mxr-lee.top/tags/clean/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kcleaner</title>
+      <link>https://mxr-lee.top/post/kcleaner/</link>
+      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/kcleaner/</guid>
+      <description>清理工具Kcleaner  轻量，免安装
+ 设置简单
+ 清理效果更彻底
+ 最小资源使用
+  &amp;ldquo;Kcleaner&amp;rdquo; 是一款小巧实用的系统清理工具,可以帮助您轻松清除计算机里的临时文件和不需要的文件,让您的系统保持更好的安全性和稳定性，经测试，清理效果比同类软件更彻底
+设置简单，分手动和自动模式
+
+时空虫洞，带你穿越</description>
+    </item>
+    
+  </channel>
+</rss>

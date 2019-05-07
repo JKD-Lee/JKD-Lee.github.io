@@ -13,30 +13,70 @@
   </url>
   
   <url>
-    <loc>https://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/</loc>
-    <lastmod>2019-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://mxr-lee.top/post/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://mxr-lee.top/categories/</loc>
-    <lastmod>2019-05-04T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://mxr-lee.top/post/everything/</loc>
+    <lastmod>2019-05-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/post/kcleaner/</loc>
+    <lastmod>2019-05-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mxr-lee.top/post/</loc>
-    <lastmod>2019-05-04T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/tags/screenshot/</loc>
+    <lastmod>2019-05-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/post/screenshot/</loc>
+    <lastmod>2019-05-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/tags/search/</loc>
+    <lastmod>2019-05-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://mxr-lee.top/tags/</loc>
-    <lastmod>2019-05-04T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/tags/clean/</loc>
+    <lastmod>2019-05-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/categories/software/</loc>
+    <lastmod>2019-05-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/</loc>
+    <lastmod>2019-05-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -70,19 +110,19 @@
   </url>
   
   <url>
-    <loc>https://mxr-lee.top/</loc>
-    <lastmod>2019-05-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/categories/food/</loc>
+    <loc>https://mxr-lee.top/categories/document/</loc>
     <lastmod>2019-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mxr-lee.top/categories/hugo/</loc>
+    <loc>https://mxr-lee.top/tags/github/</loc>
+    <lastmod>2019-04-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/tags/hugo/</loc>
     <lastmod>2019-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -90,74 +130,6 @@
   <url>
     <loc>https://mxr-lee.top/about/</loc>
     <lastmod>2015-04-14T22:17:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/categories/development/</loc>
-    <lastmod>2014-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/post/getting-started-with-hugo/</loc>
-    <lastmod>2014-06-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/tags/development/</loc>
-    <lastmod>2014-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/tags/go/</loc>
-    <lastmod>2014-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/categories/golang/</loc>
-    <lastmod>2014-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/tags/golang/</loc>
-    <lastmod>2014-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/tags/hugo/</loc>
-    <lastmod>2014-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/post/hugo-template-primer/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/tags/templates/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/tags/themes/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/post/migrate-to-hugo-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/post/colenak/</loc>
-    <lastmod>2013-09-28T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>

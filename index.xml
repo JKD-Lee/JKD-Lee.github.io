@@ -6,7 +6,7 @@
     <description>Recent content on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 04 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,7 +17,12 @@
       <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mxr-lee.top/post/%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</guid>
-      <description>&lt;h2 id=&#34;center-在win10系统下-如何简单快速添加环境变量-center&#34;&gt;&lt;center&gt;在Win10系统下，如何简单快速添加环境变量&lt;/center&gt;&lt;/h2&gt;</description>
+      <description> 在Win10系统下，如何简单快速添加环境变量 1.我的电脑，右键属性
+2.在左侧高级系统设置里
+3.最上面一栏，在高级里，点击最下面环境变量
+4.选中path路径，点击编辑
+5.点击新建，把软件的路径复制进去，确定
+注：软件路径不能有中文，添加环境变量前，请先修改路径为纯英文路径 </description>
     </item>
     
     <item>
@@ -26,16 +31,22 @@
       <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/</guid>
-      <description>&lt;p&gt;&lt;center&gt;用最简单的方法建立自己的网站&lt;/center&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Hugo&#43;github Page建站</title>
-      <link>https://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/</link>
-      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/</guid>
-      <description>&lt;h2 id=&#34;center-hugo-github零成本打造个人网站-center&#34;&gt;&lt;center&gt;Hugo+Github零成本打造个人网站&lt;/center&gt;&lt;/h2&gt;</description>
+      <description>Hugo+Github零成本打造个人网站 工具 1.Hugo+theme Hugo主程序可在hugo的releases上找到[hugo_0.55.4_Windows-64bit.zip]，其中0.55.4为版本号，会随更新改变，每次下载最新版即可。Hugo有300+的Theme，本站用的是eueung改自Ghost的casper two主题，经本人做了二次修改
+2.Github账号+desktop Github Github账号请前往官网自行注册，用Desktop Github的原因是网页Github不能上传文件夹，而git对小白来说，比较复杂
+3.可有可无的域名(便于访问) 之前有免费顶级域名注册网站Freenom，后来不知为何就不能用了，添加购物车一直返回订单，国内域名商像阿里云，新网等，新兴的域名也很便宜，如果不想花这冤枉钱，Github赠送的免费域名.github.io已经够用了
+开始 1.github建立仓库 先在网页登录github，右上角位置，点击加号，新建一个repository[new repository]
+在[repository name]里，添加和[Owner]一样的(用户名.github.io),点击Create repository创建仓库
+2.hugo安装配置运行 1.将下载好的hugo压缩包解压出来，改名为hugo.exe,添加环境变量
+[如何添加环境变量]()
+2.创建一个 文件夹，
+Win+R调出运行框，输入cmd，打开命令提示符，用命令进入你刚才创建的文件夹，执行以下命令
+X: #X替换为先进入你创建目录的盘符， cd X:\xx\xxx\ #进入创建的根目录，X:\xx\xxx\为你创建文件夹的路径 hugo new site blog #新建一个站点，blog可替换为你想要的名字  现在你的目录会出现几个文件夹
+3.添加一个主题，把从Hugo theme下载的主题，解压到themes文件夹里，复制主题文件夹里的exampleSite文件夹中的所有文件，到创建的根目录，替换覆盖
+4.修改config.toml中星号标记处
+5.执行以下命令
+hugo new posts/my-first-post.md #创建一篇文章，my-first-post可替换为任意名 hugo server #开启hugo服务 hugo #生成public文件夹  6.在浏览器输入$localhost:1313$，即可预览访问你创建的站点，此时你的文章页面应该为空，你需要在markdown编辑器里，进一步编辑你的文章，保存才能生效
+3.github部署 打开desktop github，创建文件夹登录github
+baseurl = &amp;quot;https://mxr-lee.top/&amp;quot; #链接换成自己域名或Https://你的用户名.github.io theme = &amp;quot;casper-two&amp;quot; languageCode = &amp;quot;en-US&amp;quot; title = &amp;quot;某些人&amp;quot; disqusShortname = &amp;quot;&amp;quot; paginate = 6 #SectionPagesMenu = &amp;quot;main&amp;quot; canonifyurls = true summaryLength = 10 publishdir = &amp;quot;D:/JKD-Lee/JKD-Lee.</description>
     </item>
     
     <item>
@@ -44,7 +55,55 @@
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
       <guid>https://mxr-lee.top/post/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo.</description>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+    <item>
+      <title>Everything</title>
+      <link>https://mxr-lee.top/post/everything/</link>
+      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/everything/</guid>
+      <description>搜索神器Everything  轻量，免安装
+ 干净简洁界面，易用
+ 快速搜索
+ 最小资源使用
+ 实时更新
+  &amp;ldquo;Everything&amp;rdquo; 是 Windows 上一款搜索引擎，它能够基于文件名快速定文件和文件夹，瞬间搜索显示电脑上每个文件和文件夹（包括被隐藏的，没有属性的，受保护的文件&amp;hellip;），绝对的优势吊打Windows原生windows search
+
+时空虫洞，带你穿越</description>
+    </item>
+    
+    <item>
+      <title>Kcleaner</title>
+      <link>https://mxr-lee.top/post/kcleaner/</link>
+      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/kcleaner/</guid>
+      <description>清理工具Kcleaner  轻量，免安装
+ 设置简单
+ 清理效果更彻底
+ 最小资源使用
+  &amp;ldquo;Kcleaner&amp;rdquo; 是一款小巧实用的系统清理工具,可以帮助您轻松清除计算机里的临时文件和不需要的文件,让您的系统保持更好的安全性和稳定性，经测试，清理效果比同类软件更彻底
+设置简单，分手动和自动模式
+
+时空虫洞，带你穿越</description>
+    </item>
+    
+    <item>
+      <title>Screenshot</title>
+      <link>https://mxr-lee.top/post/screenshot/</link>
+      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/screenshot/</guid>
+      <description>截图工具Screenshot  轻量，免安装
+ 功能简单，界面美观
+ 自动识别窗口
+ 最小资源使用
+  &amp;ldquo;Screenshot&amp;rdquo; 是本人从Advanced SystemCare 上提取的一款简单方便快捷的截图工具，已打包为单文件程序，它能够自动识别窗口，显示区域分辨率，支持添加文字，涂鸦及线框等功能
+
+时空虫洞，带你穿越</description>
     </item>
     
     <item>
@@ -53,7 +112,13 @@
       <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mxr-lee.top/post/win10xpe/</guid>
-      <description>&lt;h2 id=&#34;center-win10xpe快速构建自己的pe-center&#34;&gt;&lt;center&gt;WIN10XPE快速构建自己的PE&lt;/center&gt;&lt;/h2&gt;</description>
+      <description> 采用无忧启动slore大神的WIN10XPE快速从零构建的WINPE,参考文章，PE内核版本为1903，wim大小213M，iso大小225M
+构建过程，比较简单，但后期个性化配置比较复杂
+采用StartMenu菜单
+支持调整分辨率
+还有更多任务栏设置选项，这一切都依赖于slore大神另外的WinXshell项目
+构建的PE体积小，启动快，定制性强
+当然也有不足之处，还不够微PE那样足够精简小巧， </description>
     </item>
     
     <item>
@@ -62,43 +127,7 @@
       <pubDate>Tue, 14 Apr 2015 22:17:00 +0000</pubDate>
       
       <guid>https://mxr-lee.top/about/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://mxr-lee.top/post/getting-started-with-hugo/</link>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mxr-lee.top/post/getting-started-with-hugo/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.</description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://mxr-lee.top/post/hugo-template-primer/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mxr-lee.top/post/hugo-template-primer/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine.</description>
-    </item>
-    
-    <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>https://mxr-lee.top/post/migrate-to-hugo-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mxr-lee.top/post/migrate-to-hugo-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output.</description>
-    </item>
-    
-    <item>
-      <title>Colenak</title>
-      <link>https://mxr-lee.top/post/colenak/</link>
-      <pubDate>Sat, 28 Sep 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://mxr-lee.top/post/colenak/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo.</description>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Yow !</description>
     </item>
     
   </channel>

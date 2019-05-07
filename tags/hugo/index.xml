@@ -1,23 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hugo on 某些人</title>
+    <title>Hugo on 某些人</title>
     <link>https://mxr-lee.top/tags/hugo/</link>
-    <description>Recent content in hugo on 某些人</description>
+    <description>Recent content in Hugo on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 02 Jun 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://mxr-lee.top/post/getting-started-with-hugo/</link>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
+      <title>Hugo&#43;github Page建站</title>
+      <link>https://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/getting-started-with-hugo/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.</description>
+      <guid>https://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/</guid>
+      <description>Hugo+Github零成本打造个人网站 工具 1.Hugo+theme Hugo主程序可在hugo的releases上找到[hugo_0.55.4_Windows-64bit.zip]，其中0.55.4为版本号，会随更新改变，每次下载最新版即可。Hugo有300+的Theme，本站用的是eueung改自Ghost的casper two主题，经本人做了二次修改
+2.Github账号+desktop Github Github账号请前往官网自行注册，用Desktop Github的原因是网页Github不能上传文件夹，而git对小白来说，比较复杂
+3.可有可无的域名(便于访问) 之前有免费顶级域名注册网站Freenom，后来不知为何就不能用了，添加购物车一直返回订单，国内域名商像阿里云，新网等，新兴的域名也很便宜，如果不想花这冤枉钱，Github赠送的免费域名.github.io已经够用了
+开始 1.github建立仓库 先在网页登录github，右上角位置，点击加号，新建一个repository[new repository]
+在[repository name]里，添加和[Owner]一样的(用户名.github.io),点击Create repository创建仓库
+2.hugo安装配置运行 1.将下载好的hugo压缩包解压出来，改名为hugo.exe,添加环境变量
+[如何添加环境变量]()
+2.创建一个 文件夹，
+Win+R调出运行框，输入cmd，打开命令提示符，用命令进入你刚才创建的文件夹，执行以下命令
+X: #X替换为先进入你创建目录的盘符， cd X:\xx\xxx\ #进入创建的根目录，X:\xx\xxx\为你创建文件夹的路径 hugo new site blog #新建一个站点，blog可替换为你想要的名字  现在你的目录会出现几个文件夹
+3.添加一个主题，把从Hugo theme下载的主题，解压到themes文件夹里，复制主题文件夹里的exampleSite文件夹中的所有文件，到创建的根目录，替换覆盖
+4.修改config.toml中星号标记处
+5.执行以下命令
+hugo new posts/my-first-post.md #创建一篇文章，my-first-post可替换为任意名 hugo server #开启hugo服务 hugo #生成public文件夹  6.在浏览器输入$localhost:1313$，即可预览访问你创建的站点，此时你的文章页面应该为空，你需要在markdown编辑器里，进一步编辑你的文章，保存才能生效
+3.github部署 打开desktop github，创建文件夹登录github
+baseurl = &amp;quot;https://mxr-lee.top/&amp;quot; #链接换成自己域名或Https://你的用户名.github.io theme = &amp;quot;casper-two&amp;quot; languageCode = &amp;quot;en-US&amp;quot; title = &amp;quot;某些人&amp;quot; disqusShortname = &amp;quot;&amp;quot; paginate = 6 #SectionPagesMenu = &amp;quot;main&amp;quot; canonifyurls = true summaryLength = 10 publishdir = &amp;quot;D:/JKD-Lee/JKD-Lee.</description>
     </item>
     
   </channel>

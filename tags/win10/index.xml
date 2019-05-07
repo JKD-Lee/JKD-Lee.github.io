@@ -12,12 +12,32 @@
     
     
     <item>
+      <title>添加环境变量</title>
+      <link>https://mxr-lee.top/post/%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</link>
+      <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</guid>
+      <description> 在Win10系统下，如何简单快速添加环境变量 1.我的电脑，右键属性
+2.在左侧高级系统设置里
+3.最上面一栏，在高级里，点击最下面环境变量
+4.选中path路径，点击编辑
+5.点击新建，把软件的路径复制进去，确定
+注：软件路径不能有中文，添加环境变量前，请先修改路径为纯英文路径 </description>
+    </item>
+    
+    <item>
       <title>WIN10XPE</title>
       <link>https://mxr-lee.top/post/win10xpe/</link>
       <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mxr-lee.top/post/win10xpe/</guid>
-      <description>&lt;h2 id=&#34;center-win10xpe快速构建自己的pe-center&#34;&gt;&lt;center&gt;WIN10XPE快速构建自己的PE&lt;/center&gt;&lt;/h2&gt;</description>
+      <description> 采用无忧启动slore大神的WIN10XPE快速从零构建的WINPE,参考文章，PE内核版本为1903，wim大小213M，iso大小225M
+构建过程，比较简单，但后期个性化配置比较复杂
+采用StartMenu菜单
+支持调整分辨率
+还有更多任务栏设置选项，这一切都依赖于slore大神另外的WinXshell项目
+构建的PE体积小，启动快，定制性强
+当然也有不足之处，还不够微PE那样足够精简小巧， </description>
     </item>
     
   </channel>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Screenshot on 某些人</title>
+    <link>https://mxr-lee.top/tags/screenshot/</link>
+    <description>Recent content in Screenshot on 某些人</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 06 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mxr-lee.top/tags/screenshot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Screenshot</title>
+      <link>https://mxr-lee.top/post/screenshot/</link>
+      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/screenshot/</guid>
+      <description>截图工具Screenshot  轻量，免安装
+ 功能简单，界面美观
+ 自动识别窗口
+ 最小资源使用
+  &amp;ldquo;Screenshot&amp;rdquo; 是本人从Advanced SystemCare 上提取的一款简单方便快捷的截图工具，已打包为单文件程序，它能够自动识别窗口，显示区域分辨率，支持添加文字，涂鸦及线框等功能
+
+时空虫洞，带你穿越</description>
+    </item>
+    
+  </channel>
+</rss>

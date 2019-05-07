@@ -6,10 +6,37 @@
     <description>Recent content in Tags on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 04 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Screenshot</title>
+      <link>https://mxr-lee.top/tags/screenshot/</link>
+      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/tags/screenshot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>https://mxr-lee.top/tags/search/</link>
+      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/tags/search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>clean</title>
+      <link>https://mxr-lee.top/tags/clean/</link>
+      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/tags/clean/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>WINPE</title>
@@ -30,56 +57,20 @@
     </item>
     
     <item>
-      <title>development</title>
-      <link>https://mxr-lee.top/tags/development/</link>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
+      <title>Github</title>
+      <link>https://mxr-lee.top/tags/github/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/tags/development/</guid>
+      <guid>https://mxr-lee.top/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>go</title>
-      <link>https://mxr-lee.top/tags/go/</link>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mxr-lee.top/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>https://mxr-lee.top/tags/golang/</link>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mxr-lee.top/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
+      <title>Hugo</title>
       <link>https://mxr-lee.top/tags/hugo/</link>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mxr-lee.top/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>templates</title>
-      <link>https://mxr-lee.top/tags/templates/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mxr-lee.top/tags/templates/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>themes</title>
-      <link>https://mxr-lee.top/tags/themes/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mxr-lee.top/tags/themes/</guid>
       <description></description>
     </item>
     

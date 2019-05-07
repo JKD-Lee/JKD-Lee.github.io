@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Search on 某些人</title>
+    <link>https://mxr-lee.top/tags/search/</link>
+    <description>Recent content in Search on 某些人</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 06 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mxr-lee.top/tags/search/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Everything</title>
+      <link>https://mxr-lee.top/post/everything/</link>
+      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/everything/</guid>
+      <description>搜索神器Everything  轻量，免安装
+ 干净简洁界面，易用
+ 快速搜索
+ 最小资源使用
+ 实时更新
+  &amp;ldquo;Everything&amp;rdquo; 是 Windows 上一款搜索引擎，它能够基于文件名快速定文件和文件夹，瞬间搜索显示电脑上每个文件和文件夹（包括被隐藏的，没有属性的，受保护的文件&amp;hellip;），绝对的优势吊打Windows原生windows search
+
+时空虫洞，带你穿越</description>
+    </item>
+    
+  </channel>
+</rss>
