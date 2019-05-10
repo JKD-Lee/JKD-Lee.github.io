@@ -6,10 +6,43 @@
     <description>Recent content in software on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 06 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/categories/software/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bandzip</title>
+      <link>https://mxr-lee.top/post/bandzip/</link>
+      <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/bandzip/</guid>
+      <description>解压缩工Bandzip  免费，轻量，无广告
+ 压缩包内预览图片
+ 集成右键菜单
+ 极速最大压缩
+  &amp;ldquo;Bandzip&amp;rdquo; 是韩国一款免费无广告的解压缩软件，它拥有非常快速的压缩和解压缩的算法，适用于多核心压缩、快速拖放、高速压缩等功能，在不解压文件的情况下，能够预览压缩包内的图片格式的文件，非常方便
+非常简洁的软件界面
+
+时空虫洞，带你穿越</description>
+    </item>
+    
+    <item>
+      <title>IDM</title>
+      <link>https://mxr-lee.top/post/idm/</link>
+      <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/idm/</guid>
+      <description>下载神器IDM  浏览器插件集成
+ 多线程满速下载
+ 站点抓取，批量任务
+ 资源嗅探
+  &amp;ldquo;IDM&amp;rdquo; 是对&amp;rdquo;Internet Download Manager&amp;rdquo;的简称，它可以说是Windows平台功能最强大的下载工具，支持HTTP， FTP， HTTPS 和 MMS下载，
+简洁的软件界面
+多线程满速下载
+
+时空虫洞，带你穿越</description>
+    </item>
     
     <item>
       <title>Everything</title>

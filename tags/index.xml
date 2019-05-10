@@ -6,10 +6,28 @@
     <description>Recent content in Tags on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 06 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>compression</title>
+      <link>https://mxr-lee.top/tags/compression/</link>
+      <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/tags/compression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>download</title>
+      <link>https://mxr-lee.top/tags/download/</link>
+      <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/tags/download/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Screenshot</title>
@@ -39,20 +57,20 @@
     </item>
     
     <item>
+      <title>WIN10</title>
+      <link>https://mxr-lee.top/tags/win10/</link>
+      <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/tags/win10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>WINPE</title>
       <link>https://mxr-lee.top/tags/winpe/</link>
       <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mxr-lee.top/tags/winpe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Win10</title>
-      <link>https://mxr-lee.top/tags/win10/</link>
-      <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://mxr-lee.top/tags/win10/</guid>
       <description></description>
     </item>
     
