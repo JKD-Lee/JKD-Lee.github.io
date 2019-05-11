@@ -6,7 +6,7 @@
     <description>Recent content in document on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/categories/document/index.xml" rel="self" type="application/rss+xml" />
     
@@ -47,6 +47,26 @@ X: #X替换为先进入你创建目录的盘符， cd X:\xx\xxx\ #进入创建�
 hugo new posts/my-first-post.md #创建一篇文章，my-first-post可替换为任意名 hugo server #开启hugo服务 hugo #生成public文件夹  6.在浏览器输入$localhost:1313$，即可预览访问你创建的站点，此时你的文章页面应该为空，你需要在markdown编辑器里，进一步编辑你的文章，保存才能生效
 3.github部署 打开desktop github，创建文件夹登录github
 baseurl = &amp;quot;https://mxr-lee.top/&amp;quot; #链接换成自己域名或Https://你的用户名.github.io theme = &amp;quot;casper-two&amp;quot; languageCode = &amp;quot;en-US&amp;quot; title = &amp;quot;某些人&amp;quot; disqusShortname = &amp;quot;&amp;quot; paginate = 6 #SectionPagesMenu = &amp;quot;main&amp;quot; canonifyurls = true summaryLength = 10 publishdir = &amp;quot;D:/JKD-Lee/JKD-Lee.</description>
+    </item>
+    
+    <item>
+      <title>casper-two主题</title>
+      <link>https://mxr-lee.top/post/casper-two%E4%B8%BB%E9%A2%98/</link>
+      <pubDate>Sat, 11 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/casper-two%E4%B8%BB%E9%A2%98/</guid>
+      <description> casper-two主题魔改 已完成  主题基本已汉化完成
+ 标签及分类添加了图标
+ 修改日期显示为普通模式
+ 添加摘要限制字数为20
+ 去除分享按钮及多余菜单
+ 首页添加文章日期
+ 首页文章图片改为随机Material Design
+ 文章头图改为随机background图片
+ 首页背景改为动态背景
+ 日期支持天气显示
+ 字体颜色大小及卡片阴影调整
+  未完成  站内搜索 音乐卡片 亮暗主题切换  </description>
     </item>
     
   </channel>

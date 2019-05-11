@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>theme on 某些人</title>
+    <link>https://mxr-lee.top/tags/theme/</link>
+    <description>Recent content in theme on 某些人</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 11 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mxr-lee.top/tags/theme/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>casper-two主题</title>
+      <link>https://mxr-lee.top/post/casper-two%E4%B8%BB%E9%A2%98/</link>
+      <pubDate>Sat, 11 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/casper-two%E4%B8%BB%E9%A2%98/</guid>
+      <description> casper-two主题魔改 已完成  主题基本已汉化完成
+ 标签及分类添加了图标
+ 修改日期显示为普通模式
+ 添加摘要限制字数为20
+ 去除分享按钮及多余菜单
+ 首页添加文章日期
+ 首页文章图片改为随机Material Design
+ 文章头图改为随机background图片
+ 首页背景改为动态背景
+ 日期支持天气显示
+ 字体颜色大小及卡片阴影调整
+  未完成  站内搜索 音乐卡片 亮暗主题切换  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,10 +6,19 @@
     <description>Recent content in Categories on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>document</title>
+      <link>https://mxr-lee.top/categories/document/</link>
+      <pubDate>Sat, 11 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/categories/document/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>software</title>
@@ -35,15 +44,6 @@
       <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mxr-lee.top/categories/winpe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>document</title>
-      <link>https://mxr-lee.top/categories/document/</link>
-      <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://mxr-lee.top/categories/document/</guid>
       <description></description>
     </item>
     

@@ -6,7 +6,7 @@
     <description>Recent content on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/index.xml" rel="self" type="application/rss+xml" />
     
@@ -50,13 +50,32 @@ baseurl = &amp;quot;https://mxr-lee.top/&amp;quot; #链接换成自己域名或H
     </item>
     
     <item>
-      <title>Creating a New Theme</title>
-      <link>https://mxr-lee.top/post/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <title>casper-two主题</title>
+      <link>https://mxr-lee.top/post/casper-two%E4%B8%BB%E9%A2%98/</link>
+      <pubDate>Sat, 11 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+      <guid>https://mxr-lee.top/post/casper-two%E4%B8%BB%E9%A2%98/</guid>
+      <description> casper-two主题魔改 已完成  主题基本已汉化完成
+ 标签及分类添加了图标
+ 修改日期显示为普通模式
+ 添加摘要限制字数为20
+ 去除分享按钮及多余菜单
+ 首页添加文章日期
+ 首页文章图片改为随机Material Design
+ 文章头图改为随机background图片
+ 首页背景改为动态背景
+ 日期支持天气显示
+ 字体颜色大小及卡片阴影调整
+  未完成  站内搜索 音乐卡片 亮暗主题切换  </description>
+    </item>
+    
+    <item>
+      <title>关于</title>
+      <link>https://mxr-lee.top/about/</link>
+      <pubDate>Sat, 11 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/about/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Yow !</description>
     </item>
     
     <item>
@@ -145,22 +164,13 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mxr-lee.top/post/win10xpe/</guid>
-      <description> 采用无忧启动slore大神的WIN10XPE快速从零构建的WINPE,参考文章，PE内核版本为1903，wim大小213M，iso大小225M
+      <description> Win10XPE快速构建PE 本次采用无忧启动slore大神的WIN10XPE快速从零构建的WINPE,参考文章，PE内核版本为1903，wim大小213M，iso大小225M
 构建过程，比较简单，但后期个性化配置比较复杂
 采用StartMenu菜单
 支持调整分辨率
 还有更多任务栏设置选项，这一切都依赖于slore大神另外的WinXshell项目
 构建的PE体积小，启动快，定制性强
 当然也有不足之处，还不够微PE那样足够精简小巧， </description>
-    </item>
-    
-    <item>
-      <title>关于</title>
-      <link>https://mxr-lee.top/about/</link>
-      <pubDate>Tue, 14 Apr 2015 22:17:00 +0000</pubDate>
-      
-      <guid>https://mxr-lee.top/about/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Yow !</description>
     </item>
     
   </channel>

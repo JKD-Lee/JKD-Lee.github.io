@@ -31,7 +31,7 @@
       <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mxr-lee.top/post/win10xpe/</guid>
-      <description> 采用无忧启动slore大神的WIN10XPE快速从零构建的WINPE,参考文章，PE内核版本为1903，wim大小213M，iso大小225M
+      <description> Win10XPE快速构建PE 本次采用无忧启动slore大神的WIN10XPE快速从零构建的WINPE,参考文章，PE内核版本为1903，wim大小213M，iso大小225M
 构建过程，比较简单，但后期个性化配置比较复杂
 采用StartMenu菜单
 支持调整分辨率
