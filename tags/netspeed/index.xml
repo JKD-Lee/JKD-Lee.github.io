@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NetSpeed on 某些人</title>
+    <link>https://mxr-lee.top/tags/netspeed/</link>
+    <description>Recent content in NetSpeed on 某些人</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 19 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mxr-lee.top/tags/netspeed/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NetSpeed</title>
+      <link>https://mxr-lee.top/post/netspeed/</link>
+      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/netspeed/</guid>
+      <description> NetSpeed  免费，轻量
+ 简单，易用
+ 最小资源占用
+  “NetSpeed”是一款任务栏网速显示小工具，监控电脑多网卡，帮你及时发现后台的隐藏的流量行为
+安装方法  将压缩包内的nsm.dll和nsmc.exe复制到C:\Windows\System32 Win+R调出命令框，输入
+regsvr32 nsm.dll start nsmc.exe  已做精简多余菜单 最终效果 
+时空虫洞，带你穿越
+  </description>
+    </item>
+    
+  </channel>
+</rss>

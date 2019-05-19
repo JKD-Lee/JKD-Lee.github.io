@@ -6,7 +6,7 @@
     <description>Recent content in document on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 11 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/categories/document/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,11 +17,7 @@
       <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mxr-lee.top/post/%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</guid>
-      <description> 在Win10系统下，如何简单快速添加环境变量 1.我的电脑，右键属性
-2.在左侧高级系统设置里
-3.最上面一栏，在高级里，点击最下面环境变量
-4.选中path路径，点击编辑
-5.点击新建，把软件的路径复制进去，确定
+      <description> 在Win10系统下，如何简单快速添加环境变量 1.我的电脑，右键属性 2.在左侧高级系统设置里 3.最上面一栏，在高级里，点击最下面环境变量 4.选中path路径，点击编辑 5.点击新建，把软件的路径复制进去，确定
 注：软件路径不能有中文，添加环境变量前，请先修改路径为纯英文路径 </description>
     </item>
     
@@ -50,6 +46,38 @@ baseurl = &amp;quot;https://mxr-lee.top/&amp;quot; #链接换成自己域名或H
     </item>
     
     <item>
+      <title>Win10原生剪贴板</title>
+      <link>https://mxr-lee.top/post/win10%E5%8E%9F%E7%94%9F%E5%89%AA%E8%B4%B4%E6%9D%BF/</link>
+      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/win10%E5%8E%9F%E7%94%9F%E5%89%AA%E8%B4%B4%E6%9D%BF/</guid>
+      <description>Win10原生剪贴板 自Win10 1803版以来，Windows加入了期待已久的剪贴板功能，告别每次只能复制一次的时代，带来了极大便利
+Win+I打开设置，系统-剪贴板-开启剪贴板记录Win10 1903对剪贴板做了优化，支持图片复制，同时剪贴板记录支持25条之多</description>
+    </item>
+    
+    <item>
+      <title>Win10原生截图</title>
+      <link>https://mxr-lee.top/post/win10%E5%8E%9F%E7%94%9F%E6%88%AA%E5%9B%BE/</link>
+      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/win10%E5%8E%9F%E7%94%9F%E6%88%AA%E5%9B%BE/</guid>
+      <description> Win10原生截图  Snipping Tool
+随着Win10时代的到来，作为Windows最早的截图工具，即将画上句号 Win+PrtSC 默认截取全屏幕，保存位置在C:\Users\user\Pictures\Screenshots,自动从零编号
+ 截图与草图 Win10上新的截图工具，UWP应用，简洁高效，默认快捷键Win+Shift+S支持框选，任意形状，窗口及全屏截图 支持修改快捷键为PrtScn，Win+I打开设置，轻松使用-键盘-使用PrtScn按键打开截图，即可修改  </description>
+    </item>
+    
+    <item>
+      <title>Win10版本号</title>
+      <link>https://mxr-lee.top/post/win10%E7%89%88%E6%9C%AC%E5%8F%B7/</link>
+      <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/win10%E7%89%88%E6%9C%AC%E5%8F%B7/</guid>
+      <description> Win10版本号 自从Win10面世以来，除去每月的累积更新，Win10每年会有两次重大更新，例如1607，1903，前两位代表年份，后两位代表月份
+ Win+R,输入Winver查看
+ Win+I打开设置，系统-关于-Windows规格   </description>
+    </item>
+    
+    <item>
       <title>casper-two主题</title>
       <link>https://mxr-lee.top/post/casper-two%E4%B8%BB%E9%A2%98/</link>
       <pubDate>Sat, 11 May 2019 00:00:00 +0000</pubDate>
@@ -59,6 +87,7 @@ baseurl = &amp;quot;https://mxr-lee.top/&amp;quot; #链接换成自己域名或H
  标签及分类添加了图标
  修改日期显示为普通模式
  添加摘要限制字数为20
+ 标签及分类添加背景图
  去除分享按钮及多余菜单
  首页添加文章日期
  首页文章图片改为随机Material Design
@@ -66,7 +95,9 @@ baseurl = &amp;quot;https://mxr-lee.top/&amp;quot; #链接换成自己域名或H
  首页背景改为动态背景
  日期支持天气显示
  字体颜色大小及卡片阴影调整
-  未完成  站内搜索 音乐卡片 亮暗主题切换  </description>
+  未完成  站内搜索
+ 音乐卡片
+ 亮暗主题切换   </description>
     </item>
     
   </channel>

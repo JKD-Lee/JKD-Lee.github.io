@@ -6,10 +6,40 @@
     <description>Recent content in software on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 10 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/categories/software/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>NetSpeed</title>
+      <link>https://mxr-lee.top/post/netspeed/</link>
+      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/netspeed/</guid>
+      <description> NetSpeed  免费，轻量
+ 简单，易用
+ 最小资源占用
+  “NetSpeed”是一款任务栏网速显示小工具，监控电脑多网卡，帮你及时发现后台的隐藏的流量行为
+安装方法  将压缩包内的nsm.dll和nsmc.exe复制到C:\Windows\System32 Win+R调出命令框，输入
+regsvr32 nsm.dll start nsmc.exe  已做精简多余菜单 最终效果 
+时空虫洞，带你穿越
+  </description>
+    </item>
+    
+    <item>
+      <title>memreduct</title>
+      <link>https://mxr-lee.top/post/memreduct/</link>
+      <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/memreduct/</guid>
+      <description>Memreduct  轻量，免安装
+ 简单，易用
+ 内存报警，清理
+ 最小资源占用
+  ”Memreduct“是国外一款内存清理小工具，它能监视电脑的内存使用量，通过简单设置即可实现定时内存清理，内存报警等功能 已修改界面为最小模式 
+时空虫洞，带你穿越</description>
+    </item>
     
     <item>
       <title>Bandzip</title>
@@ -17,14 +47,11 @@
       <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mxr-lee.top/post/bandzip/</guid>
-      <description>解压缩工Bandzip  免费，轻量，无广告
+      <description>解压缩工具Bandzip  免费，轻量，无广告
  压缩包内预览图片
  集成右键菜单
  极速最大压缩
-  &amp;ldquo;Bandzip&amp;rdquo; 是韩国一款免费无广告的解压缩软件，它拥有非常快速的压缩和解压缩的算法，适用于多核心压缩、快速拖放、高速压缩等功能，在不解压文件的情况下，能够预览压缩包内的图片格式的文件，非常方便
-非常简洁的软件界面
-
-时空虫洞，带你穿越</description>
+  &amp;ldquo;Bandzip&amp;rdquo; 是韩国一款免费无广告的解压缩软件，它拥有非常快速的压缩和解压缩的算法，适用于多核心压缩、快速拖放、高速压缩等功能，在不解压文件的情况下，能够预览压缩包内的图片格式的文件，非常方便 非常简洁的软件界面  时空虫洞，带你穿越</description>
     </item>
     
     <item>
@@ -35,13 +62,9 @@
       <guid>https://mxr-lee.top/post/idm/</guid>
       <description>下载神器IDM  浏览器插件集成
  多线程满速下载
- 站点抓取，批量任务
- 资源嗅探
-  &amp;ldquo;IDM&amp;rdquo; 是对&amp;rdquo;Internet Download Manager&amp;rdquo;的简称，它可以说是Windows平台功能最强大的下载工具，支持HTTP， FTP， HTTPS 和 MMS下载，
-简洁的软件界面
-多线程满速下载
-
-时空虫洞，带你穿越</description>
+ 批量任务，断点续传
+ 站点抓取，资源嗅探
+  &amp;ldquo;IDM&amp;rdquo; 是对&amp;rdquo;Internet Download Manager&amp;rdquo;的简称，它可以说是Windows平台功能最强大的下载工具，支持HTTP， FTP， HTTPS 和 MMS下载， 简洁的软件界面 多线程满速下载  时空虫洞，带你穿越</description>
     </item>
     
     <item>
@@ -56,8 +79,7 @@
  最小资源使用
  实时更新
   &amp;ldquo;Everything&amp;rdquo; 是 Windows 上一款搜索引擎，它能够基于文件名快速定文件和文件夹，瞬间搜索显示电脑上每个文件和文件夹（包括被隐藏的，没有属性的，受保护的文件&amp;hellip;），绝对的优势吊打Windows原生windows search
-
-时空虫洞，带你穿越</description>
+ 时空虫洞，带你穿越</description>
     </item>
     
     <item>
@@ -70,10 +92,8 @@
  设置简单
  清理效果更彻底
  最小资源使用
-  &amp;ldquo;Kcleaner&amp;rdquo; 是一款小巧实用的系统清理工具,可以帮助您轻松清除计算机里的临时文件和不需要的文件,让您的系统保持更好的安全性和稳定性，经测试，清理效果比同类软件更彻底
-设置简单，分手动和自动模式
-
-时空虫洞，带你穿越</description>
+  &amp;ldquo;Kcleaner&amp;rdquo; 是一款小巧实用的系统清理工具,可以帮助您轻松清除计算机里的临时文件和不需要的文件,让您的系统保持更好的安全性和稳定性，经测试，清理效果比同类软件更彻底 设置简单，分手动和自动模式 已注册为专业版
+ 时空虫洞，带你穿越</description>
     </item>
     
     <item>
@@ -86,9 +106,7 @@
  功能简单，界面美观
  自动识别窗口
  最小资源使用
-  &amp;ldquo;Screenshot&amp;rdquo; 是本人从Advanced SystemCare 上提取的一款简单方便快捷的截图工具，已打包为单文件程序，它能够自动识别窗口，显示区域分辨率，支持添加文字，涂鸦及线框等功能
-
-时空虫洞，带你穿越</description>
+  &amp;ldquo;Screenshot&amp;rdquo; 是本人从Advanced SystemCare 上提取的一款简单方便快捷的截图工具，已打包为单文件程序，它能够自动识别窗口，显示区域分辨率，支持添加文字，涂鸦及线框等功能  时空虫洞，带你穿越</description>
     </item>
     
   </channel>

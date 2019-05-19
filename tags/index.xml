@@ -6,10 +6,46 @@
     <description>Recent content in Tags on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 11 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>NetSpeed</title>
+      <link>https://mxr-lee.top/tags/netspeed/</link>
+      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/tags/netspeed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>win10</title>
+      <link>https://mxr-lee.top/tags/win10/</link>
+      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/tags/win10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>memreduct</title>
+      <link>https://mxr-lee.top/tags/memreduct/</link>
+      <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/tags/memreduct/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music</title>
+      <link>https://mxr-lee.top/tags/music/</link>
+      <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/tags/music/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>theme</title>
@@ -62,15 +98,6 @@
       <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mxr-lee.top/tags/clean/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>WIN10</title>
-      <link>https://mxr-lee.top/tags/win10/</link>
-      <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://mxr-lee.top/tags/win10/</guid>
       <description></description>
     </item>
     
