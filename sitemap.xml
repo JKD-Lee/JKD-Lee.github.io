@@ -14,7 +14,42 @@
   
   <url>
     <loc>https://mxr-lee.top/categories/</loc>
-    <lastmod>2019-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/post/</loc>
+    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/tags/</loc>
+    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/categories/zbrush/</loc>
+    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/tags/zbrush/</loc>
+    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/post/zbrush2019.1/</loc>
+    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/</loc>
+    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -27,18 +62,6 @@
   <url>
     <loc>https://mxr-lee.top/post/netspeed/</loc>
     <lastmod>2019-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/post/</loc>
-    <lastmod>2019-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/tags/</loc>
-    <lastmod>2019-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -70,9 +93,8 @@
   </url>
   
   <url>
-    <loc>https://mxr-lee.top/</loc>
-    <lastmod>2019-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://mxr-lee.top/post/memreduct/</loc>
+    <lastmod>2019-05-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -90,11 +112,6 @@
     <loc>https://mxr-lee.top/tags/memreduct/</loc>
     <lastmod>2019-05-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/post/memreduct/</loc>
-    <lastmod>2019-05-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>

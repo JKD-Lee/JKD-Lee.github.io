@@ -28,7 +28,7 @@ regsvr32 nsm.dll start nsmc.exe  已做精简多余菜单 最终效果
     </item>
     
     <item>
-      <title>memreduct</title>
+      <title>Memreduct</title>
       <link>https://mxr-lee.top/post/memreduct/</link>
       <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
       
