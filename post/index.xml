@@ -6,7 +6,7 @@
     <description>Recent content in Posts on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 24 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -43,6 +43,26 @@ X: #X替换为先进入你创建目录的盘符， cd X:\xx\xxx\ #进入创建�
 hugo new posts/my-first-post.md #创建一篇文章，my-first-post可替换为任意名 hugo server #开启hugo服务 hugo #生成public文件夹  6.在浏览器输入$localhost:1313$，即可预览访问你创建的站点，此时你的文章页面应该为空，你需要在markdown编辑器里，进一步编辑你的文章，保存才能生效
 3.github部署 打开desktop github，创建文件夹登录github
 baseurl = &amp;quot;https://mxr-lee.top/&amp;quot; #链接换成自己域名或Https://你的用户名.github.io theme = &amp;quot;casper-two&amp;quot; languageCode = &amp;quot;en-US&amp;quot; title = &amp;quot;某些人&amp;quot; disqusShortname = &amp;quot;&amp;quot; paginate = 6 #SectionPagesMenu = &amp;quot;main&amp;quot; canonifyurls = true summaryLength = 10 publishdir = &amp;quot;D:/JKD-Lee/JKD-Lee.</description>
+    </item>
+    
+    <item>
+      <title>RizomUV Bridge</title>
+      <link>https://mxr-lee.top/post/rizomuv-bridge/</link>
+      <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/rizomuv-bridge/</guid>
+      <description> ZPlugin之RizomUVBridge 在ZBrush Summit 2018 上，pixologic官方演示了几项ZBrush新功能，其中包括Zcolor，Intersection masker，Folders，Universal Camera和Peel UV，前几项已在ZBrush2019中实现，只有Peel UV还迟迟未现身，ZBrush的UV Master插件，在使用上存在一定的局限性，不能实现精确UV拆分，而插件RizomUV Bridge的出现，很好很快地解决了Zbrush与UV专业拆分软件RizomUV之间的相互转换，这也许是Peel UV真正面世之前，ZBrush最好的UV解决方案。
+安装 RizomUV Bridge插件安装稍显麻烦，需要先Zscript转化为Zplugin
+ 安装RizomUV
+ 将RizomBridge.txt与RizomBridge文件夹放到ZBrush根目录下的zstartup-Zplugin64里
+ 替换RizomBridge.txt里的D:\RizomUV\RizomUV\rizomuv.exe替换为RizomUV的安装目录,一共两处
+ 将RizomBridge文件夹下的load_unfold_save.lua中D:/ZBrush/ZBrush/ZStartup/ZPlugs64/RizomBridge/1.OBJ替换为当前路径，注:此处路径中应该为/而非\
+ 在ZBrush菜单Zcript-load，导入RizomBridge.txt,此时会在Zplugin中生成RizomUV Bridge插件
+  使用 在Zplugin-RizomUV Bridge中会有3个按钮，分别是 Auto unwarp 实际测试效果极差，不推荐使用
+ Send to RizomUV 导出到RizomUV
+ Get from RizomUV 导回到ZBrush
+  注：原版插件只显示3行文字按钮，本人已添加图标，更美观方便，为了适应侧边栏，UI大小限定为39。
+演示视频  </description>
     </item>
     
     <item>

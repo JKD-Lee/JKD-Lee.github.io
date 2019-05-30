@@ -14,7 +14,42 @@
   
   <url>
     <loc>https://mxr-lee.top/categories/</loc>
-    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/post/</loc>
+    <lastmod>2019-05-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/post/rizomuv-bridge/</loc>
+    <lastmod>2019-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/tags/</loc>
+    <lastmod>2019-05-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/categories/zbrush/</loc>
+    <lastmod>2019-05-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/tags/zplugin/</loc>
+    <lastmod>2019-05-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/</loc>
+    <lastmod>2019-05-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -25,37 +60,13 @@
   </url>
   
   <url>
-    <loc>https://mxr-lee.top/post/</loc>
-    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://mxr-lee.top/post/removebg/</loc>
     <lastmod>2019-05-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mxr-lee.top/tags/</loc>
-    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://mxr-lee.top/categories/software/</loc>
     <lastmod>2019-05-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/</loc>
-    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/categories/zbrush/</loc>
-    <lastmod>2019-05-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -240,6 +251,11 @@
     <loc>https://mxr-lee.top/tags/hugo/</loc>
     <lastmod>2019-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/search/</loc>
+    <priority>0.1</priority>
   </url>
   
 </urlset>

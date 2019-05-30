@@ -4,15 +4,15 @@
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <title>添加环境变量 &middot; 某些人</title>
+    <title>RizomUV Bridge &middot; 某些人</title>
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="shortcut icon" href="https://mxr-lee.top/favicon.ico" />
-    <link rel="canonical" href="https://mxr-lee.top/post/%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/" />
+    <link rel="canonical" href="https://mxr-lee.top/post/rizomuv-bridge/" />
 
-     <meta name="description" content="在Win10系统下，简单快速添加环境变量..." /> 
+     <meta name="description" content="这也许是ZBrush Peel UV发布之前，最好的UV解决方案..." /> 
 
     <meta name="generator" content="Hugo 0.55.6" />
 
@@ -89,32 +89,52 @@
       <article class="post-full post"> 
     <header class="post-full-header">
         <section class="post-full-meta">
-            <time class="post-full-meta-date" datetime="2019-04-29">🎫2019-4-29</time>
-                <span class="date-divider">/</span> <a href="https://mxr-lee.top/tags/win10/">🏷️WIN10</a>&nbsp;
+            <time class="post-full-meta-date" datetime="2019-05-29">🎫2019-5-29</time>
+                <span class="date-divider">/</span> <a href="https://mxr-lee.top/tags/zplugin/">🏷️ZPlugin</a>&nbsp;
         </section>
-        <h1 class="post-full-title">添加环境变量</h1>
+        <h1 class="post-full-title">RizomUV Bridge</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://mxr-lee.top/defimg/background/24.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://mxr-lee.top/images/ZBrush.jpg)">
     </figure>
 
     <section class="post-full-content">
         <div class="kg-card-markdown">
         
 
-<h2 id="center-在win10系统下-如何简单快速添加环境变量-center"><center>在Win10系统下，如何简单快速添加环境变量</center></h2>
+<h2 id="center-zplugin之rizomuvbridge-center"><center>ZPlugin之RizomUVBridge</center></h2>
 
-<p>1.我的电脑，右键属性
-<img src="https://i.loli.net/2019/04/29/5cc6bc92d1bce.png" alt="5cc6bc92d1bce" />
-2.在左侧高级系统设置里
-<img src="https://i.loli.net/2019/04/29/5cc6bd09aa020.png" alt="5cc6bd09aa020" />
-3.最上面一栏，在高级里，点击最下面环境变量
-<img src="https://i.loli.net/2019/04/29/5cc6bdf1cb642.png" alt="5cc6bdf1cb642" />
-4.选中path路径，点击编辑
-<img src="https://i.loli.net/2019/04/29/5cc6c16d320ee.png" alt="5cc6c16d320ee" />
-5.点击新建，把软件的路径复制进去，确定</p>
+<p>在ZBrush Summit 2018 上，pixologic官方演示了几项ZBrush新功能，其中包括Zcolor，Intersection masker，Folders，Universal Camera和Peel UV，前几项已在ZBrush2019中实现，只有Peel UV还迟迟未现身，ZBrush的UV Master插件，在使用上存在一定的局限性，不能实现精确UV拆分，而插件RizomUV Bridge的出现，很好很快地解决了Zbrush与UV专业拆分软件RizomUV之间的相互转换，这也许是Peel UV真正面世之前，ZBrush最好的UV解决方案。</p>
 
-<h4 id="注-软件路径不能有中文-添加环境变量前-请先修改路径为纯英文路径">注：软件路径不能有中文，添加环境变量前，请先修改路径为纯英文路径</h4>
+<h4 id="安装">安装</h4>
+
+<p>RizomUV Bridge插件安装稍显麻烦，需要先Zscript转化为Zplugin</p>
+
+<ol>
+<li>安装RizomUV<br /></li>
+<li>将RizomBridge.txt与RizomBridge文件夹放到ZBrush根目录下的zstartup-Zplugin64里<br /></li>
+<li>替换RizomBridge.txt里的<code>D:\RizomUV\RizomUV\rizomuv.exe</code>替换为RizomUV的安装目录,一共两处<br /></li>
+<li>将RizomBridge文件夹下的load_unfold_save.lua中<code>D:/ZBrush/ZBrush/ZStartup/ZPlugs64/RizomBridge/1.OBJ</code>替换为当前路径，注:此处路径中应该为<code>/</code>而非<code>\</code><br /></li>
+<li>在ZBrush菜单Zcript-load，导入RizomBridge.txt,此时会在Zplugin中生成RizomUV Bridge插件<br /></li>
+</ol>
+
+<h4 id="使用">使用</h4>
+
+<p>在Zplugin-RizomUV Bridge中会有3个按钮，分别是<img src="https://i.loli.net/2019/05/30/5cef2f5b579b613886.png" alt="5cef2f5b579b613886" /></p>
+
+<ul>
+<li><p>Auto unwarp 实际测试效果极差，不推荐使用</p></li>
+
+<li><p>Send to RizomUV 导出到RizomUV</p></li>
+
+<li><p>Get from RizomUV 导回到ZBrush</p></li>
+</ul>
+
+<p>注：原版插件只显示3行文字按钮，本人已添加图标，更美观方便，为了适应侧边栏，UI大小限定为39。</p>
+
+<h4 id="演示视频">演示视频</h4>
+
+<video style="width:100%;height=400px;margin:1px;" src="http://mxr-lee.cf/oneindex/?/video/ZBrush/rizmuv.mp4" controls="controls"></video>  
     
         </div>
     </section>
@@ -146,7 +166,7 @@
     <header class="read-next-card-header">
         <small class="read-next-card-header-sitetitle">&mdash; be water,my friends &mdash;</small>
         
-        <h3 class="read-next-card-header-title"><a href="https://mxr-lee.top/tags/win10/">🏷️WIN10</a></h3>
+        <h3 class="read-next-card-header-title"><a href="https://mxr-lee.top/tags/zplugin/">🏷️ZPlugin</a></h3>
         
     </header>
     <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
@@ -155,28 +175,27 @@
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/">Hugo&#43;github Page建站</a></li>            
+          <li><a href="https://mxr-lee.top/post/idm/">IDM</a></li>            
         
-          <li><a href="https://mxr-lee.top/post/win10xpe/">WIN10XPE</a></li>            
+          <li><a href="https://mxr-lee.top/post/win10%E5%8E%9F%E7%94%9F%E6%88%AA%E5%9B%BE/">Win10原生截图</a></li>            
         
-          <li><a href="https://mxr-lee.top/post/win10%E5%8E%9F%E7%94%9F%E5%89%AA%E8%B4%B4%E6%9D%BF/">Win10原生剪贴板</a></li>            
+          <li><a href="https://mxr-lee.top/post/removebg/">Removebg</a></li>            
         
           <li><a href="https://mxr-lee.top/post/screenshot/">Screenshot</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
       
-        <a href="https://mxr-lee.top/tags/win10/">See all related posts →</a>
+        <a href="https://mxr-lee.top/tags/zplugin/">See all related posts →</a>
     </footer>
 </article>
 
 
       
-      
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/">
-      <div class="post-card-image" style="background-image: url(https://mxr-lee.top/defimg/background/1.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://mxr-lee.top/defimg/background/5.jpg)"></div>
     </a>    
     
 
@@ -204,6 +223,37 @@
     </div>
 </article>
       
+      
+      <article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="https://mxr-lee.top/post/removebg/">
+      <div class="post-card-image" style="background-image: url(https://mxr-lee.top/defimg/background/25.jpg)"></div>
+    </a>    
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="https://mxr-lee.top/post/removebg/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              🔖Photo  </span>
+              
+              <time class="post-full-meta-date" datetime="2019-05-24">📌2019-5-24</time>
+              <h2 class="post-card-title">Removebg</h2>
+          </header>
+          <section class="post-card-excerpt">
+               
+                <p>Removebg在线轻松抠图&hellip;</p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="https://mxr-lee.top/img/AuthorAvatar.png" alt="Author" />
+          <span class="post-card-author"><a href="https://mxr-lee.top/">MXR</a></span>
+      </footer>
+    </div>
+</article>
+      
     </div>
   </div>
 </aside>
@@ -215,7 +265,7 @@
     </a>
   </div>
   <span class="floating-header-divider">&mdash;</span>
-  <div class="floating-header-title">添加环境变量</div>
+  <div class="floating-header-title">RizomUV Bridge</div>
    <div class="floating-header-share">
   </div>
 
