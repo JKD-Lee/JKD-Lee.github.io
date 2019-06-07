@@ -5,8 +5,8 @@
     <link>https://mxr-lee.top/post/</link>
     <description>Recent content in Posts on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Wed, 29 May 2019 00:00:00 +0000</lastBuildDate>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 31 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -46,6 +46,18 @@ baseurl = &amp;quot;https://mxr-lee.top/&amp;quot; #链接换成自己域名或H
     </item>
     
     <item>
+      <title>ZBrush2019.1.2</title>
+      <link>https://mxr-lee.top/post/zbrush2019.1.2/</link>
+      <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/zbrush2019.1.2/</guid>
+      <description>ZBrush 2019.1.2 is now available as a FREE update for all users. We strongly recommend upgrading at the earliest opportunity. ZBrush2019.1.2升级 2019-05-31 This update includes the following improvements, mostly affecting Split Screen mode:
+Activating Solo while in Split Screen no longer causes screen artifacts.
+Duplicating a SubTool while in Split Screen no longer causes drawing artifacts.
+There are no longer camera issues when drawing a selection rectangle and pressing spacebar.</description>
+    </item>
+    
+    <item>
       <title>RizomUV Bridge</title>
       <link>https://mxr-lee.top/post/rizomuv-bridge/</link>
       <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
@@ -80,18 +92,6 @@ baseurl = &amp;quot;https://mxr-lee.top/&amp;quot; #链接换成自己域名或H
 稍复杂背景，效果也还可以
 复杂背景，有些不尽人意
 注：上传图片需至少包含一个人或者一个产品 </description>
-    </item>
-    
-    <item>
-      <title>ZBrush2019.1</title>
-      <link>https://mxr-lee.top/post/zbrush2019.1/</link>
-      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://mxr-lee.top/post/zbrush2019.1/</guid>
-      <description>ZBrush2019.1升级 ZBrush 2019.1 is now available as a FREE update for all users. We strongly recommend upgrading at the earliest opportunity.
-It includes several new features as well as a number of enhancements or fixes within both the ZBrush feature set and various plugins. Please see the list below for more information.
-Feature additions ZBrush 2019.1 introduces several additions to both improve workflow and enhance your ZBrush experience:
- A new split mode, which isolates the current SubTool from all others, displaying them on separate sides of the screen.</description>
     </item>
     
     <item>
