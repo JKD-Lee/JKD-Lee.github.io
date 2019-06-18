@@ -14,19 +14,42 @@
   
   <url>
     <loc>https://mxr-lee.top/categories/</loc>
-    <lastmod>2019-05-31T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://mxr-lee.top/post/mxr-pe/</loc>
+    <lastmod>2019-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mxr-lee.top/post/</loc>
-    <lastmod>2019-05-31T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://mxr-lee.top/tags/</loc>
-    <lastmod>2019-05-31T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/categories/winpe/</loc>
+    <lastmod>2019-06-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/tags/winpe/</loc>
+    <lastmod>2019-06-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/</loc>
+    <lastmod>2019-06-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -45,12 +68,6 @@
   <url>
     <loc>https://mxr-lee.top/post/zbrush2019.1.2/</loc>
     <lastmod>2019-05-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/</loc>
-    <lastmod>2019-05-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -93,6 +110,12 @@
   </url>
   
   <url>
+    <loc>https://mxr-lee.top/tags/win10/</loc>
+    <lastmod>2019-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://mxr-lee.top/post/win10%E5%8E%9F%E7%94%9F%E5%89%AA%E8%B4%B4%E6%9D%BF/</loc>
     <lastmod>2019-05-19T00:00:00+00:00</lastmod>
   </url>
@@ -104,12 +127,6 @@
   
   <url>
     <loc>https://mxr-lee.top/categories/document/</loc>
-    <lastmod>2019-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/tags/win10/</loc>
     <lastmod>2019-05-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -222,18 +239,6 @@
   <url>
     <loc>https://mxr-lee.top/post/win10xpe/</loc>
     <lastmod>2019-05-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/categories/winpe/</loc>
-    <lastmod>2019-05-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/tags/winpe/</loc>
-    <lastmod>2019-05-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

@@ -6,10 +6,27 @@
     <description>Recent content in WINPE on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 04 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/categories/winpe/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MXR-PE</title>
+      <link>https://mxr-lee.top/post/mxr-pe/</link>
+      <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/mxr-pe/</guid>
+      <description> MXR-PE由WinXPE生成，本人自定义添加了第三方工具，力求体积最小化，内核最新化，可满足日常PC维护所需，无广告，无病毒，无收费 1.0(2019-06-18) Win10最新1903内核，暗黑主题，wim体积217M，ISO镜像230M
+功能添加：  添加Everything搜索
+ 添加Vieas看图
+ 添加7Z解压缩
+ 添加Dism++
+ 添加Partassist分区工具
+  Bug修复：  解决Partassist无法启动问题(从System32的1100多个组件筛选出启动必要的6个文件)
+ 解决Vieas看图报错问题(注册表项修复)
+  </description>
+    </item>
     
     <item>
       <title>WIN10XPE</title>

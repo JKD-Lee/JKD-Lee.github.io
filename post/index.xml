@@ -6,7 +6,7 @@
     <description>Recent content in Posts on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 31 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -43,6 +43,23 @@ X: #X替换为先进入你创建目录的盘符， cd X:\xx\xxx\ #进入创建�
 hugo new posts/my-first-post.md #创建一篇文章，my-first-post可替换为任意名 hugo server #开启hugo服务 hugo #生成public文件夹  6.在浏览器输入$localhost:1313$，即可预览访问你创建的站点，此时你的文章页面应该为空，你需要在markdown编辑器里，进一步编辑你的文章，保存才能生效
 3.github部署 打开desktop github，创建文件夹登录github
 baseurl = &amp;quot;https://mxr-lee.top/&amp;quot; #链接换成自己域名或Https://你的用户名.github.io theme = &amp;quot;casper-two&amp;quot; languageCode = &amp;quot;en-US&amp;quot; title = &amp;quot;某些人&amp;quot; disqusShortname = &amp;quot;&amp;quot; paginate = 6 #SectionPagesMenu = &amp;quot;main&amp;quot; canonifyurls = true summaryLength = 10 publishdir = &amp;quot;D:/JKD-Lee/JKD-Lee.</description>
+    </item>
+    
+    <item>
+      <title>MXR-PE</title>
+      <link>https://mxr-lee.top/post/mxr-pe/</link>
+      <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/mxr-pe/</guid>
+      <description> MXR-PE由WinXPE生成，本人自定义添加了第三方工具，力求体积最小化，内核最新化，可满足日常PC维护所需，无广告，无病毒，无收费 1.0(2019-06-18) Win10最新1903内核，暗黑主题，wim体积217M，ISO镜像230M
+功能添加：  添加Everything搜索
+ 添加Vieas看图
+ 添加7Z解压缩
+ 添加Dism++
+ 添加Partassist分区工具
+  Bug修复：  解决Partassist无法启动问题(从System32的1100多个组件筛选出启动必要的6个文件)
+ 解决Vieas看图报错问题(注册表项修复)
+  </description>
     </item>
     
     <item>
