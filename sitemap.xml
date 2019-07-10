@@ -14,25 +14,48 @@
   
   <url>
     <loc>https://mxr-lee.top/categories/</loc>
-    <lastmod>2019-06-18T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/post/mxr-guide/</loc>
+    <lastmod>2019-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/post/</loc>
+    <lastmod>2019-07-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/tags/</loc>
+    <lastmod>2019-07-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/categories/guide/</loc>
+    <lastmod>2019-07-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/tags/guide/</loc>
+    <lastmod>2019-07-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/</loc>
+    <lastmod>2019-07-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://mxr-lee.top/post/mxr-pe/</loc>
     <lastmod>2019-06-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/post/</loc>
-    <lastmod>2019-06-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/tags/</loc>
-    <lastmod>2019-06-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -43,12 +66,6 @@
   
   <url>
     <loc>https://mxr-lee.top/tags/winpe/</loc>
-    <lastmod>2019-06-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/</loc>
     <lastmod>2019-06-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -132,6 +149,11 @@
   </url>
   
   <url>
+    <loc>https://mxr-lee.top/post/mxr-music/</loc>
+    <lastmod>2019-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mxr-lee.top/post/memreduct/</loc>
     <lastmod>2019-05-18T00:00:00+00:00</lastmod>
   </url>
@@ -157,11 +179,6 @@
     <loc>https://mxr-lee.top/tags/music/</loc>
     <lastmod>2019-05-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/post/%E9%9F%B3%E4%B9%90%E9%A1%B5%E9%9D%A2/</loc>
-    <lastmod>2019-05-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>

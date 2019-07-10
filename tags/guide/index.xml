@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>guide on 某些人</title>
+    <link>https://mxr-lee.top/tags/guide/</link>
+    <description>Recent content in guide on 某些人</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 10 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mxr-lee.top/tags/guide/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MXR-Guide</title>
+      <link>https://mxr-lee.top/post/mxr-guide/</link>
+      <pubDate>Wed, 10 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/mxr-guide/</guid>
+      <description> 个人聚合网站导航 采用Hugo的slate主题生成的聚合网站，适合做个人网站导航，点击进入 </description>
+    </item>
+    
+  </channel>
+</rss>
