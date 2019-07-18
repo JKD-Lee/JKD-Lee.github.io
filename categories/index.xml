@@ -6,10 +6,28 @@
     <description>Recent content in Categories on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 10 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Photo</title>
+      <link>https://mxr-lee.top/categories/photo/</link>
+      <pubDate>Thu, 18 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/categories/photo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>https://mxr-lee.top/categories/software/</link>
+      <pubDate>Sat, 13 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/categories/software/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>guide</title>
@@ -21,7 +39,7 @@
     </item>
     
     <item>
-      <title>WinPE</title>
+      <title>WINPE</title>
       <link>https://mxr-lee.top/categories/winpe/</link>
       <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
       
@@ -35,15 +53,6 @@
       <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mxr-lee.top/categories/zbrush/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>software</title>
-      <link>https://mxr-lee.top/categories/software/</link>
-      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://mxr-lee.top/categories/software/</guid>
       <description></description>
     </item>
     
