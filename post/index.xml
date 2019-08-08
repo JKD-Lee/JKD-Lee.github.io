@@ -6,7 +6,7 @@
     <description>Recent content in Posts on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 18 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -43,6 +43,15 @@ X: #X替换为先进入你创建目录的盘符， cd X:\xx\xxx\ #进入创建�
 hugo new posts/my-first-post.md #创建一篇文章，my-first-post可替换为任意名 hugo server #开启hugo服务 hugo #生成public文件夹  6.在浏览器输入$localhost:1313$，即可预览访问你创建的站点，此时你的文章页面应该为空，你需要在markdown编辑器里，进一步编辑你的文章，保存才能生效
 3.github部署 打开desktop github，创建文件夹登录github
 baseurl = &amp;quot;https://mxr-lee.top/&amp;quot; #链接换成自己域名或Https://你的用户名.github.io theme = &amp;quot;casper-two&amp;quot; languageCode = &amp;quot;en-US&amp;quot; title = &amp;quot;某些人&amp;quot; disqusShortname = &amp;quot;&amp;quot; paginate = 6 #SectionPagesMenu = &amp;quot;main&amp;quot; canonifyurls = true summaryLength = 10 publishdir = &amp;quot;D:/JKD-Lee/JKD-Lee.</description>
+    </item>
+    
+    <item>
+      <title>MXR-Software</title>
+      <link>https://mxr-lee.top/post/mxr-software/</link>
+      <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/mxr-software/</guid>
+      <description> 软件汇总分享界面 需改本站主题，做的一个软件汇总分享页面，添加了软件简介，版本号，图标与名称等，点击各卡片即可进入下载界面，以后更新的软件都会出现在此页面，我会尽最大努力，保证软件最新化，点击进入 </description>
     </item>
     
     <item>
@@ -175,8 +184,10 @@ Win+I打开设置，系统-剪贴板-开启剪贴板记录Win10 1903对剪贴板
       
       <guid>https://mxr-lee.top/post/win10%E5%8E%9F%E7%94%9F%E6%88%AA%E5%9B%BE/</guid>
       <description> Win10原生截图  Snipping Tool
-随着Win10时代的到来，作为Windows最早的截图工具，即将画上句号 Win+PrtSC 默认截取全屏幕，保存位置在C:\Users\user\Pictures\Screenshots,自动从零编号
- 截图与草图 Win10上新的截图工具，UWP应用，简洁高效，默认快捷键Win+Shift+S支持框选，任意形状，窗口及全屏截图 支持修改快捷键为PrtScn，Win+I打开设置，轻松使用-键盘-使用PrtScn按键打开截图，即可修改  </description>
+随着Win10时代的到来，作为Windows最早的截图工具，即将画上句号 Win+PrtSC
+默认截取全屏幕，保存位置在C:\Users\user\Pictures\Screenshots,自动从零编号
+ 截图与草图
+Win10上新的截图工具，UWP应用，简洁高效，默认快捷键Win+Shift+S支持框选，任意形状，窗口及全屏截图 支持修改快捷键为PrtScn，Win+I打开设置，轻松使用-键盘-使用PrtScn按键打开截图，即可修改  </description>
     </item>
     
     <item>
@@ -231,9 +242,10 @@ Win+I打开设置，系统-剪贴板-开启剪贴板记录Win10 1903对剪贴板
  首页背景改为动态背景
  日期支持天气显示
  字体颜色大小及卡片阴影调整
-  未完成  站内搜索
+  已完成  站内搜索
  音乐卡片
- 亮暗主题切换   </description>
+ 亮暗主题切换
+  </description>
     </item>
     
     <item>

@@ -38,8 +38,10 @@ Win+I打开设置，系统-剪贴板-开启剪贴板记录Win10 1903对剪贴板
       
       <guid>https://mxr-lee.top/post/win10%E5%8E%9F%E7%94%9F%E6%88%AA%E5%9B%BE/</guid>
       <description> Win10原生截图  Snipping Tool
-随着Win10时代的到来，作为Windows最早的截图工具，即将画上句号 Win+PrtSC 默认截取全屏幕，保存位置在C:\Users\user\Pictures\Screenshots,自动从零编号
- 截图与草图 Win10上新的截图工具，UWP应用，简洁高效，默认快捷键Win+Shift+S支持框选，任意形状，窗口及全屏截图 支持修改快捷键为PrtScn，Win+I打开设置，轻松使用-键盘-使用PrtScn按键打开截图，即可修改  </description>
+随着Win10时代的到来，作为Windows最早的截图工具，即将画上句号 Win+PrtSC
+默认截取全屏幕，保存位置在C:\Users\user\Pictures\Screenshots,自动从零编号
+ 截图与草图
+Win10上新的截图工具，UWP应用，简洁高效，默认快捷键Win+Shift+S支持框选，任意形状，窗口及全屏截图 支持修改快捷键为PrtScn，Win+I打开设置，轻松使用-键盘-使用PrtScn按键打开截图，即可修改  </description>
     </item>
     
     <item>

@@ -6,10 +6,19 @@
     <description>Recent content in software on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 13 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/categories/software/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MXR-Software</title>
+      <link>https://mxr-lee.top/post/mxr-software/</link>
+      <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/mxr-software/</guid>
+      <description> 软件汇总分享界面 需改本站主题，做的一个软件汇总分享页面，添加了软件简介，版本号，图标与名称等，点击各卡片即可进入下载界面，以后更新的软件都会出现在此页面，我会尽最大努力，保证软件最新化，点击进入 </description>
+    </item>
     
     <item>
       <title>Iris</title>
