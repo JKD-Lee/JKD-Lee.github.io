@@ -6,7 +6,7 @@
     <description>Recent content in Hugo on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 27 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
@@ -33,6 +33,24 @@ X: #X替换为先进入你创建目录的盘符， cd X:\xx\xxx\ #进入创建�
 hugo new posts/my-first-post.md #创建一篇文章，my-first-post可替换为任意名 hugo server #开启hugo服务 hugo #生成public文件夹  6.在浏览器输入$localhost:1313$，即可预览访问你创建的站点，此时你的文章页面应该为空，你需要在markdown编辑器里，进一步编辑你的文章，保存才能生效
 3.github部署 打开desktop github，创建文件夹登录github
 baseurl = &amp;quot;https://mxr-lee.top/&amp;quot; #链接换成自己域名或Https://你的用户名.github.io theme = &amp;quot;casper-two&amp;quot; languageCode = &amp;quot;en-US&amp;quot; title = &amp;quot;某些人&amp;quot; disqusShortname = &amp;quot;&amp;quot; paginate = 6 #SectionPagesMenu = &amp;quot;main&amp;quot; canonifyurls = true summaryLength = 10 publishdir = &amp;quot;D:/JKD-Lee/JKD-Lee.</description>
+    </item>
+    
+    <item>
+      <title>Termux&#43;Hugo建站</title>
+      <link>https://mxr-lee.top/post/termux-hugo%E5%BB%BA%E7%AB%99/</link>
+      <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/termux-hugo%E5%BB%BA%E7%AB%99/</guid>
+      <description> 手机终端Termux+Hugo搭建静态网站 工具 Termux Termux是Android系统下一个高级终端模拟器，开源且不需要root,支持apt管理软件包，十分方便安装软件包，完美支持Python,PHP,Ruby,Go,Nodejs,MQSQL等。点击下载
+开始 1.Android安装并打开Termux，输入pkg install hugo,自动安装Hugo，
+安装完成后，可用命令hugo version检查Hugo版本并确认Hugo已正常安装
+2.输入以下命令完成termux-tools安装(由于小米手机本身没有外置存储卡，导致基本所有命令都提示permission denied，无法正常运行,必须安装Termux-Tools)
+ pkg install termux-tools 启用外置存储 termux-setup-storage 安装Termux-Tools  安装完成后，会提示获取手机存储权限，允许即可
+3.自行在Hugo-theme下载hugo主题,此次演示的主题为newsroom
+4.在自己想要存放网站的地方新建一个目录文件夹，并执行
+ cd /storage/emulated/0/hugo &amp;quot;/storage/emulated/0/hugo&amp;quot;为自己建的目录 hugo new site XXX XXX为自己起名  剩下的和在windows下操作一样，解压下载的hugo-theme到xxx目录下的themes文件夹，修改config.toml中theme = “你下载到的主题名”，执行hugo server,在浏览器中打开http://localhost:1313,查看网站
+最终演示效果
+完成 </description>
     </item>
     
   </channel>

@@ -6,10 +6,28 @@
     <description>Recent content in Tags on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 08 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://mxr-lee.top/tags/hugo/</link>
+      <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Termux</title>
+      <link>https://mxr-lee.top/tags/termux/</link>
+      <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/tags/termux/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>share</title>
@@ -138,6 +156,15 @@
     </item>
     
     <item>
+      <title>clean</title>
+      <link>https://mxr-lee.top/tags/clean/</link>
+      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/tags/clean/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Screenshot</title>
       <link>https://mxr-lee.top/tags/screenshot/</link>
       <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
@@ -156,29 +183,11 @@
     </item>
     
     <item>
-      <title>clean</title>
-      <link>https://mxr-lee.top/tags/clean/</link>
-      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://mxr-lee.top/tags/clean/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Github</title>
       <link>https://mxr-lee.top/tags/github/</link>
       <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mxr-lee.top/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://mxr-lee.top/tags/hugo/</link>
-      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://mxr-lee.top/tags/hugo/</guid>
       <description></description>
     </item>
     

@@ -14,8 +14,42 @@
   
   <url>
     <loc>https://mxr-lee.top/categories/</loc>
-    <lastmod>2019-08-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/categories/document/</loc>
+    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/tags/hugo/</loc>
+    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/post/</loc>
+    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/tags/</loc>
+    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/tags/termux/</loc>
+    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/post/termux-hugo%E5%BB%BA%E7%AB%99/</loc>
+    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/</loc>
+    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -24,33 +58,13 @@
   </url>
   
   <url>
-    <loc>https://mxr-lee.top/post/</loc>
-    <lastmod>2019-08-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/tags/</loc>
-    <lastmod>2019-08-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://mxr-lee.top/tags/share/</loc>
     <lastmod>2019-08-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://mxr-lee.top/categories/software/</loc>
     <lastmod>2019-08-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/</loc>
-    <lastmod>2019-08-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -59,21 +73,18 @@
   </url>
   
   <url>
-    <loc>https://mxr-lee.top/categories/photo/</loc>
+    <loc>https://mxr-lee.top/tags/photo/</loc>
     <lastmod>2019-07-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mxr-lee.top/tags/photo/</loc>
+    <loc>https://mxr-lee.top/categories/photo/</loc>
     <lastmod>2019-07-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://mxr-lee.top/tags/iris/</loc>
     <lastmod>2019-07-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -82,20 +93,18 @@
   </url>
   
   <url>
-    <loc>https://mxr-lee.top/post/mxr-guide/</loc>
-    <lastmod>2019-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://mxr-lee.top/categories/guide/</loc>
     <lastmod>2019-07-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://mxr-lee.top/tags/guide/</loc>
     <lastmod>2019-07-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/post/mxr-guide/</loc>
+    <lastmod>2019-07-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -104,27 +113,23 @@
   </url>
   
   <url>
-    <loc>https://mxr-lee.top/categories/winpe/</loc>
-    <lastmod>2019-06-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://mxr-lee.top/tags/winpe/</loc>
     <lastmod>2019-06-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mxr-lee.top/categories/zbrush/</loc>
-    <lastmod>2019-05-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://mxr-lee.top/categories/winpe/</loc>
+    <lastmod>2019-06-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://mxr-lee.top/tags/zbrush/</loc>
     <lastmod>2019-05-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/categories/zbrush/</loc>
+    <lastmod>2019-05-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -140,7 +145,6 @@
   <url>
     <loc>https://mxr-lee.top/tags/zplugin/</loc>
     <lastmod>2019-05-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -151,7 +155,6 @@
   <url>
     <loc>https://mxr-lee.top/tags/netspeed/</loc>
     <lastmod>2019-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -162,7 +165,6 @@
   <url>
     <loc>https://mxr-lee.top/tags/win10/</loc>
     <lastmod>2019-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -176,9 +178,23 @@
   </url>
   
   <url>
-    <loc>https://mxr-lee.top/categories/document/</loc>
-    <lastmod>2019-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://mxr-lee.top/post/memreduct/</loc>
+    <lastmod>2019-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/tags/memreduct/</loc>
+    <lastmod>2019-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/categories/music/</loc>
+    <lastmod>2019-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/tags/music/</loc>
+    <lastmod>2019-05-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -187,31 +203,8 @@
   </url>
   
   <url>
-    <loc>https://mxr-lee.top/post/memreduct/</loc>
-    <lastmod>2019-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/categories/music/</loc>
-    <lastmod>2019-05-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://mxr-lee.top/post/win10%E7%89%88%E6%9C%AC%E5%8F%B7/</loc>
     <lastmod>2019-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/tags/memreduct/</loc>
-    <lastmod>2019-05-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/tags/music/</loc>
-    <lastmod>2019-05-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -222,7 +215,6 @@
   <url>
     <loc>https://mxr-lee.top/tags/theme/</loc>
     <lastmod>2019-05-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -233,7 +225,11 @@
   <url>
     <loc>https://mxr-lee.top/tags/compression/</loc>
     <lastmod>2019-05-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/tags/download/</loc>
+    <lastmod>2019-05-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -242,9 +238,8 @@
   </url>
   
   <url>
-    <loc>https://mxr-lee.top/tags/download/</loc>
-    <lastmod>2019-05-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://mxr-lee.top/tags/clean/</loc>
+    <lastmod>2019-05-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -260,7 +255,6 @@
   <url>
     <loc>https://mxr-lee.top/tags/screenshot/</loc>
     <lastmod>2019-05-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -271,19 +265,11 @@
   <url>
     <loc>https://mxr-lee.top/tags/search/</loc>
     <lastmod>2019-05-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/tags/clean/</loc>
-    <lastmod>2019-05-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://mxr-lee.top/categories/win10/</loc>
     <lastmod>2019-05-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -294,13 +280,6 @@
   <url>
     <loc>https://mxr-lee.top/tags/github/</loc>
     <lastmod>2019-04-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/tags/hugo/</loc>
-    <lastmod>2019-04-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>

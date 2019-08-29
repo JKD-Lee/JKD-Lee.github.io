@@ -6,7 +6,7 @@
     <description>Recent content in Posts on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 08 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -46,12 +46,30 @@ baseurl = &amp;quot;https://mxr-lee.top/&amp;quot; #链接换成自己域名或H
     </item>
     
     <item>
+      <title>Termux&#43;Hugo建站</title>
+      <link>https://mxr-lee.top/post/termux-hugo%E5%BB%BA%E7%AB%99/</link>
+      <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/termux-hugo%E5%BB%BA%E7%AB%99/</guid>
+      <description> 手机终端Termux+Hugo搭建静态网站 工具 Termux Termux是Android系统下一个高级终端模拟器，开源且不需要root,支持apt管理软件包，十分方便安装软件包，完美支持Python,PHP,Ruby,Go,Nodejs,MQSQL等。点击下载
+开始 1.Android安装并打开Termux，输入pkg install hugo,自动安装Hugo，
+安装完成后，可用命令hugo version检查Hugo版本并确认Hugo已正常安装
+2.输入以下命令完成termux-tools安装(由于小米手机本身没有外置存储卡，导致基本所有命令都提示permission denied，无法正常运行,必须安装Termux-Tools)
+ pkg install termux-tools 启用外置存储 termux-setup-storage 安装Termux-Tools  安装完成后，会提示获取手机存储权限，允许即可
+3.自行在Hugo-theme下载hugo主题,此次演示的主题为newsroom
+4.在自己想要存放网站的地方新建一个目录文件夹，并执行
+ cd /storage/emulated/0/hugo &amp;quot;/storage/emulated/0/hugo&amp;quot;为自己建的目录 hugo new site XXX XXX为自己起名  剩下的和在windows下操作一样，解压下载的hugo-theme到xxx目录下的themes文件夹，修改config.toml中theme = “你下载到的主题名”，执行hugo server,在浏览器中打开http://localhost:1313,查看网站
+最终演示效果
+完成 </description>
+    </item>
+    
+    <item>
       <title>MXR-Software</title>
       <link>https://mxr-lee.top/post/mxr-software/</link>
       <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://mxr-lee.top/post/mxr-software/</guid>
-      <description> 软件汇总分享界面 需改本站主题，做的一个软件汇总分享页面，添加了软件简介，版本号，图标与名称等，点击各卡片即可进入下载界面，以后更新的软件都会出现在此页面，我会尽最大努力，保证软件最新化，点击进入 </description>
+      <description> 软件汇总分享界面 修改本站主题，做的一个软件汇总分享页面，添加了软件简介，版本号，图标与名称等，点击各卡片即可进入下载界面，以后更新的软件都会出现在此页面，我会尽最大努力，保证软件最新化，点击进入 </description>
     </item>
     
     <item>
@@ -191,15 +209,6 @@ Win10上新的截图工具，UWP应用，简洁高效，默认快捷键Win+Shift
     </item>
     
     <item>
-      <title>MXR-Music</title>
-      <link>https://mxr-lee.top/post/mxr-music/</link>
-      <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://mxr-lee.top/post/mxr-music/</guid>
-      <description> html音乐页面 怀念2007-2010 修改别人的html做的音乐页面，添加了背景图片，添加卡片阴影，添加列表滚动效果，绑定了二级域名，进入 </description>
-    </item>
-    
-    <item>
       <title>Memreduct</title>
       <link>https://mxr-lee.top/post/memreduct/</link>
       <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
@@ -211,6 +220,15 @@ Win10上新的截图工具，UWP应用，简洁高效，默认快捷键Win+Shift
  最小资源占用
   ”Memreduct“是国外一款内存清理小工具，它能监视电脑的内存使用量，通过简单设置即可实现定时内存清理，内存报警等功能 已修改界面为最小模式 
 时空虫洞，带你穿越</description>
+    </item>
+    
+    <item>
+      <title>MXR-Music</title>
+      <link>https://mxr-lee.top/post/mxr-music/</link>
+      <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/mxr-music/</guid>
+      <description> html音乐页面 怀念2007-2010 修改别人的html做的音乐页面，添加了背景图片，添加卡片阴影，添加列表滚动效果，绑定了二级域名，进入 </description>
     </item>
     
     <item>
