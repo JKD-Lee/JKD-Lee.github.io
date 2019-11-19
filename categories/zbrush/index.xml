@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ZBrush on 某些人</title>
@@ -6,21 +6,19 @@
     <description>Recent content in ZBrush on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 31 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/categories/zbrush/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>ZBrush2019.1.2</title>
-      <link>https://mxr-lee.top/post/zbrush2019.1.2/</link>
-      <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
+      <title>ZBrush2020</title>
+      <link>https://mxr-lee.top/post/zbrush2020/</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/zbrush2019.1.2/</guid>
-      <description>ZBrush 2019.1.2 is now available as a FREE update for all users. We strongly recommend upgrading at the earliest opportunity. ZBrush2019.1.2升级 2019-05-31 This update includes the following improvements, mostly affecting Split Screen mode:
-Activating Solo while in Split Screen no longer causes screen artifacts.
-Duplicating a SubTool while in Split Screen no longer causes drawing artifacts.
-There are no longer camera issues when drawing a selection rectangle and pressing spacebar.</description>
+      <guid>https://mxr-lee.top/post/zbrush2020/</guid>
+      <description>ZBrush2020升级 Pixologic is pleased to announce the release of ZBrush 2020! This new version enables artists with greater sculpting flexibility via powerful additions to the award winning brush system, as well as significant enhancements in a number of other areas.
+2019-11-13 New Feature Highlights  XTractor Brushes - Convert detail from your model into a new alpha or texture for reuse elsewhere. HistoryRecall Brush - Project a model’s Undo History to another model regardless of topology differences.</description>
     </item>
     
     <item>

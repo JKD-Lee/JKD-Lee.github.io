@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -14,7 +14,37 @@
   
   <url>
     <loc>https://mxr-lee.top/categories/</loc>
-    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/post/</loc>
+    <lastmod>2019-11-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/tags/</loc>
+    <lastmod>2019-11-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/categories/zbrush/</loc>
+    <lastmod>2019-11-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/tags/zbrush/</loc>
+    <lastmod>2019-11-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/post/zbrush2020/</loc>
+    <lastmod>2019-11-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mxr-lee.top/</loc>
+    <lastmod>2019-11-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -28,27 +58,12 @@
   </url>
   
   <url>
-    <loc>https://mxr-lee.top/post/</loc>
-    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/tags/</loc>
-    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://mxr-lee.top/tags/termux/</loc>
     <lastmod>2019-08-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://mxr-lee.top/post/termux-hugo%E5%BB%BA%E7%AB%99/</loc>
-    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/</loc>
     <lastmod>2019-08-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -73,12 +88,12 @@
   </url>
   
   <url>
-    <loc>https://mxr-lee.top/tags/photo/</loc>
+    <loc>https://mxr-lee.top/categories/photo/</loc>
     <lastmod>2019-07-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mxr-lee.top/categories/photo/</loc>
+    <loc>https://mxr-lee.top/tags/photo/</loc>
     <lastmod>2019-07-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -93,12 +108,12 @@
   </url>
   
   <url>
-    <loc>https://mxr-lee.top/categories/guide/</loc>
+    <loc>https://mxr-lee.top/tags/guide/</loc>
     <lastmod>2019-07-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mxr-lee.top/tags/guide/</loc>
+    <loc>https://mxr-lee.top/categories/guide/</loc>
     <lastmod>2019-07-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -113,28 +128,13 @@
   </url>
   
   <url>
-    <loc>https://mxr-lee.top/tags/winpe/</loc>
-    <lastmod>2019-06-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://mxr-lee.top/categories/winpe/</loc>
     <lastmod>2019-06-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mxr-lee.top/categories/zbrush/</loc>
-    <lastmod>2019-05-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/tags/zbrush/</loc>
-    <lastmod>2019-05-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mxr-lee.top/post/zbrush2019.1.2/</loc>
-    <lastmod>2019-05-31T00:00:00+00:00</lastmod>
+    <loc>https://mxr-lee.top/tags/winpe/</loc>
+    <lastmod>2019-06-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>

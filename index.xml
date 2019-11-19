@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>某些人</title>
@@ -6,7 +6,7 @@
     <description>Recent content on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 29 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/index.xml" rel="self" type="application/rss+xml" />
     
@@ -43,6 +43,16 @@ X: #X替换为先进入你创建目录的盘符， cd X:\xx\xxx\ #进入创建�
 hugo new posts/my-first-post.md #创建一篇文章，my-first-post可替换为任意名 hugo server #开启hugo服务 hugo #生成public文件夹  6.在浏览器输入$localhost:1313$，即可预览访问你创建的站点，此时你的文章页面应该为空，你需要在markdown编辑器里，进一步编辑你的文章，保存才能生效
 3.github部署 打开desktop github，创建文件夹登录github
 baseurl = &amp;quot;https://mxr-lee.top/&amp;quot; #链接换成自己域名或Https://你的用户名.github.io theme = &amp;quot;casper-two&amp;quot; languageCode = &amp;quot;en-US&amp;quot; title = &amp;quot;某些人&amp;quot; disqusShortname = &amp;quot;&amp;quot; paginate = 6 #SectionPagesMenu = &amp;quot;main&amp;quot; canonifyurls = true summaryLength = 10 publishdir = &amp;quot;D:/JKD-Lee/JKD-Lee.</description>
+    </item>
+    
+    <item>
+      <title>ZBrush2020</title>
+      <link>https://mxr-lee.top/post/zbrush2020/</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/zbrush2020/</guid>
+      <description>ZBrush2020升级 Pixologic is pleased to announce the release of ZBrush 2020! This new version enables artists with greater sculpting flexibility via powerful additions to the award winning brush system, as well as significant enhancements in a number of other areas.
+2019-11-13 New Feature Highlights  XTractor Brushes - Convert detail from your model into a new alpha or texture for reuse elsewhere. HistoryRecall Brush - Project a model’s Undo History to another model regardless of topology differences.</description>
     </item>
     
     <item>
@@ -117,18 +127,6 @@ baseurl = &amp;quot;https://mxr-lee.top/&amp;quot; #链接换成自己域名或H
   Bug修复：  解决Partassist无法启动问题(从System32的1100多个组件筛选出启动必要的6个文件)
  解决Vieas看图报错问题(注册表项修复)
   </description>
-    </item>
-    
-    <item>
-      <title>ZBrush2019.1.2</title>
-      <link>https://mxr-lee.top/post/zbrush2019.1.2/</link>
-      <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://mxr-lee.top/post/zbrush2019.1.2/</guid>
-      <description>ZBrush 2019.1.2 is now available as a FREE update for all users. We strongly recommend upgrading at the earliest opportunity. ZBrush2019.1.2升级 2019-05-31 This update includes the following improvements, mostly affecting Split Screen mode:
-Activating Solo while in Split Screen no longer causes screen artifacts.
-Duplicating a SubTool while in Split Screen no longer causes drawing artifacts.
-There are no longer camera issues when drawing a selection rectangle and pressing spacebar.</description>
     </item>
     
     <item>
