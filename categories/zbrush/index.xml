@@ -13,32 +13,27 @@
     
     <item>
       <title>ZBrush2020</title>
-      <link>https://mxr-lee.top/post/zbrush2020/</link>
+      <link>https://mxr-lee.top/post/zbrush/</link>
       <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/zbrush2020/</guid>
-      <description>ZBrush2020升级 Pixologic is pleased to announce the release of ZBrush 2020! This new version enables artists with greater sculpting flexibility via powerful additions to the award winning brush system, as well as significant enhancements in a number of other areas.
-2019-11-13 New Feature Highlights  XTractor Brushes - Convert detail from your model into a new alpha or texture for reuse elsewhere. HistoryRecall Brush - Project a model’s Undo History to another model regardless of topology differences.</description>
+      <guid>https://mxr-lee.top/post/zbrush/</guid>
+      <description>ZBrush2020.1.1升级 Pixologic is pleased to announce the release of ZBrush 2020.1.1! This free update enables artists by providing significant enhancements in a number of areas.
+ZBrush2020.1.1 2020-02-12 Updates &amp;amp; Fixes  Fixed: Additional edit point added when holding Spacebar with any brush that makes use of the Ctrl+Shift combination. For example: Select Lasso, Clip brushes, Trim brushes, and CreaseCurve. Some minor adjustments to internal ZBrush functions.  ZBrush2020.1 2020-02-05 Updates &amp;amp; Fixes   Fixed: ZBrush UI - Mac Finder Blurry Text &amp;amp; Icons.</description>
     </item>
     
     <item>
       <title>RizomUV Bridge</title>
-      <link>https://mxr-lee.top/post/rizomuv-bridge/</link>
+      <link>https://mxr-lee.top/post/rizmouv/</link>
       <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/rizomuv-bridge/</guid>
-      <description> ZPlugin之RizomUVBridge 在ZBrush Summit 2018 上，pixologic官方演示了几项ZBrush新功能，其中包括Zcolor，Intersection masker，Folders，Universal Camera和Peel UV，前几项已在ZBrush2019中实现，只有Peel UV还迟迟未现身，ZBrush的UV Master插件，在使用上存在一定的局限性，不能实现精确UV拆分，而插件RizomUV Bridge的出现，很好很快地解决了Zbrush与UV专业拆分软件RizomUV之间的相互转换，这也许是Peel UV真正面世之前，ZBrush最好的UV解决方案。
+      <guid>https://mxr-lee.top/post/rizmouv/</guid>
+      <description>ZPlugin之RizomUVBridge 在ZBrush Summit 2018 上，pixologic官方演示了几项ZBrush新功能，其中包括Zcolor，Intersection masker，Folders，Universal Camera和Peel UV，前几项已在ZBrush2019中实现，只有Peel UV还迟迟未现身，ZBrush的UV Master插件，在使用上存在一定的局限性，不能实现精确UV拆分，而插件RizomUV Bridge的出现，很好很快地解决了Zbrush与UV专业拆分软件RizomUV之间的相互转换，这也许是Peel UV真正面世之前，ZBrush最好的UV解决方案。
 安装 RizomUV Bridge插件安装稍显麻烦，需要先Zscript转化为Zplugin
- 安装RizomUV
- 将RizomBridge.txt与RizomBridge文件夹放到ZBrush根目录下的zstartup-Zplugin64里
- 替换RizomBridge.txt里的D:\RizomUV\RizomUV\rizomuv.exe替换为RizomUV的安装目录,一共两处
- 将RizomBridge文件夹下的load_unfold_save.lua中D:/ZBrush/ZBrush/ZStartup/ZPlugs64/RizomBridge/1.OBJ替换为当前路径，注:此处路径中应该为/而非\
- 在ZBrush菜单Zcript-load，导入RizomBridge.txt,此时会在Zplugin中生成RizomUV Bridge插件
-  使用 在Zplugin-RizomUV Bridge中会有3个按钮，分别是 Auto unwarp 实际测试效果极差，不推荐使用
- Send to RizomUV 导出到RizomUV
- Get from RizomUV 导回到ZBrush
-  注：原版插件只显示3行文字按钮，本人已添加图标，更美观方便，为了适应侧边栏，UI大小限定为39。
-演示视频  </description>
+ 安装RizomUV 将RizomBridge.txt与RizomBridge文件夹放到ZBrush根目录下的zstartup-Zplugin64里 替换RizomBridge.txt里的D:\RizomUV\RizomUV\rizomuv.exe替换为RizomUV的安装目录,一共两处 将RizomBridge文件夹下的load_unfold_save.lua中D:/ZBrush/ZBrush/ZStartup/ZPlugs64/RizomBridge/1.OBJ替换为当前路径，注:此处路径中应该为/而非\ 在ZBrush菜单Zcript-load，导入RizomBridge.txt,此时会在Zplugin中生成RizomUV Bridge插件  使用 在Zplugin-RizomUV Bridge中会有3个按钮，分别是  Auto unwarp 实际测试效果极差，不推荐使用
+  Send to RizomUV 导出到RizomUV
+  Get from RizomUV 导回到ZBrush
+注：原版插件只显示3行文字按钮，本人已添加图标，更美观方便，为了适应侧边栏，UI大小限定为39。
+  演示视频 </description>
     </item>
     
   </channel>

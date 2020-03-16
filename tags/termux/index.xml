@@ -13,17 +13,17 @@
     
     <item>
       <title>Termux&#43;Hugo建站</title>
-      <link>https://mxr-lee.top/post/termux-hugo%E5%BB%BA%E7%AB%99/</link>
+      <link>https://mxr-lee.top/post/termux/</link>
       <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/termux-hugo%E5%BB%BA%E7%AB%99/</guid>
-      <description> 手机终端Termux+Hugo搭建静态网站 工具 Termux Termux是Android系统下一个高级终端模拟器，开源且不需要root,支持apt管理软件包，十分方便安装软件包，完美支持Python,PHP,Ruby,Go,Nodejs,MQSQL等。点击下载
+      <guid>https://mxr-lee.top/post/termux/</guid>
+      <description>手机终端Termux+Hugo搭建静态网站 工具 Termux Termux是Android系统下一个高级终端模拟器，开源且不需要root,支持apt管理软件包，十分方便安装软件包，完美支持Python,PHP,Ruby,Go,Nodejs,MQSQL等。点击下载
 开始 1.Android安装并打开Termux，输入pkg install hugo,自动安装Hugo，
 安装完成后，可用命令hugo version检查Hugo版本并确认Hugo已正常安装
 2.输入termux-setup-storage,提示获取手机存储权限，允许即可
 3.自行在Hugo-theme下载hugo主题,此次演示的主题为newsroom
 4.在自己想要存放网站的地方新建一个目录文件夹，并执行
- cd /storage/emulated/0/hugo &amp;quot;/storage/emulated/0/hugo&amp;quot;为自己建的目录 hugo new site XXX XXX为自己起名  剩下的和在windows下操作一样，解压下载的hugo-theme到xxx目录下的themes文件夹，修改config.toml中theme = “你下载到的主题名”，执行hugo server,在浏览器中打开http://localhost:1313,查看网站
+ cd /storage/emulated/0/hugo &amp;quot;/storage/emulated/0/hugo&amp;quot;为自己建的目录 hugo new site XXX XXX为自己起名 剩下的和在windows下操作一样，解压下载的hugo-theme到xxx目录下的themes文件夹，修改config.toml中theme = “你下载到的主题名”，执行hugo server,在浏览器中打开http://localhost:1313,查看网站
 最终演示效果
 完成 </description>
     </item>

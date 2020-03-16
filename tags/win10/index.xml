@@ -1,68 +1,79 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Win10 on 某些人</title>
+    <title>WIN10 on 某些人</title>
     <link>https://mxr-lee.top/tags/win10/</link>
-    <description>Recent content in Win10 on 某些人</description>
+    <description>Recent content in WIN10 on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 19 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/tags/win10/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Win10下安装Archlinux子系统</title>
+      <link>https://mxr-lee.top/post/archlinux/</link>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/archlinux/</guid>
+      <description>在Win10系统下，最简单安装ArchLinux子系统 1.启用适用于Linux的Windows子系统 控制面板-程序-启用或关闭Windows功能-启用适用于Linux的Windows子系统-重启电脑 2.下载安装ArchLinux 1.进入ArchWSL,下载Arch.zip,解压至一个具有写权限的普通文件夹(注：Program Files文件夹不具备写的权限)
+2.双击解压出的Arch.exe.执行安装
+3.配置ArchLinux 1.使用如下命令，初始化keyrin(使用pacman必须执行此命令)
+sudo pacman-key --init sudo pacman-key --populate 2.打开Arch.exe根目录下的rootfs\etc\pacman.d\mirrorlist,将##China及以下的server全部剪切至## Worldwide之前，并将server之前的#全部删除，保存退出(换源提升下载速度)
+3.执行pacman -Syyu命令更新组件
+最后，请尽情享用吧 注：根据官方提示，Win10系统版本号需在1709之后 </description>
+    </item>
+    
+    <item>
       <title>添加环境变量</title>
-      <link>https://mxr-lee.top/post/%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</link>
+      <link>https://mxr-lee.top/post/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</link>
       <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</guid>
-      <description> 在Win10系统下，如何简单快速添加环境变量 1.我的电脑，右键属性 2.在左侧高级系统设置里 3.最上面一栏，在高级里，点击最下面环境变量 4.选中path路径，点击编辑 5.点击新建，把软件的路径复制进去，确定
-注：软件路径不能有中文，添加环境变量前，请先修改路径为纯英文路径 </description>
+      <guid>https://mxr-lee.top/post/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</guid>
+      <description>在Win10系统下，如何简单快速添加环境变量 1.我的电脑，右键属性 2.在左侧高级系统设置里 3.最上面一栏，在高级里，点击最下面环境变量 4.选中path路径，点击编辑 5.点击新建，把软件的路径复制进去，确定
+注：软件路径不能有中文，添加环境变量前，请先修改路径为纯英文路径  </description>
     </item>
     
     <item>
       <title>Win10原生剪贴板</title>
-      <link>https://mxr-lee.top/post/win10%E5%8E%9F%E7%94%9F%E5%89%AA%E8%B4%B4%E6%9D%BF/</link>
+      <link>https://mxr-lee.top/post/%E5%89%AA%E8%B4%B4%E6%9D%BF/</link>
       <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/win10%E5%8E%9F%E7%94%9F%E5%89%AA%E8%B4%B4%E6%9D%BF/</guid>
-      <description>Win10原生剪贴板 自Win10 1803版以来，Windows加入了期待已久的剪贴板功能，告别每次只能复制一次的时代，带来了极大便利
-Win+I打开设置，系统-剪贴板-开启剪贴板记录Win10 1903对剪贴板做了优化，支持图片复制，同时剪贴板记录支持25条之多</description>
+      <guid>https://mxr-lee.top/post/%E5%89%AA%E8%B4%B4%E6%9D%BF/</guid>
+      <description>Win10原生剪贴板 自Win10 1803版以来，Windows加入了期待已久的剪贴板功能，告别每次只能复制一次的时代，带来了极大便利</description>
     </item>
     
     <item>
       <title>Win10原生截图</title>
-      <link>https://mxr-lee.top/post/win10%E5%8E%9F%E7%94%9F%E6%88%AA%E5%9B%BE/</link>
+      <link>https://mxr-lee.top/post/%E6%88%AA%E5%9B%BE/</link>
       <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/win10%E5%8E%9F%E7%94%9F%E6%88%AA%E5%9B%BE/</guid>
-      <description> Win10原生截图  Snipping Tool
-随着Win10时代的到来，作为Windows最早的截图工具，即将画上句号 Win+PrtSC
+      <guid>https://mxr-lee.top/post/%E6%88%AA%E5%9B%BE/</guid>
+      <description>Win10原生截图   Snipping Tool
+随着Win10时代的到来，作为Windows最早的截图工具，即将画上句号  Win+PrtSC
 默认截取全屏幕，保存位置在C:\Users\user\Pictures\Screenshots,自动从零编号
- 截图与草图
-Win10上新的截图工具，UWP应用，简洁高效，默认快捷键Win+Shift+S支持框选，任意形状，窗口及全屏截图 支持修改快捷键为PrtScn，Win+I打开设置，轻松使用-键盘-使用PrtScn按键打开截图，即可修改  </description>
+  截图与草图
+Win10上新的截图工具，UWP应用，简洁高效，默认快捷键Win+Shift+S支持框选，任意形状，窗口及全屏截图支持修改快捷键为PrtScn，Win+I打开设置，轻松使用-键盘-使用PrtScn按键打开截图，即可修改  </description>
     </item>
     
     <item>
       <title>Win10版本号</title>
-      <link>https://mxr-lee.top/post/win10%E7%89%88%E6%9C%AC%E5%8F%B7/</link>
+      <link>https://mxr-lee.top/post/%E7%89%88%E6%9C%AC%E5%8F%B7/</link>
       <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/win10%E7%89%88%E6%9C%AC%E5%8F%B7/</guid>
-      <description> Win10版本号 自从Win10面世以来，除去每月的累积更新，Win10每年会有两次重大更新，例如1607，1903，前两位代表年份，后两位代表月份
- Win+R,输入Winver查看
- Win+I打开设置，系统-关于-Windows规格   </description>
+      <guid>https://mxr-lee.top/post/%E7%89%88%E6%9C%AC%E5%8F%B7/</guid>
+      <description>Win10版本号 自从Win10面世以来，除去每月的累积更新，Win10每年会有两次重大更新，例如1607，1903，前两位代表年份，后两位代表月份
+ Win+R,输入Winver查看 Win+I打开设置，系统-关于-Windows规格   </description>
     </item>
     
     <item>
       <title>WIN10XPE</title>
-      <link>https://mxr-lee.top/post/win10xpe/</link>
+      <link>https://mxr-lee.top/post/winxpe/</link>
       <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/win10xpe/</guid>
-      <description> Win10XPE快速构建PE 本次采用无忧启动slore大神的WIN10XPE快速从零构建的WINPE,参考文章，PE内核版本为1903，wim大小213M，iso大小225M 构建过程，比较简单，但后期个性化配置比较复杂 采用StartMenu菜单 采用StartMenu菜单 还有更多任务栏设置选项，这一切都依赖于slore大神另外的WinXshell项目 构建的PE体积小，启动快，定制性强
-当然也有不足之处，还不够微PE那样足够精简小巧， </description>
+      <guid>https://mxr-lee.top/post/winxpe/</guid>
+      <description>Win10XPE快速构建PE 本次采用无忧启动slore大神的WIN10XPE快速从零构建的WINPE,参考文章，PE内核版本为1903，wim大小213M，iso大小225M 当然也有不足之处，还不够微PE那样足够精简小巧， </description>
     </item>
     
   </channel>

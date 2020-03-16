@@ -13,12 +13,12 @@
     
     <item>
       <title>ZBrush2020</title>
-      <link>https://mxr-lee.top/post/zbrush2020/</link>
+      <link>https://mxr-lee.top/post/zbrush/</link>
       <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/zbrush2020/</guid>
-      <description>ZBrush2020升级 Pixologic is pleased to announce the release of ZBrush 2020! This new version enables artists with greater sculpting flexibility via powerful additions to the award winning brush system, as well as significant enhancements in a number of other areas.
-2019-11-13 New Feature Highlights  XTractor Brushes - Convert detail from your model into a new alpha or texture for reuse elsewhere. HistoryRecall Brush - Project a model’s Undo History to another model regardless of topology differences.</description>
+      <guid>https://mxr-lee.top/post/zbrush/</guid>
+      <description>ZBrush2020.1.1升级 Pixologic is pleased to announce the release of ZBrush 2020.1.1! This free update enables artists by providing significant enhancements in a number of areas.
+ZBrush2020.1.1 2020-02-12 Updates &amp;amp; Fixes  Fixed: Additional edit point added when holding Spacebar with any brush that makes use of the Ctrl+Shift combination. For example: Select Lasso, Clip brushes, Trim brushes, and CreaseCurve. Some minor adjustments to internal ZBrush functions.  ZBrush2020.1 2020-02-05 Updates &amp;amp; Fixes   Fixed: ZBrush UI - Mac Finder Blurry Text &amp;amp; Icons.</description>
     </item>
     
   </channel>

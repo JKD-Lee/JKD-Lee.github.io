@@ -6,117 +6,149 @@
     <description>Recent content in document on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 29 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mxr-lee.top/categories/document/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Win10下安装Archlinux子系统</title>
+      <link>https://mxr-lee.top/post/archlinux/</link>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/archlinux/</guid>
+      <description>在Win10系统下，最简单安装ArchLinux子系统 1.启用适用于Linux的Windows子系统 控制面板-程序-启用或关闭Windows功能-启用适用于Linux的Windows子系统-重启电脑 2.下载安装ArchLinux 1.进入ArchWSL,下载Arch.zip,解压至一个具有写权限的普通文件夹(注：Program Files文件夹不具备写的权限)
+2.双击解压出的Arch.exe.执行安装
+3.配置ArchLinux 1.使用如下命令，初始化keyrin(使用pacman必须执行此命令)
+sudo pacman-key --init sudo pacman-key --populate 2.打开Arch.exe根目录下的rootfs\etc\pacman.d\mirrorlist,将##China及以下的server全部剪切至## Worldwide之前，并将server之前的#全部删除，保存退出(换源提升下载速度)
+3.执行pacman -Syyu命令更新组件
+最后，请尽情享用吧 注：根据官方提示，Win10系统版本号需在1709之后 </description>
+    </item>
+    
+    <item>
       <title>添加环境变量</title>
-      <link>https://mxr-lee.top/post/%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</link>
+      <link>https://mxr-lee.top/post/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</link>
       <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</guid>
-      <description> 在Win10系统下，如何简单快速添加环境变量 1.我的电脑，右键属性 2.在左侧高级系统设置里 3.最上面一栏，在高级里，点击最下面环境变量 4.选中path路径，点击编辑 5.点击新建，把软件的路径复制进去，确定
-注：软件路径不能有中文，添加环境变量前，请先修改路径为纯英文路径 </description>
+      <guid>https://mxr-lee.top/post/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</guid>
+      <description>在Win10系统下，如何简单快速添加环境变量 1.我的电脑，右键属性 2.在左侧高级系统设置里 3.最上面一栏，在高级里，点击最下面环境变量 4.选中path路径，点击编辑 5.点击新建，把软件的路径复制进去，确定
+注：软件路径不能有中文，添加环境变量前，请先修改路径为纯英文路径  </description>
     </item>
     
     <item>
       <title>Hugo&#43;github Page建站</title>
-      <link>https://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/</link>
+      <link>https://mxr-lee.top/post/%E5%BB%BA%E7%AB%99/</link>
       <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/</guid>
+      <guid>https://mxr-lee.top/post/%E5%BB%BA%E7%AB%99/</guid>
       <description>Hugo+Github零成本打造个人网站 工具 1.Hugo+theme Hugo主程序可在hugo的releases上找到[hugo_0.55.4_Windows-64bit.zip]，其中0.55.4为版本号，会随更新改变，每次下载最新版即可。Hugo有300+的Theme，本站用的是eueung改自Ghost的casper two主题，经本人做了二次修改
 2.Github账号+desktop Github Github账号请前往官网自行注册，用Desktop Github的原因是网页Github不能上传文件夹，而git对小白来说，比较复杂
 3.可有可无的域名(便于访问) 之前有免费顶级域名注册网站Freenom，后来不知为何就不能用了，添加购物车一直返回订单，国内域名商像阿里云，新网等，新兴的域名也很便宜，如果不想花这冤枉钱，Github赠送的免费域名.github.io已经够用了
 开始 1.github建立仓库 先在网页登录github，右上角位置，点击加号，新建一个repository[new repository]
 在[repository name]里，添加和[Owner]一样的(用户名.github.io),点击Create repository创建仓库
 2.hugo安装配置运行 1.将下载好的hugo压缩包解压出来，改名为hugo.exe,添加环境变量
-[如何添加环境变量]()
+如何添加环境变量
 2.创建一个 文件夹，
 Win+R调出运行框，输入cmd，打开命令提示符，用命令进入你刚才创建的文件夹，执行以下命令
-X: #X替换为先进入你创建目录的盘符， cd X:\xx\xxx\ #进入创建的根目录，X:\xx\xxx\为你创建文件夹的路径 hugo new site blog #新建一个站点，blog可替换为你想要的名字  现在你的目录会出现几个文件夹
+X: #X替换为先进入你创建目录的盘符， cd X:\xx\xxx\ #进入创建的根目录，X:\xx\xxx\为你创建文件夹的路径 hugo new site blog #新建一个站点，blog可替换为你想要的名字 现在你的目录会出现几个文件夹
 3.添加一个主题，把从Hugo theme下载的主题，解压到themes文件夹里，复制主题文件夹里的exampleSite文件夹中的所有文件，到创建的根目录，替换覆盖
 4.修改config.toml中星号标记处
 5.执行以下命令
-hugo new posts/my-first-post.md #创建一篇文章，my-first-post可替换为任意名 hugo server #开启hugo服务 hugo #生成public文件夹  6.在浏览器输入$localhost:1313$，即可预览访问你创建的站点，此时你的文章页面应该为空，你需要在markdown编辑器里，进一步编辑你的文章，保存才能生效
+hugo new posts/my-first-post.md #创建一篇文章，my-first-post可替换为任意名 hugo server #开启hugo服务 hugo #生成public文件夹 6.在浏览器输入$localhost:1313$，即可预览访问你创建的站点，此时你的文章页面应该为空，你需要在markdown编辑器里，进一步编辑你的文章，保存才能生效
 3.github部署 打开desktop github，创建文件夹登录github
 baseurl = &amp;quot;https://mxr-lee.top/&amp;quot; #链接换成自己域名或Https://你的用户名.github.io theme = &amp;quot;casper-two&amp;quot; languageCode = &amp;quot;en-US&amp;quot; title = &amp;quot;某些人&amp;quot; disqusShortname = &amp;quot;&amp;quot; paginate = 6 #SectionPagesMenu = &amp;quot;main&amp;quot; canonifyurls = true summaryLength = 10 publishdir = &amp;quot;D:/JKD-Lee/JKD-Lee.</description>
     </item>
     
     <item>
+      <title>Raspberry4B安装ArchlinuxARM</title>
+      <link>https://mxr-lee.top/post/raspberry/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/raspberry/</guid>
+      <description>Raspberry4B下ArchLinuxARM系统的安装配置 前言 环境及工具
+1.Linux环境
+2.SD卡格式化工具
+1.配置Linux系统环境 为了获取Linux环境，最简便的方法就是虚拟机安装Linux系统，本人采用manjaro系统,是ArchLinux的衍生发行版，继承了ArchLinux的滚动更新特性,用VMWare虚拟机进行安装，由于Manjaro具有LiveCD系统(类似Windows的PE系统)，并且已经安装好了Vmware Tools，这样在实体机与虚拟机之间复制粘贴文件及命令就更加方便，实际上只需要配置好虚拟机，进入LiveCD系统就可以
+2.制作ArchLinuxARM系统 1.进入Manjaro的LiveCD系统，插入SD卡，虚拟机识别，选择连接到虚拟机，确定
+2.左侧开始菜单打开终端Terminal
+3.输入su切换系统用户
+4.输入fdisk -l查看当前插入SD卡的 /dev/sdX
+5.输入fdisk /dev/sdX,X替换为各自显示值，输入m查看具体使用命令
+6.依此输入以下命令，进行格式化分区
+1. d ## 删除分区 2. n,p,1 ## n创建分区,p设置主分区,1设置第一分区，并enter确认 3. +100M 4. t,c ## 将第一分区改为W95 FAT32 （LBA） 5. n,p,2 ## n创建第二分区，p设置主分区，enter两次默认确定 6. w ## 保存退出 创建挂载系统  mkfs.vfat /dev/sdX1 mkdir boot mount /dev/sdX1 boot mkfs.ext4 /dev/sdX2 mkdir root mount /dev/sdX2 root 下载系统并提取到根目录  wget http://mirrors.ustc.edu.cn/archlinuxarm/os/ArchLinuxARM-rpi-4-latest.tar.gz bsdtar -xpf ArchLinuxARM-rpi-4-latest.tar.gz -C root sync 复制文件到boot分区
+mv root/boot/* boot 卸载分区</description>
+    </item>
+    
+    <item>
       <title>Termux&#43;Hugo建站</title>
-      <link>https://mxr-lee.top/post/termux-hugo%E5%BB%BA%E7%AB%99/</link>
+      <link>https://mxr-lee.top/post/termux/</link>
       <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/termux-hugo%E5%BB%BA%E7%AB%99/</guid>
-      <description> 手机终端Termux+Hugo搭建静态网站 工具 Termux Termux是Android系统下一个高级终端模拟器，开源且不需要root,支持apt管理软件包，十分方便安装软件包，完美支持Python,PHP,Ruby,Go,Nodejs,MQSQL等。点击下载
+      <guid>https://mxr-lee.top/post/termux/</guid>
+      <description>手机终端Termux+Hugo搭建静态网站 工具 Termux Termux是Android系统下一个高级终端模拟器，开源且不需要root,支持apt管理软件包，十分方便安装软件包，完美支持Python,PHP,Ruby,Go,Nodejs,MQSQL等。点击下载
 开始 1.Android安装并打开Termux，输入pkg install hugo,自动安装Hugo，
 安装完成后，可用命令hugo version检查Hugo版本并确认Hugo已正常安装
 2.输入termux-setup-storage,提示获取手机存储权限，允许即可
 3.自行在Hugo-theme下载hugo主题,此次演示的主题为newsroom
 4.在自己想要存放网站的地方新建一个目录文件夹，并执行
- cd /storage/emulated/0/hugo &amp;quot;/storage/emulated/0/hugo&amp;quot;为自己建的目录 hugo new site XXX XXX为自己起名  剩下的和在windows下操作一样，解压下载的hugo-theme到xxx目录下的themes文件夹，修改config.toml中theme = “你下载到的主题名”，执行hugo server,在浏览器中打开http://localhost:1313,查看网站
+ cd /storage/emulated/0/hugo &amp;quot;/storage/emulated/0/hugo&amp;quot;为自己建的目录 hugo new site XXX XXX为自己起名 剩下的和在windows下操作一样，解压下载的hugo-theme到xxx目录下的themes文件夹，修改config.toml中theme = “你下载到的主题名”，执行hugo server,在浏览器中打开http://localhost:1313,查看网站
 最终演示效果
 完成 </description>
     </item>
     
     <item>
       <title>Win10原生剪贴板</title>
-      <link>https://mxr-lee.top/post/win10%E5%8E%9F%E7%94%9F%E5%89%AA%E8%B4%B4%E6%9D%BF/</link>
+      <link>https://mxr-lee.top/post/%E5%89%AA%E8%B4%B4%E6%9D%BF/</link>
       <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/win10%E5%8E%9F%E7%94%9F%E5%89%AA%E8%B4%B4%E6%9D%BF/</guid>
-      <description>Win10原生剪贴板 自Win10 1803版以来，Windows加入了期待已久的剪贴板功能，告别每次只能复制一次的时代，带来了极大便利
-Win+I打开设置，系统-剪贴板-开启剪贴板记录Win10 1903对剪贴板做了优化，支持图片复制，同时剪贴板记录支持25条之多</description>
+      <guid>https://mxr-lee.top/post/%E5%89%AA%E8%B4%B4%E6%9D%BF/</guid>
+      <description>Win10原生剪贴板 自Win10 1803版以来，Windows加入了期待已久的剪贴板功能，告别每次只能复制一次的时代，带来了极大便利</description>
     </item>
     
     <item>
       <title>Win10原生截图</title>
-      <link>https://mxr-lee.top/post/win10%E5%8E%9F%E7%94%9F%E6%88%AA%E5%9B%BE/</link>
+      <link>https://mxr-lee.top/post/%E6%88%AA%E5%9B%BE/</link>
       <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/win10%E5%8E%9F%E7%94%9F%E6%88%AA%E5%9B%BE/</guid>
-      <description> Win10原生截图  Snipping Tool
-随着Win10时代的到来，作为Windows最早的截图工具，即将画上句号 Win+PrtSC
+      <guid>https://mxr-lee.top/post/%E6%88%AA%E5%9B%BE/</guid>
+      <description>Win10原生截图   Snipping Tool
+随着Win10时代的到来，作为Windows最早的截图工具，即将画上句号  Win+PrtSC
 默认截取全屏幕，保存位置在C:\Users\user\Pictures\Screenshots,自动从零编号
- 截图与草图
-Win10上新的截图工具，UWP应用，简洁高效，默认快捷键Win+Shift+S支持框选，任意形状，窗口及全屏截图 支持修改快捷键为PrtScn，Win+I打开设置，轻松使用-键盘-使用PrtScn按键打开截图，即可修改  </description>
+  截图与草图
+Win10上新的截图工具，UWP应用，简洁高效，默认快捷键Win+Shift+S支持框选，任意形状，窗口及全屏截图支持修改快捷键为PrtScn，Win+I打开设置，轻松使用-键盘-使用PrtScn按键打开截图，即可修改  </description>
     </item>
     
     <item>
       <title>Win10版本号</title>
-      <link>https://mxr-lee.top/post/win10%E7%89%88%E6%9C%AC%E5%8F%B7/</link>
+      <link>https://mxr-lee.top/post/%E7%89%88%E6%9C%AC%E5%8F%B7/</link>
       <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/win10%E7%89%88%E6%9C%AC%E5%8F%B7/</guid>
-      <description> Win10版本号 自从Win10面世以来，除去每月的累积更新，Win10每年会有两次重大更新，例如1607，1903，前两位代表年份，后两位代表月份
- Win+R,输入Winver查看
- Win+I打开设置，系统-关于-Windows规格   </description>
+      <guid>https://mxr-lee.top/post/%E7%89%88%E6%9C%AC%E5%8F%B7/</guid>
+      <description>Win10版本号 自从Win10面世以来，除去每月的累积更新，Win10每年会有两次重大更新，例如1607，1903，前两位代表年份，后两位代表月份
+ Win+R,输入Winver查看 Win+I打开设置，系统-关于-Windows规格   </description>
     </item>
     
     <item>
       <title>casper-two主题</title>
-      <link>https://mxr-lee.top/post/casper-two%E4%B8%BB%E9%A2%98/</link>
+      <link>https://mxr-lee.top/post/casper-two/</link>
       <pubDate>Sat, 11 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/casper-two%E4%B8%BB%E9%A2%98/</guid>
-      <description> casper-two主题魔改 已完成  主题基本已汉化完成
- 标签及分类添加了图标
- 修改日期显示为普通模式
- 添加摘要限制字数为20
- 标签及分类添加背景图
- 去除分享按钮及多余菜单
- 首页添加文章日期
- 首页文章图片改为随机Material Design
- 文章头图改为随机background图片
- 首页背景改为动态背景
- 日期支持天气显示
- 字体颜色大小及卡片阴影调整
-  已完成  站内搜索
- 音乐卡片
- 亮暗主题切换
+      <guid>https://mxr-lee.top/post/casper-two/</guid>
+      <description>casper-two主题魔改 已完成   主题基本已汉化完成
+  标签及分类添加了图标
+  修改日期显示为普通模式
+  添加摘要限制字数为20
+  标签及分类添加背景图
+  去除分享按钮及多余菜单
+  首页添加文章日期
+  首页文章图片改为随机Material Design
+  文章头图改为随机background图片
+  首页背景改为动态背景
+  日期支持天气显示
+  字体颜色大小及卡片阴影调整
+  已完成   站内搜索
+  音乐卡片
+  亮暗主题切换
   </description>
     </item>
     
