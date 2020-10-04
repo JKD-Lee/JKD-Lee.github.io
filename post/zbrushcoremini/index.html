@@ -4,15 +4,15 @@
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <title>RizomUV Bridge &middot; 某些人</title>
+    <title>ZBrushCoreMini &middot; 某些人</title>
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="shortcut icon" href="https://mxr-lee.top/favicon.ico" />
-    <link rel="canonical" href="https://mxr-lee.top/post/rizomuv-bridge/" />
+    <link rel="canonical" href="https://mxr-lee.top/post/zbrushcoremini/" />
 
-     <meta name="description" content="这也许是ZBrush Peel UV发布之前，最好的UV解决方案..." /> 
+     <meta name="description" content="Pixologic ZBrushCoreMini..." /> 
 
     <meta name="generator" content="Hugo 0.75.1" />
 
@@ -87,44 +87,40 @@
       <article class="post-full post"> 
     <header class="post-full-header">
         <section class="post-full-meta">
-            <time class="post-full-meta-date" datetime="2019-05-29">🎫2019-5-29</time>
-                <span class="date-divider">/</span> <a href="https://mxr-lee.top/tags/zplugin/">🏷️ZPlugin</a>&nbsp;
+            <time class="post-full-meta-date" datetime="2020-06-11">🎫2020-6-11</time>
+                <span class="date-divider">/</span> <a href="https://mxr-lee.top/tags/zbrush/">🏷️ZBrush</a>&nbsp;
         </section>
-        <h1 class="post-full-title">RizomUV Bridge</h1>
+        <h1 class="post-full-title">ZBrushCoreMini</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://mxr-lee.top/images/ZBrush.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://mxr-lee.top/images/ZBrushCore.jpg)">
     </figure>
 
     <section class="post-full-content">
         <div class="kg-card-markdown">
-        <h2 id="centerzplugin之rizomuvbridgecenter"><!-- raw HTML omitted -->ZPlugin之RizomUVBridge<!-- raw HTML omitted --></h2>
-<p>在ZBrush Summit 2018 上，pixologic官方演示了几项ZBrush新功能，其中包括Zcolor，Intersection masker，Folders，Universal Camera和Peel UV，前几项已在ZBrush2019中实现，只有Peel UV还迟迟未现身，ZBrush的UV Master插件，在使用上存在一定的局限性，不能实现精确UV拆分，而插件RizomUV Bridge的出现，很好很快地解决了Zbrush与UV专业拆分软件RizomUV之间的相互转换，这也许是Peel UV真正面世之前，ZBrush最好的UV解决方案。</p>
-<h4 id="安装">安装</h4>
-<p>RizomUV Bridge插件安装稍显麻烦，需要先Zscript转化为Zplugin</p>
-<ol>
-<li>安装RizomUV</li>
-<li>将RizomBridge.txt与RizomBridge文件夹放到ZBrush根目录下的zstartup-Zplugin64里</li>
-<li>替换RizomBridge.txt里的<code>D:\RizomUV\RizomUV\rizomuv.exe</code>替换为RizomUV的安装目录,一共两处</li>
-<li>将RizomBridge文件夹下的load_unfold_save.lua中<code>D:/ZBrush/ZBrush/ZStartup/ZPlugs64/RizomBridge/1.OBJ</code>替换为当前路径，注:此处路径中应该为<code>/</code>而非<code>\</code></li>
-<li>在ZBrush菜单Zcript-load，导入RizomBridge.txt,此时会在Zplugin中生成RizomUV Bridge插件</li>
-</ol>
-<h4 id="使用">使用</h4>
-<p>在Zplugin-RizomUV Bridge中会有3个按钮，分别是<img src="https://i.loli.net/2019/05/30/5cef2f5b579b613886.png" alt="5cef2f5b579b613886"></p>
+        <h2 id="centerzbrushcoreminicenter"><!-- raw HTML omitted -->ZBrushCoreMini<!-- raw HTML omitted --></h2>
+<h3 id="2020-06-11">2020-06-11</h3>
+<p>Pixologic is proud to introduce a new member of the ZBrush family of software: ZBrushCoreMini.</p>
+<p>ZBrushCoreMini provides a simplified version of the Academy Award Winning ZBrush software used by leading digital artists around the world. ZBrushCoreMini is designed for new artists of all ages, with a streamlined interface that lets anyone jump right in and start sculpting immediately.</p>
+<p><img src="https://mxr-lee.top/images/ZBrushCoreMini.jpg" alt="2"></p>
+<p>This is a true introductory level digital sculpting application, intended for easy learning no matter your age or experience. Best of all, it is the true ZBrush sculpting experience – yet free for anyone to use!
+ZBrushCoreMini includes the following features:</p>
 <ul>
-<li>
-<p>Auto unwarp 实际测试效果极差，不推荐使用</p>
-</li>
-<li>
-<p>Send to RizomUV 导出到RizomUV</p>
-</li>
-<li>
-<p>Get from RizomUV 导回到ZBrush</p>
-<p>注：原版插件只显示3行文字按钮，本人已添加图标，更美观方便，为了适应侧边栏，UI大小限定为39。</p>
-</li>
+<li>Sculptris Pro - Frees you to sculpt without worrying about polygon density or topology.</li>
+<li>8 Popular Sculpting Brushes - Standard, ClayBuildup, Inflate, Pinch, Move, SnakeHook, Slash3, hPolish (also Smooth, by holding Shift)</li>
+<li>Symmetry</li>
+<li>2 Base Meshes - Sphere or Block of Stone</li>
+<li>8 Materials - MatCap Gray, MatCap Red Wax, BasicMaterial, ToyPlastic, SkinShade4, Gold, FlatColor, SilverFoil</li>
 </ul>
-<h4 id="演示视频">演示视频</h4>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>iMage3D</p>
+<p>ZBrushCoreMini also introduces the new iMage3D variation on the universal GIF and PNG file formats. When you save your work as an iMage3D .GIF or .PNG it can be shared on websites or social media just like any other image. But if downloaded and opened with ZBrushCoreMini the 3D model will be extracted from the image data, ready for viewing from any angle or even further sculpting!</p>
+<p>You can of course also export as a normal 2D file that does not included the 3D data.
+Viewer Mode</p>
+<p>ZBrushCoreMini supports the .ZPR file format and any such file created by ZBrushCoreMini can be opened in ZBrushCore or ZBrush. In addition, .ZPR files created by ZBrushCore can also be opened in ZBrushCoreMini! This uses a special Viewer Mode that allows you to freely rotate the model, try out different materials and export images. You just can’t sculpt on these models.
+3D Printing</p>
+<p>ZBrushCoreMini includes a 3D Print button that automatically optimizes the model and exports it as an .OBJ file, ready to be loaded into your 3D printer’s slicing software.</p>
+<p>Then register for FREE and start sculpting today!</p>
+<p><img src="https://i.loli.net/2020/10/04/z7yQOAfsTS2XGCa.jpg" alt="2"></p>
     
         </div>
     </section>
@@ -155,7 +151,7 @@
     <header class="read-next-card-header">
         <small class="read-next-card-header-sitetitle">&mdash; be water,my friends &mdash;</small>
         
-        <h3 class="read-next-card-header-title"><a href="https://mxr-lee.top/tags/zplugin/">🏷️ZPlugin</a></h3>
+        <h3 class="read-next-card-header-title"><a href="https://mxr-lee.top/tags/zbrush/">🏷️ZBrush</a></h3>
         
     </header>
     <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
@@ -164,20 +160,18 @@
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://mxr-lee.top/post/raspberry4b%E5%AE%89%E8%A3%85archlinuxarm/">Raspberry4B安装ArchlinuxARM</a></li>            
+          <li><a href="https://mxr-lee.top/post/%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/">添加环境变量</a></li>            
+        
+          <li><a href="https://mxr-lee.top/post/mxr-pe/">MXR-PE</a></li>            
         
           <li><a href="https://mxr-lee.top/post/casper-two%E4%B8%BB%E9%A2%98/">casper-two主题</a></li>            
         
-          <li><a href="https://mxr-lee.top/post/mxr-music/">MXR-Music</a></li>            
-        
-                      
-        
-          <li><a href="https://mxr-lee.top/post/termux-hugo%E5%BB%BA%E7%AB%99/">Termux&#43;Hugo建站</a></li>            
+          <li><a href="https://mxr-lee.top/post/everything/">Everything</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
       
-        <a href="https://mxr-lee.top/tags/zplugin/">See all related posts →</a>
+        <a href="https://mxr-lee.top/tags/zbrush/">See all related posts →</a>
     </footer>
 </article>
 
@@ -185,23 +179,23 @@
       
       <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="https://mxr-lee.top/post/mxr-pe/">
-      <div class="post-card-image" style="background-image: url(https://mxr-lee.top/images/MXRPE.jpg)"></div>
+    <a class="post-card-image-link" href="https://mxr-lee.top/post/zbrush2021/">
+      <div class="post-card-image" style="background-image: url(https://mxr-lee.top/images/ZBrush2021.jpg)"></div>
     </a>
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="https://mxr-lee.top/post/mxr-pe/">
+      <a class="post-card-content-link" href="https://mxr-lee.top/post/zbrush2021/">
           <header class="post-card-header">
               <span class="post-card-tags">
-              🔖WinPE  </span>
+              🔖ZBrush  </span>
               
-              <time class="post-full-meta-date" datetime="2019-06-18">📌2019-6-18</time>
-              <h2 class="post-card-title">MXR-PE</h2>
+              <time class="post-full-meta-date" datetime="2020-10-01">📌2020-10-1</time>
+              <h2 class="post-card-title">ZBrush2021</h2>
           </header>
           <section class="post-card-excerpt">
                
-                <p>个人PE项目&hellip;</p>
+                <p>Pixologic ZBrush更新&hellip;</p>
               
           </section>
       </a>
@@ -216,23 +210,24 @@
       
       <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="https://mxr-lee.top/post/removebg/">
-      <div class="post-card-image" style="background-image: url(https://mxr-lee.top/defimg/background/25.jpg)"></div>
-    </a>    
+    <a class="post-card-image-link" href="https://mxr-lee.top/post/raspberry4b%E5%AE%89%E8%A3%85archlinuxarm/">
+      <div class="post-card-image" style="background-image: url(https://mxr-lee.top/images/ArchLinuxARM.jpg)"></div>
+    </a>
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="https://mxr-lee.top/post/removebg/">
+      <a class="post-card-content-link" href="https://mxr-lee.top/post/raspberry4b%E5%AE%89%E8%A3%85archlinuxarm/">
           <header class="post-card-header">
               <span class="post-card-tags">
-              🔖Photo  </span>
+              🔖Raspberry 
+              🔖Archlinux  </span>
               
-              <time class="post-full-meta-date" datetime="2019-05-24">📌2019-5-24</time>
-              <h2 class="post-card-title">Removebg</h2>
+              <time class="post-full-meta-date" datetime="2020-03-10">📌2020-3-10</time>
+              <h2 class="post-card-title">Raspberry4B安装ArchlinuxARM</h2>
           </header>
           <section class="post-card-excerpt">
                
-                <p>Removebg在线轻松抠图&hellip;</p>
+                <p>树莓派安装ArchlinuxARM系统&hellip;</p>
               
           </section>
       </a>
@@ -255,7 +250,7 @@
     </a>
   </div>
   <span class="floating-header-divider">&mdash;</span>
-  <div class="floating-header-title">RizomUV Bridge</div>
+  <div class="floating-header-title">ZBrushCoreMini</div>
    <div class="floating-header-share">
   </div>
 

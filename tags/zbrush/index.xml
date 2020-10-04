@@ -17,5 +17,16 @@
  Claypolish Surface adjusted Gizmo3D snap rotation updated Subtool renaming dialog box returned to normal size Fixed BPR NPR Filter render issue Resolved Dynamesh precision crash with subtractive elements Increased ZSketch stability Mask By Smoothness adjusted Fixed copy and paste issue with NanoMesh Subtools Fixed Document ‘Double’ stability issue Fixed Morph target causing shattered geometry ZModeler &amp;raquo; Poly &amp;raquo; Inset &amp;raquo; Polygroup Island should no longer crash with triangles Optimal performance updated to increase stability Weld Points adjusted NoiseMaker Angles now can be used in 45 degrees Preferences: &amp;raquo; Performance &amp;raquo; Optimal now stores with the config Locked custom interface buttons can now be removed Fixed issue involving canvas layers Directional masking issue resolved when using roll brushes Vertex Color issue resolved with OBJ import Gizmo3D screen space move stability improved 2.</description>
     </item>
     
+    <item>
+      <title>ZBrushCoreMini</title>
+      <link>https://mxr-lee.top/post/zbrushcoremini/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mxr-lee.top/post/zbrushcoremini/</guid>
+      <description>ZBrushCoreMini 2020-06-11 Pixologic is proud to introduce a new member of the ZBrush family of software: ZBrushCoreMini.
+ZBrushCoreMini provides a simplified version of the Academy Award Winning ZBrush software used by leading digital artists around the world. ZBrushCoreMini is designed for new artists of all ages, with a streamlined interface that lets anyone jump right in and start sculpting immediately.
+This is a true introductory level digital sculpting application, intended for easy learning no matter your age or experience.</description>
+    </item>
+    
   </channel>
 </rss>
