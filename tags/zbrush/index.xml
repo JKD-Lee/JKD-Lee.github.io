@@ -6,19 +6,15 @@
     <description>Recent content in ZBrush on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 13 Nov 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://mxr-lee.top/tags/zbrush/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://mxr-lee.top/tags/zbrush/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ZBrush2020</title>
-      <link>https://mxr-lee.top/post/zbrush/</link>
-      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      <title>ZBrush2021</title>
+      <link>https://mxr-lee.top/post/zbrush2021/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/zbrush/</guid>
-      <description>ZBrush2020.1.1升级 Pixologic is pleased to announce the release of ZBrush 2020.1.1! This free update enables artists by providing significant enhancements in a number of areas.
-ZBrush2020.1.1 2020-02-12 Updates &amp;amp; Fixes  Fixed: Additional edit point added when holding Spacebar with any brush that makes use of the Ctrl+Shift combination. For example: Select Lasso, Clip brushes, Trim brushes, and CreaseCurve. Some minor adjustments to internal ZBrush functions.  ZBrush2020.1 2020-02-05 Updates &amp;amp; Fixes   Fixed: ZBrush UI - Mac Finder Blurry Text &amp;amp; Icons.</description>
+      <guid>https://mxr-lee.top/post/zbrush2021/</guid>
+      <description>ZBrush2021.1.2 2020-08-13 Pixologic is pleased to release ZBrush 2021.1.2. This important update to ZBrush 2021 includes the following:
+ Claypolish Surface adjusted Gizmo3D snap rotation updated Subtool renaming dialog box returned to normal size Fixed BPR NPR Filter render issue Resolved Dynamesh precision crash with subtractive elements Increased ZSketch stability Mask By Smoothness adjusted Fixed copy and paste issue with NanoMesh Subtools Fixed Document ‘Double’ stability issue Fixed Morph target causing shattered geometry ZModeler &amp;raquo; Poly &amp;raquo; Inset &amp;raquo; Polygroup Island should no longer crash with triangles Optimal performance updated to increase stability Weld Points adjusted NoiseMaker Angles now can be used in 45 degrees Preferences: &amp;raquo; Performance &amp;raquo; Optimal now stores with the config Locked custom interface buttons can now be removed Fixed issue involving canvas layers Directional masking issue resolved when using roll brushes Vertex Color issue resolved with OBJ import Gizmo3D screen space move stability improved 2.</description>
     </item>
     
   </channel>

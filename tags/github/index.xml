@@ -6,17 +6,13 @@
     <description>Recent content in Github on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 27 Apr 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://mxr-lee.top/tags/github/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 27 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://mxr-lee.top/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo&#43;github Page建站</title>
-      <link>https://mxr-lee.top/post/%E5%BB%BA%E7%AB%99/</link>
+      <link>https://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/</link>
       <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/%E5%BB%BA%E7%AB%99/</guid>
+      <guid>https://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/</guid>
       <description>Hugo+Github零成本打造个人网站 工具 1.Hugo+theme Hugo主程序可在hugo的releases上找到[hugo_0.55.4_Windows-64bit.zip]，其中0.55.4为版本号，会随更新改变，每次下载最新版即可。Hugo有300+的Theme，本站用的是eueung改自Ghost的casper two主题，经本人做了二次修改
 2.Github账号+desktop Github Github账号请前往官网自行注册，用Desktop Github的原因是网页Github不能上传文件夹，而git对小白来说，比较复杂
 3.可有可无的域名(便于访问) 之前有免费顶级域名注册网站Freenom，后来不知为何就不能用了，添加购物车一直返回订单，国内域名商像阿里云，新网等，新兴的域名也很便宜，如果不想花这冤枉钱，Github赠送的免费域名.github.io已经够用了

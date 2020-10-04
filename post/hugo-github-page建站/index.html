@@ -14,7 +14,7 @@
 
      <meta name="description" content="Hugo&#43;Github零成本打造个人网站..." /> 
 
-    <meta name="generator" content="Hugo 0.59.1" />
+    <meta name="generator" content="Hugo 0.75.1" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://mxr-lee.top/built/screen.css" /> 
@@ -93,77 +93,44 @@
         <h1 class="post-full-title">Hugo&#43;github Page建站</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://mxr-lee.top/defimg/background/2.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://mxr-lee.top/defimg/background/15.jpg)">
     </figure>
 
     <section class="post-full-content">
         <div class="kg-card-markdown">
-        
-
-<h2 id="center-hugo-github零成本打造个人网站-center"><center>Hugo+Github零成本打造个人网站</center></h2>
-
+        <h2 id="centerhugogithub零成本打造个人网站center"><!-- raw HTML omitted -->Hugo+Github零成本打造个人网站<!-- raw HTML omitted --></h2>
 <h2 id="工具">工具</h2>
-
-<h3 id="1-hugo-theme">1.Hugo+theme</h3>
-
+<h3 id="1hugotheme">1.Hugo+theme</h3>
 <p>Hugo主程序可在<a href="https://github.com/gohugoio/hugo/releases">hugo</a>的releases上找到[hugo_0.55.4_Windows-64bit.zip]，其中0.55.4为版本号，会随更新改变，每次下载最新版即可。Hugo有300+的<a href="https://themes.gohugo.io/">Theme</a>，本站用的是eueung改自<a href="https://demo.ghost.io/">Ghost</a>的<a href="https://eueung.github.io/hugo-casper-two/">casper two</a>主题，经本人做了二次修改</p>
-
-<h3 id="2-github账号-desktop-github">2.Github账号+desktop Github</h3>
-
+<h3 id="2github账号desktop-github">2.Github账号+desktop Github</h3>
 <p>Github账号请前往<a href="https://github.com/">官网</a>自行注册，用<a href="https://desktop.github.com/">Desktop Github</a>的原因是网页Github不能上传文件夹，而git对小白来说，比较复杂</p>
-
-<h3 id="3-可有可无的域名-便于访问">3.可有可无的域名(便于访问)</h3>
-
+<h3 id="3可有可无的域名便于访问">3.可有可无的域名(便于访问)</h3>
 <p>之前有免费顶级域名注册网站<a href="https://www.freenom.com/zh/index.html?lang=zh">Freenom</a>，后来不知为何就不能用了，添加购物车一直返回订单，国内域名商像<a href="https://cn.aliyun.com/">阿里云</a>，<a href="http://www.xinnet.com/">新网</a>等，新兴的域名也很便宜，如果不想花这冤枉钱，Github赠送的免费域名.github.io已经够用了</p>
-
 <h2 id="开始">开始</h2>
-
-<h3 id="1-github建立仓库">1.github建立仓库</h3>
-
+<h3 id="1github建立仓库">1.github建立仓库</h3>
 <p>先在网页登录github，右上角位置，点击加号，新建一个repository[new repository]</p>
-
-<p><img src="https://i.loli.net/2019/04/29/5cc6b7fdb8ea1.png" alt="5cc6b7fdb8ea1" /></p>
-
+<p><img src="https://i.loli.net/2019/04/29/5cc6b7fdb8ea1.png" alt="5cc6b7fdb8ea1"></p>
 <p>在[repository name]里，添加和[Owner]一样的(用户名.github.io),点击Create repository创建仓库</p>
-
-<p><img src="https://i.loli.net/2019/04/29/5cc6b93a97342.png" alt="5cc6b93a97342" /></p>
-
-<h3 id="2-hugo安装配置运行">2.hugo安装配置运行</h3>
-
+<p><img src="https://i.loli.net/2019/04/29/5cc6b93a97342.png" alt="5cc6b93a97342"></p>
+<h3 id="2hugo安装配置运行">2.hugo安装配置运行</h3>
 <p>1.将下载好的hugo压缩包解压出来，改名为hugo.exe,添加环境变量</p>
-
-<p>[如何添加环境变量]()</p>
-
+<p><a href="">如何添加环境变量</a></p>
 <p>2.创建一个 文件夹，</p>
-
 <p>Win+R调出运行框，输入cmd，打开命令提示符，用命令进入你刚才创建的文件夹，执行以下命令</p>
-
 <pre><code>X:     #X替换为先进入你创建目录的盘符，
 cd X:\xx\xxx\      #进入创建的根目录，X:\xx\xxx\为你创建文件夹的路径
 hugo new site blog      #新建一个站点，blog可替换为你想要的名字
-</code></pre>
-
-<p>现在你的目录会出现几个文件夹</p>
-
-<p><img src="https://i.loli.net/2019/04/29/5cc6cf352c7cf.png" alt="5cc6cf352c7cf" /></p>
-
+</code></pre><p>现在你的目录会出现几个文件夹</p>
+<p><img src="https://i.loli.net/2019/04/29/5cc6cf352c7cf.png" alt="5cc6cf352c7cf"></p>
 <p>3.添加一个主题，把从Hugo theme下载的主题，解压到themes文件夹里，复制主题文件夹里的exampleSite文件夹中的所有文件，到创建的根目录，替换覆盖</p>
-
 <p>4.修改config.toml中星号标记处</p>
-
 <p>5.执行以下命令</p>
-
 <pre><code>hugo new posts/my-first-post.md        #创建一篇文章，my-first-post可替换为任意名
 hugo server       #开启hugo服务
 hugo        #生成public文件夹
-</code></pre>
-
-<p>6.在浏览器输入$localhost:1313$，即可预览访问你创建的站点，此时你的文章页面应该为空，你需要在markdown编辑器里，进一步编辑你的文章，保存才能生效</p>
-
-<h3 id="3-github部署">3.github部署</h3>
-
+</code></pre><p>6.在浏览器输入$localhost:1313$，即可预览访问你创建的站点，此时你的文章页面应该为空，你需要在markdown编辑器里，进一步编辑你的文章，保存才能生效</p>
+<h3 id="3github部署">3.github部署</h3>
 <p>打开desktop github，创建文件夹登录github</p>
-
 <pre><code>baseurl         = &quot;https://mxr-lee.top/&quot;        #链接换成自己域名或Https://你的用户名.github.io
 
 theme           = &quot;casper-two&quot;
@@ -177,33 +144,19 @@ summaryLength = 10
 publishdir = &quot;D:/JKD-Lee/JKD-Lee.github.io&quot;            #github配置路径
 
 
-</code></pre>
-
-<p>在命令提示符中输入<code>hugo</code>,在Desktop github左侧changes里会添加进改变，在summary(requited)框里填写改变的描述，点击commit to master，所以改变上传完成后，点击上面中间的pull origin完成推送， 几分钟后，访问你的 用户名.github.io,即可</p>
-
-<p><img src="https://i.loli.net/2019/04/29/5cc6d29d7c1b5.png" alt="5cc6d29d7c1b5" /></p>
-
-<h3 id="4-域名解析">4.域名解析</h3>
-
+</code></pre><p>在命令提示符中输入<code>hugo</code>,在Desktop github左侧changes里会添加进改变，在summary(requited)框里填写改变的描述，点击commit to master，所以改变上传完成后，点击上面中间的pull origin完成推送， 几分钟后，访问你的 用户名.github.io,即可</p>
+<p><img src="https://i.loli.net/2019/04/29/5cc6d29d7c1b5.png" alt="5cc6d29d7c1b5"></p>
+<h3 id="4域名解析">4.域名解析</h3>
 <p>以阿里云为例</p>
-
 <p>在控制台的域名里，找到自己购买的域名，在操作-解析里，添加记录</p>
-
-<p><img src="https://i.loli.net/2019/04/29/5cc6dcc59f973.png" alt="5cc6dcc59f973" /></p>
-
+<p><img src="https://i.loli.net/2019/04/29/5cc6dcc59f973.png" alt="5cc6dcc59f973"></p>
 <p>记录类型为CNAME，主机记录里选@和www，记录值为你的用户名.github.io,一共需要添加两个记录</p>
-
 <p>回到github网页，在右上角头像your repository里，找到你的用户名.github.io</p>
-
 <p>在setting设置里</p>
-
-<p><img src="https://i.loli.net/2019/04/29/5cc6df69d37eb.png" alt="5cc6df69d37eb" /></p>
-
+<p><img src="https://i.loli.net/2019/04/29/5cc6df69d37eb.png" alt="5cc6df69d37eb"></p>
 <p>下滑到Github pages，在custom domain里，填写自己的域名，Enforce Https勾选，保存</p>
-
-<p><img src="https://i.loli.net/2019/04/29/5cc6df8fcec75.png" alt="5cc6df8fcec75" /></p>
-
-<h4 id="几分钟-访问自己域名即可">几分钟，访问自己域名即可</h4>
+<p><img src="https://i.loli.net/2019/04/29/5cc6df8fcec75.png" alt="5cc6df8fcec75"></p>
+<h4 id="几分钟访问自己域名即可">几分钟，访问自己域名即可</h4>
     
         </div>
     </section>
@@ -243,13 +196,13 @@ publishdir = &quot;D:/JKD-Lee/JKD-Lee.github.io&quot;            #github配置�
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://mxr-lee.top/post/rizomuv-bridge/">RizomUV Bridge</a></li>            
+          <li><a href="https://mxr-lee.top/post/idm/">IDM</a></li>            
         
           <li><a href="https://mxr-lee.top/post/removebg/">Removebg</a></li>            
         
-          <li><a href="https://mxr-lee.top/post/mxr-photo/">MXR-Photo</a></li>            
+          <li><a href="https://mxr-lee.top/post/raspberry4b%E5%AE%89%E8%A3%85archlinuxarm/">Raspberry4B安装ArchlinuxARM</a></li>            
         
-          <li><a href="https://mxr-lee.top/post/idm/">IDM</a></li>            
+          <li><a href="https://mxr-lee.top/post/casper-two%E4%B8%BB%E9%A2%98/">casper-two主题</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -263,7 +216,7 @@ publishdir = &quot;D:/JKD-Lee/JKD-Lee.github.io&quot;            #github配置�
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://mxr-lee.top/post/%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/">
-      <div class="post-card-image" style="background-image: url(https://mxr-lee.top/defimg/background/10.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://mxr-lee.top/defimg/background/20.jpg)"></div>
     </a>    
     
 
@@ -293,23 +246,23 @@ publishdir = &quot;D:/JKD-Lee/JKD-Lee.github.io&quot;            #github配置�
       
       <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="https://mxr-lee.top/post/zbrush2020/">
-      <div class="post-card-image" style="background-image: url(https://mxr-lee.top/images/ZBrush2020.jpg)"></div>
+    <a class="post-card-image-link" href="https://mxr-lee.top/post/zbrush2021/">
+      <div class="post-card-image" style="background-image: url(https://mxr-lee.top/images/ZBrush2021.jpg)"></div>
     </a>
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="https://mxr-lee.top/post/zbrush2020/">
+      <a class="post-card-content-link" href="https://mxr-lee.top/post/zbrush2021/">
           <header class="post-card-header">
               <span class="post-card-tags">
               🔖ZBrush  </span>
               
-              <time class="post-full-meta-date" datetime="2019-11-13">📌2019-11-13</time>
-              <h2 class="post-card-title">ZBrush2020</h2>
+              <time class="post-full-meta-date" datetime="2020-10-01">📌2020-10-1</time>
+              <h2 class="post-card-title">ZBrush2021</h2>
           </header>
           <section class="post-card-excerpt">
                
-                <p>ZBrush2020升级&hellip;</p>
+                <p>Pixologic ZBrush更新&hellip;</p>
               
           </section>
       </a>

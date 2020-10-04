@@ -6,11 +6,7 @@
     <description>Recent content in guide on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 10 Jul 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://mxr-lee.top/categories/guide/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 10 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://mxr-lee.top/categories/guide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MXR-Guide</title>
       <link>https://mxr-lee.top/post/mxr-guide/</link>

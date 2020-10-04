@@ -6,17 +6,13 @@
     <description>Recent content in Termux on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 29 Aug 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://mxr-lee.top/tags/termux/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 29 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://mxr-lee.top/tags/termux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Termux&#43;Hugo建站</title>
-      <link>https://mxr-lee.top/post/termux/</link>
+      <link>https://mxr-lee.top/post/termux-hugo%E5%BB%BA%E7%AB%99/</link>
       <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/termux/</guid>
+      <guid>https://mxr-lee.top/post/termux-hugo%E5%BB%BA%E7%AB%99/</guid>
       <description>手机终端Termux+Hugo搭建静态网站 工具 Termux Termux是Android系统下一个高级终端模拟器，开源且不需要root,支持apt管理软件包，十分方便安装软件包，完美支持Python,PHP,Ruby,Go,Nodejs,MQSQL等。点击下载
 开始 1.Android安装并打开Termux，输入pkg install hugo,自动安装Hugo，
 安装完成后，可用命令hugo version检查Hugo版本并确认Hugo已正常安装

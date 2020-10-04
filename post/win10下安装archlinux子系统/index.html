@@ -4,15 +4,15 @@
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <title>添加环境变量 &middot; 某些人</title>
+    <title>Win10下安装Archlinux子系统 &middot; 某些人</title>
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="shortcut icon" href="https://mxr-lee.top/favicon.ico" />
-    <link rel="canonical" href="https://mxr-lee.top/post/%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/" />
+    <link rel="canonical" href="https://mxr-lee.top/post/win10%E4%B8%8B%E5%AE%89%E8%A3%85archlinux%E5%AD%90%E7%B3%BB%E7%BB%9F/" />
 
-     <meta name="description" content="在Win10系统下，简单快速添加环境变量..." /> 
+     <meta name="description" content="Win10下WSL安装Archlinux子系统..." /> 
 
     <meta name="generator" content="Hugo 0.75.1" />
 
@@ -87,29 +87,34 @@
       <article class="post-full post"> 
     <header class="post-full-header">
         <section class="post-full-meta">
-            <time class="post-full-meta-date" datetime="2019-04-29">🎫2019-4-29</time>
+            <time class="post-full-meta-date" datetime="2020-02-18">🎫2020-2-18</time>
                 <span class="date-divider">/</span> <a href="https://mxr-lee.top/tags/win10/">🏷️WIN10</a>&nbsp;
         </section>
-        <h1 class="post-full-title">添加环境变量</h1>
+        <h1 class="post-full-title">Win10下安装Archlinux子系统</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://mxr-lee.top/defimg/background/13.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://mxr-lee.top/images/Archlinux.jpg)">
     </figure>
 
     <section class="post-full-content">
         <div class="kg-card-markdown">
-        <h2 id="center在win10系统下如何简单快速添加环境变量center"><!-- raw HTML omitted -->在Win10系统下，如何简单快速添加环境变量<!-- raw HTML omitted --></h2>
-<p>1.我的电脑，右键属性
-<img src="https://i.loli.net/2019/04/29/5cc6bc92d1bce.png" alt="5cc6bc92d1bce">
-2.在左侧高级系统设置里
-<img src="https://i.loli.net/2019/04/29/5cc6bd09aa020.png" alt="5cc6bd09aa020">
-3.最上面一栏，在高级里，点击最下面环境变量
-<img src="https://i.loli.net/2019/04/29/5cc6bdf1cb642.png" alt="5cc6bdf1cb642">
-4.选中path路径，点击编辑
-<img src="https://i.loli.net/2019/04/29/5cc6c16d320ee.png" alt="5cc6c16d320ee">
-5.点击新建，把软件的路径复制进去，确定</p>
-<h4 id="注软件路径不能有中文添加环境变量前请先修改路径为纯英文路径">注：软件路径不能有中文，添加环境变量前，请先修改路径为纯英文路径</h4>
-<h2 id="heading"></h2>
+        <h2 id="center在win10系统下最简单安装archlinux子系统center"><!-- raw HTML omitted -->在Win10系统下，最简单安装ArchLinux子系统<!-- raw HTML omitted --></h2>
+<h3 id="1启用适用于linux的windows子系统">1.启用适用于Linux的Windows子系统</h3>
+<p>控制面板-程序-启用或关闭Windows功能-启用适用于Linux的Windows子系统-重启电脑
+<img src="https://i.loli.net/2020/02/18/QAg3TrbGL6IpelC.png" alt="2020-02-18-16-43-49-image.png"></p>
+<h3 id="2下载安装archlinux">2.下载安装ArchLinux</h3>
+<p>1.进入<a href="https://github.com/yuk7/ArchWSL/releases">ArchWSL</a>,下载Arch.zip,解压至一个具有写权限的普通文件夹(注：Program Files文件夹不具备写的权限)<br>
+2.双击解压出的Arch.exe.执行安装<br>
+<img src="https://i.loli.net/2020/02/18/KeRx7vNom4Olj5g.png" alt="3"></p>
+<h3 id="3配置archlinux">3.配置ArchLinux</h3>
+<p>1.使用如下命令，初始化keyrin(使用pacman必须执行此命令)</p>
+<pre><code>sudo pacman-key --init
+sudo pacman-key --populate
+</code></pre><p>2.打开Arch.exe根目录下的rootfs\etc\pacman.d\mirrorlist,将##China及以下的server全部剪切至## Worldwide之前，并将server之前的#全部删除，保存退出(换源提升下载速度)</p>
+<p>3.执行<code>pacman -Syyu</code>命令更新组件</p>
+<p><img src="https://i.loli.net/2020/02/18/izQxGDL17bTCyRH.png" alt="3"></p>
+<h3 id="最后请尽情享用吧">最后，请尽情享用吧</h3>
+<h4 id="注根据官方提示win10系统版本号需在1709之后">注：根据官方提示，Win10系统版本号需在1709之后</h4>
     
         </div>
     </section>
@@ -149,15 +154,13 @@
     <div class="read-next-card-content">
       
         <ul>
-                      
+          <li><a href="https://mxr-lee.top/post/mxr-photo/">MXR-Photo</a></li>            
         
-          <li><a href="https://mxr-lee.top/post/win10%E7%89%88%E6%9C%AC%E5%8F%B7/">Win10版本号</a></li>            
+          <li><a href="https://mxr-lee.top/post/kcleaner/">Kcleaner</a></li>            
         
-          <li><a href="https://mxr-lee.top/post/zbrush2021/">ZBrush2021</a></li>            
+          <li><a href="https://mxr-lee.top/post/mxr-pe/">MXR-PE</a></li>            
         
-          <li><a href="https://mxr-lee.top/post/casper-two%E4%B8%BB%E9%A2%98/">casper-two主题</a></li>            
-        
-          <li><a href="https://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/">Hugo&#43;github Page建站</a></li>            
+          <li><a href="https://mxr-lee.top/post/bandzip/">Bandzip</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -168,57 +171,26 @@
 
 
       
-      <article class="post-card post"> 
-    
-    <a class="post-card-image-link" href="https://mxr-lee.top/post/win10%E4%B8%8B%E5%AE%89%E8%A3%85archlinux%E5%AD%90%E7%B3%BB%E7%BB%9F/">
-      <div class="post-card-image" style="background-image: url(https://mxr-lee.top/images/Archlinux.jpg)"></div>
-    </a>
-    
-
-    <div class="post-card-content">
-      <a class="post-card-content-link" href="https://mxr-lee.top/post/win10%E4%B8%8B%E5%AE%89%E8%A3%85archlinux%E5%AD%90%E7%B3%BB%E7%BB%9F/">
-          <header class="post-card-header">
-              <span class="post-card-tags">
-              🔖WIN10  </span>
-              
-              <time class="post-full-meta-date" datetime="2020-02-18">📌2020-2-18</time>
-              <h2 class="post-card-title">Win10下安装Archlinux子系统</h2>
-          </header>
-          <section class="post-card-excerpt">
-               
-                <p>Win10下WSL安装Archlinux子系统&hellip;</p>
-              
-          </section>
-      </a>
-
-      <footer class="post-card-meta">
-          <img class="author-profile-image" src="https://mxr-lee.top/img/AuthorAvatar.png" alt="Author" />
-          <span class="post-card-author"><a href="https://mxr-lee.top/">MXR</a></span>
-      </footer>
-    </div>
-</article>
-      
       
       <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="https://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/">
-      <div class="post-card-image" style="background-image: url(https://mxr-lee.top/defimg/background/20.jpg)"></div>
+    <a class="post-card-image-link" href="https://mxr-lee.top/post/%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/">
+      <div class="post-card-image" style="background-image: url(https://mxr-lee.top/defimg/background/3.jpg)"></div>
     </a>    
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="https://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/">
+      <a class="post-card-content-link" href="https://mxr-lee.top/post/%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/">
           <header class="post-card-header">
               <span class="post-card-tags">
-              🔖Hugo 
-              🔖Github  </span>
+              🔖WIN10  </span>
               
-              <time class="post-full-meta-date" datetime="2019-04-27">📌2019-4-27</time>
-              <h2 class="post-card-title">Hugo&#43;github Page建站</h2>
+              <time class="post-full-meta-date" datetime="2019-04-29">📌2019-4-29</time>
+              <h2 class="post-card-title">添加环境变量</h2>
           </header>
           <section class="post-card-excerpt">
                
-                <p>Hugo+Github零成本打造个人网站&hellip;</p>
+                <p>在Win10系统下，简单快速添加环境变量&hellip;</p>
               
           </section>
       </a>
@@ -241,7 +213,7 @@
     </a>
   </div>
   <span class="floating-header-divider">&mdash;</span>
-  <div class="floating-header-title">添加环境变量</div>
+  <div class="floating-header-title">Win10下安装Archlinux子系统</div>
    <div class="floating-header-share">
   </div>
 

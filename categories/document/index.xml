@@ -6,17 +6,13 @@
     <description>Recent content in document on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 10 Mar 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://mxr-lee.top/categories/document/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 10 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://mxr-lee.top/categories/document/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Win10下安装Archlinux子系统</title>
-      <link>https://mxr-lee.top/post/archlinux/</link>
+      <link>https://mxr-lee.top/post/win10%E4%B8%8B%E5%AE%89%E8%A3%85archlinux%E5%AD%90%E7%B3%BB%E7%BB%9F/</link>
       <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/archlinux/</guid>
+      <guid>https://mxr-lee.top/post/win10%E4%B8%8B%E5%AE%89%E8%A3%85archlinux%E5%AD%90%E7%B3%BB%E7%BB%9F/</guid>
       <description>在Win10系统下，最简单安装ArchLinux子系统 1.启用适用于Linux的Windows子系统 控制面板-程序-启用或关闭Windows功能-启用适用于Linux的Windows子系统-重启电脑 2.下载安装ArchLinux 1.进入ArchWSL,下载Arch.zip,解压至一个具有写权限的普通文件夹(注：Program Files文件夹不具备写的权限)
 2.双击解压出的Arch.exe.执行安装
 3.配置ArchLinux 1.使用如下命令，初始化keyrin(使用pacman必须执行此命令)
@@ -27,20 +23,20 @@ sudo pacman-key --init sudo pacman-key --populate 2.打开Arch.exe根目录下�
     
     <item>
       <title>添加环境变量</title>
-      <link>https://mxr-lee.top/post/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</link>
+      <link>https://mxr-lee.top/post/%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</link>
       <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</guid>
+      <guid>https://mxr-lee.top/post/%E6%B7%BB%E5%8A%A0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</guid>
       <description>在Win10系统下，如何简单快速添加环境变量 1.我的电脑，右键属性 2.在左侧高级系统设置里 3.最上面一栏，在高级里，点击最下面环境变量 4.选中path路径，点击编辑 5.点击新建，把软件的路径复制进去，确定
 注：软件路径不能有中文，添加环境变量前，请先修改路径为纯英文路径  </description>
     </item>
     
     <item>
       <title>Hugo&#43;github Page建站</title>
-      <link>https://mxr-lee.top/post/%E5%BB%BA%E7%AB%99/</link>
+      <link>https://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/</link>
       <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/%E5%BB%BA%E7%AB%99/</guid>
+      <guid>https://mxr-lee.top/post/hugo-github-page%E5%BB%BA%E7%AB%99/</guid>
       <description>Hugo+Github零成本打造个人网站 工具 1.Hugo+theme Hugo主程序可在hugo的releases上找到[hugo_0.55.4_Windows-64bit.zip]，其中0.55.4为版本号，会随更新改变，每次下载最新版即可。Hugo有300+的Theme，本站用的是eueung改自Ghost的casper two主题，经本人做了二次修改
 2.Github账号+desktop Github Github账号请前往官网自行注册，用Desktop Github的原因是网页Github不能上传文件夹，而git对小白来说，比较复杂
 3.可有可无的域名(便于访问) 之前有免费顶级域名注册网站Freenom，后来不知为何就不能用了，添加购物车一直返回订单，国内域名商像阿里云，新网等，新兴的域名也很便宜，如果不想花这冤枉钱，Github赠送的免费域名.github.io已经够用了
@@ -61,10 +57,10 @@ baseurl = &amp;quot;https://mxr-lee.top/&amp;quot; #链接换成自己域名或H
     
     <item>
       <title>Raspberry4B安装ArchlinuxARM</title>
-      <link>https://mxr-lee.top/post/raspberry/</link>
+      <link>https://mxr-lee.top/post/raspberry4b%E5%AE%89%E8%A3%85archlinuxarm/</link>
       <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/raspberry/</guid>
+      <guid>https://mxr-lee.top/post/raspberry4b%E5%AE%89%E8%A3%85archlinuxarm/</guid>
       <description>Raspberry4B下ArchLinuxARM系统的安装配置 前言 环境及工具
 1.Linux环境
 2.SD卡格式化工具
@@ -81,10 +77,10 @@ mv root/boot/* boot 卸载分区</description>
     
     <item>
       <title>Termux&#43;Hugo建站</title>
-      <link>https://mxr-lee.top/post/termux/</link>
+      <link>https://mxr-lee.top/post/termux-hugo%E5%BB%BA%E7%AB%99/</link>
       <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/termux/</guid>
+      <guid>https://mxr-lee.top/post/termux-hugo%E5%BB%BA%E7%AB%99/</guid>
       <description>手机终端Termux+Hugo搭建静态网站 工具 Termux Termux是Android系统下一个高级终端模拟器，开源且不需要root,支持apt管理软件包，十分方便安装软件包，完美支持Python,PHP,Ruby,Go,Nodejs,MQSQL等。点击下载
 开始 1.Android安装并打开Termux，输入pkg install hugo,自动安装Hugo，
 安装完成后，可用命令hugo version检查Hugo版本并确认Hugo已正常安装
@@ -98,19 +94,19 @@ mv root/boot/* boot 卸载分区</description>
     
     <item>
       <title>Win10原生剪贴板</title>
-      <link>https://mxr-lee.top/post/%E5%89%AA%E8%B4%B4%E6%9D%BF/</link>
+      <link>https://mxr-lee.top/post/win10%E5%8E%9F%E7%94%9F%E5%89%AA%E8%B4%B4%E6%9D%BF/</link>
       <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/%E5%89%AA%E8%B4%B4%E6%9D%BF/</guid>
+      <guid>https://mxr-lee.top/post/win10%E5%8E%9F%E7%94%9F%E5%89%AA%E8%B4%B4%E6%9D%BF/</guid>
       <description>Win10原生剪贴板 自Win10 1803版以来，Windows加入了期待已久的剪贴板功能，告别每次只能复制一次的时代，带来了极大便利</description>
     </item>
     
     <item>
       <title>Win10原生截图</title>
-      <link>https://mxr-lee.top/post/%E6%88%AA%E5%9B%BE/</link>
+      <link>https://mxr-lee.top/post/win10%E5%8E%9F%E7%94%9F%E6%88%AA%E5%9B%BE/</link>
       <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/%E6%88%AA%E5%9B%BE/</guid>
+      <guid>https://mxr-lee.top/post/win10%E5%8E%9F%E7%94%9F%E6%88%AA%E5%9B%BE/</guid>
       <description>Win10原生截图   Snipping Tool
 随着Win10时代的到来，作为Windows最早的截图工具，即将画上句号  Win+PrtSC
 默认截取全屏幕，保存位置在C:\Users\user\Pictures\Screenshots,自动从零编号
@@ -120,20 +116,20 @@ Win10上新的截图工具，UWP应用，简洁高效，默认快捷键Win+Shift
     
     <item>
       <title>Win10版本号</title>
-      <link>https://mxr-lee.top/post/%E7%89%88%E6%9C%AC%E5%8F%B7/</link>
+      <link>https://mxr-lee.top/post/win10%E7%89%88%E6%9C%AC%E5%8F%B7/</link>
       <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/%E7%89%88%E6%9C%AC%E5%8F%B7/</guid>
+      <guid>https://mxr-lee.top/post/win10%E7%89%88%E6%9C%AC%E5%8F%B7/</guid>
       <description>Win10版本号 自从Win10面世以来，除去每月的累积更新，Win10每年会有两次重大更新，例如1607，1903，前两位代表年份，后两位代表月份
  Win+R,输入Winver查看 Win+I打开设置，系统-关于-Windows规格   </description>
     </item>
     
     <item>
       <title>casper-two主题</title>
-      <link>https://mxr-lee.top/post/casper-two/</link>
+      <link>https://mxr-lee.top/post/casper-two%E4%B8%BB%E9%A2%98/</link>
       <pubDate>Sat, 11 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/casper-two/</guid>
+      <guid>https://mxr-lee.top/post/casper-two%E4%B8%BB%E9%A2%98/</guid>
       <description>casper-two主题魔改 已完成   主题基本已汉化完成
   标签及分类添加了图标
   修改日期显示为普通模式

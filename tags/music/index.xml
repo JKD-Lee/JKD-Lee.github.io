@@ -6,11 +6,7 @@
     <description>Recent content in music on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 18 May 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://mxr-lee.top/tags/music/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 18 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://mxr-lee.top/tags/music/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MXR-Music</title>
       <link>https://mxr-lee.top/post/mxr-music/</link>

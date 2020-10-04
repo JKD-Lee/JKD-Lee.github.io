@@ -6,17 +6,13 @@
     <description>Recent content in ZPlugin on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 29 May 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://mxr-lee.top/tags/zplugin/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 29 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://mxr-lee.top/tags/zplugin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RizomUV Bridge</title>
-      <link>https://mxr-lee.top/post/rizmouv/</link>
+      <link>https://mxr-lee.top/post/rizomuv-bridge/</link>
       <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/rizmouv/</guid>
+      <guid>https://mxr-lee.top/post/rizomuv-bridge/</guid>
       <description>ZPlugin之RizomUVBridge 在ZBrush Summit 2018 上，pixologic官方演示了几项ZBrush新功能，其中包括Zcolor，Intersection masker，Folders，Universal Camera和Peel UV，前几项已在ZBrush2019中实现，只有Peel UV还迟迟未现身，ZBrush的UV Master插件，在使用上存在一定的局限性，不能实现精确UV拆分，而插件RizomUV Bridge的出现，很好很快地解决了Zbrush与UV专业拆分软件RizomUV之间的相互转换，这也许是Peel UV真正面世之前，ZBrush最好的UV解决方案。
 安装 RizomUV Bridge插件安装稍显麻烦，需要先Zscript转化为Zplugin
  安装RizomUV 将RizomBridge.txt与RizomBridge文件夹放到ZBrush根目录下的zstartup-Zplugin64里 替换RizomBridge.txt里的D:\RizomUV\RizomUV\rizomuv.exe替换为RizomUV的安装目录,一共两处 将RizomBridge文件夹下的load_unfold_save.lua中D:/ZBrush/ZBrush/ZStartup/ZPlugs64/RizomBridge/1.OBJ替换为当前路径，注:此处路径中应该为/而非\ 在ZBrush菜单Zcript-load，导入RizomBridge.txt,此时会在Zplugin中生成RizomUV Bridge插件  使用 在Zplugin-RizomUV Bridge中会有3个按钮，分别是  Auto unwarp 实际测试效果极差，不推荐使用

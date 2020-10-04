@@ -6,17 +6,13 @@
     <description>Recent content in theme on 某些人</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 11 May 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://mxr-lee.top/tags/theme/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 11 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://mxr-lee.top/tags/theme/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>casper-two主题</title>
-      <link>https://mxr-lee.top/post/casper-two/</link>
+      <link>https://mxr-lee.top/post/casper-two%E4%B8%BB%E9%A2%98/</link>
       <pubDate>Sat, 11 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mxr-lee.top/post/casper-two/</guid>
+      <guid>https://mxr-lee.top/post/casper-two%E4%B8%BB%E9%A2%98/</guid>
       <description>casper-two主题魔改 已完成   主题基本已汉化完成
   标签及分类添加了图标
   修改日期显示为普通模式
